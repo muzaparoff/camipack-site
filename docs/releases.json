@@ -1,0 +1,596 @@
+[
+ {
+  "version": "1.25.0",
+  "date": "2026-08-11",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "Offline maps \u2014 download a trip's map, use it with no internet"
+   }
+  ]
+ },
+ {
+  "version": "1.24.0",
+  "date": "2026-08-11",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "Help page teaches every feature step by step"
+   }
+  ]
+ },
+ {
+  "version": "1.23.0",
+  "date": "2026-08-11",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "Offline maps foundation \u2014 MapLibre + PMTiles proven (phase 0)"
+   }
+  ]
+ },
+ {
+  "version": "1.22.0",
+  "date": "2026-08-11",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "Verde design system \u2014 living map header, unified tokens, typography"
+   }
+  ]
+ },
+ {
+  "version": "1.21.3",
+  "date": "2026-08-10",
+  "notes": [
+   {
+    "type": "fix",
+    "text": "Trip calendar event spans the full date range; alerts like Calendar's"
+   }
+  ]
+ },
+ {
+  "version": "1.21.2",
+  "date": "2026-08-10",
+  "notes": [
+   {
+    "type": "fix",
+    "text": "One way to create a trip; import gets a visible home"
+   }
+  ]
+ },
+ {
+  "version": "1.21.1",
+  "date": "2026-08-10",
+  "notes": [
+   {
+    "type": "fix",
+    "text": "Nudge widget timelines on every app foreground"
+   }
+  ]
+ },
+ {
+  "version": "1.21.0",
+  "date": "2026-08-10",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "Tap a document to view it; tapping the widget opens its trip"
+   }
+  ]
+ },
+ {
+  "version": "1.20.1",
+  "date": "2026-08-10",
+  "notes": [
+   {
+    "type": "fix",
+    "text": "Day taps push again \u2014 one value-based destination for the trip screen"
+   },
+   {
+    "type": "fix",
+    "text": "Launch seams run once \u2014 re-firing on pop trapped testers in the trip"
+   }
+  ]
+ },
+ {
+  "version": "1.20.0",
+  "date": "2026-08-09",
+  "notes": [
+   {
+    "type": "fix",
+    "text": "Empty group container reseeds from the migration backup"
+   },
+   {
+    "type": "feat",
+    "text": "Add a trip to the family calendar via EventKit"
+   }
+  ]
+ },
+ {
+  "version": "1.19.0",
+  "date": "2026-08-09",
+  "notes": [
+   {
+    "type": "fix",
+    "text": "App-group migration trusts the filesystem, not a flag"
+   },
+   {
+    "type": "feat",
+    "text": "Duplicate a trip as a template"
+   }
+  ]
+ },
+ {
+  "version": "1.18.0",
+  "date": "2026-08-09",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "Widget shows today's route on an Apple map while traveling"
+   },
+   {
+    "type": "fix",
+    "text": "Stop treating our own resolved zone owner as a foreign share"
+   }
+  ]
+ },
+ {
+  "version": "1.17.0",
+  "date": "2026-08-09",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "Widget wears the trip's destination photo, like the app's cards"
+   }
+  ]
+ },
+ {
+  "version": "1.16.0",
+  "date": "2026-08-09",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "Home-screen widget \u2014 trip countdown, today's plan while traveling"
+   },
+   {
+    "type": "fix",
+    "text": "Widget marketing version matches the app's"
+   }
+  ]
+ },
+ {
+  "version": "1.15.0",
+  "date": "2026-08-09",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "Trip cards show 'Updated by Eva' when family edits sync in"
+   }
+  ]
+ },
+ {
+  "version": "1.14.1",
+  "date": "2026-08-09",
+  "notes": [
+   {
+    "type": "fix",
+    "text": "Offline-maps helper searches by name and explains the real download path"
+   }
+  ]
+ },
+ {
+  "version": "1.14.0",
+  "date": "2026-08-09",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "Whole-trip map and offline-maps helper"
+   },
+   {
+    "type": "fix",
+    "text": "Replace deprecated MKPlacemark init for the offline-maps deep link"
+   }
+  ]
+ },
+ {
+  "version": "1.13.0",
+  "date": "2026-08-09",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "Packing opens to the whole-family overview, Shared first"
+   }
+  ]
+ },
+ {
+  "version": "1.12.0",
+  "date": "2026-08-09",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "Full ISO currency list for the trip budget"
+   }
+  ]
+ },
+ {
+  "version": "1.11.2",
+  "date": "2026-08-09",
+  "notes": [
+   {
+    "type": "fix",
+    "text": "Re-enqueue atomic-failure casualties; only send success clears the error pill"
+   }
+  ]
+ },
+ {
+  "version": "1.11.1",
+  "date": "2026-08-09",
+  "notes": [
+   {
+    "type": "fix",
+    "text": "Recreate CKAssets when merging payloads \u2014 crash loop on upload"
+   }
+  ]
+ },
+ {
+  "version": "1.11.0",
+  "date": "2026-08-09",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "Family packing lists and trip budget with expense log"
+   }
+  ]
+ },
+ {
+  "version": "1.10.0",
+  "date": "2026-08-08",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "ICloud sync toggle with live status pill in the toolbar"
+   }
+  ]
+ },
+ {
+  "version": "1.9.0",
+  "date": "2026-08-08",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "Past trips move above the Today dot, collapsed"
+   }
+  ]
+ },
+ {
+  "version": "1.8.1",
+  "date": "2026-08-08",
+  "notes": [
+   {
+    "type": "fix",
+    "text": "Phantom gaps between day rows \u2014 duplicate-ID days now heal on load"
+   }
+  ]
+ },
+ {
+  "version": "1.8.0",
+  "date": "2026-08-08",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "Visible delete and edit everywhere \u2014 items and documents"
+   }
+  ]
+ },
+ {
+  "version": "1.7.0",
+  "date": "2026-08-08",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "Documents get their own page \u2014 the day plan gets the trip screen back"
+   }
+  ]
+ },
+ {
+  "version": "1.6.1",
+  "date": "2026-08-08",
+  "notes": [
+   {
+    "type": "fix",
+    "text": "Partner changes stopped syncing \u2014 uploads lacked CloudKit's change tag"
+   }
+  ]
+ },
+ {
+  "version": "1.6.0",
+  "date": "2026-08-08",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "Timeline polish from field feedback \u2014 inline title, pinned year, in-between months"
+   }
+  ]
+ },
+ {
+  "version": "1.5.0",
+  "date": "2026-08-08",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "Timeline home screen \u2014 a year rail with countdowns, gaps, and an Earlier section"
+   }
+  ]
+ },
+ {
+  "version": "1.4.5",
+  "date": "2026-08-08",
+  "notes": [
+   {
+    "type": "fix",
+    "text": "Share invitations were accepted by the user and dropped by the app"
+   }
+  ]
+ },
+ {
+  "version": "1.4.4",
+  "date": "2026-08-08",
+  "notes": [
+   {
+    "type": "fix",
+    "text": "Declare CKSharingSupported so invitations open the app"
+   }
+  ]
+ },
+ {
+  "version": "1.4.3",
+  "date": "2026-08-08",
+  "notes": [
+   {
+    "type": "fix",
+    "text": "Re-upload trips now that the Production schema exists"
+   }
+  ]
+ },
+ {
+  "version": "1.4.2",
+  "date": "2026-08-07",
+  "notes": [
+   {
+    "type": "fix",
+    "text": "Share sheet and error alert could never present from inside a menu"
+   },
+   {
+    "type": "fix",
+    "text": "CI picks an Xcode 26 that actually has a simulator"
+   },
+   {
+    "type": "fix",
+    "text": "MARKETING_VERSION was never in the project at all"
+   }
+  ]
+ },
+ {
+  "version": "1.4.1",
+  "date": "2026-08-07",
+  "notes": [
+   {
+    "type": "fix",
+    "text": "Recognise re-imported trips, and un-break the release pipeline"
+   }
+  ]
+ },
+ {
+  "version": "1.4.0",
+  "date": "2026-08-07",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "Visible sharing \u2014 loud errors, participant badges, manage/stop UI"
+   }
+  ]
+ },
+ {
+  "version": "1.3.2",
+  "date": "2026-08-07",
+  "notes": [
+   {
+    "type": "fix",
+    "text": "Answer export compliance automatically"
+   }
+  ]
+ },
+ {
+  "version": "1.3.0",
+  "date": "2026-08-07",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "CloudKit collaboration \u2014 invitations open the app"
+   },
+   {
+    "type": "fix",
+    "text": "CKContainer construction crashed the unsigned test host"
+   }
+  ]
+ },
+ {
+  "version": "1.2.0",
+  "date": "2026-08-07",
+  "notes": [
+   {
+    "type": "feat",
+    "text": ".camipack import/export and in-app help"
+   }
+  ]
+ },
+ {
+  "version": "1.1.0",
+  "date": "2026-08-07",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "Pick a destination on the map, and show that place on the trip card"
+   },
+   {
+    "type": "fix",
+    "text": "Auto-tagged releases never started"
+   }
+  ]
+ },
+ {
+  "version": "1.0.0",
+  "date": "2026-08-07",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "Core data models \u2014 Trip, Day, DayItem, CoordinatePair"
+   },
+   {
+    "type": "feat",
+    "text": "TripStore + PDFStore \u2014 iCloud Drive persistence via NSFileCoordinator"
+   },
+   {
+    "type": "feat",
+    "text": "TripListView \u2014 create, list, delete trips"
+   },
+   {
+    "type": "feat",
+    "text": "TripDetailView + DayDetailView \u2014 day planning with timeline"
+   },
+   {
+    "type": "feat",
+    "text": "ItemDetailView \u2014 edit items, place search, PDF attachment"
+   },
+   {
+    "type": "feat",
+    "text": "MapKit integration \u2014 DayMapView with pins/polylines, RouteEditorView"
+   },
+   {
+    "type": "fix",
+    "text": "Wrap @State mutations in MainActor.run after await in calculateRoute()"
+   },
+   {
+    "type": "feat",
+    "text": "ICloud Drive monitor \u2014 auto-reload on remote changes, conflict banner"
+   },
+   {
+    "type": "feat",
+    "text": "On-device AI chat via Foundation Models + TripContextBuilder"
+   },
+   {
+    "type": "feat",
+    "text": "Siri App Intents \u2014 ShowTrip, GetDayPlan, AddPlace"
+   },
+   {
+    "type": "feat",
+    "text": "App icon \u2014 Camipack sunset mountain design"
+   },
+   {
+    "type": "feat",
+    "text": "Onboarding view + accessibility labels + proactive AI suggestion card"
+   },
+   {
+    "type": "fix",
+    "text": "Proactive card NavigationLink + TripCard combined accessibility"
+   },
+   {
+    "type": "fix",
+    "text": "Resolve critical review findings C1, C3, C4"
+   },
+   {
+    "type": "fix",
+    "text": "Resolve critical review findings C2, C5"
+   },
+   {
+    "type": "fix",
+    "text": "NSMetadataQuery leak, silent load failures, Codable schema evolution"
+   },
+   {
+    "type": "fix",
+    "text": "Remaining Important review findings"
+   },
+   {
+    "type": "fix",
+    "text": "Minor review findings \u2014 deprecations, unstable colours, spec threshold"
+   },
+   {
+    "type": "fix",
+    "text": "Address adversarial verification findings"
+   },
+   {
+    "type": "fix",
+    "text": "Round 5 \u2014 verification pass 2 findings"
+   },
+   {
+    "type": "fix",
+    "text": "ICloud banner tinted the whole nav bar"
+   },
+   {
+    "type": "feat",
+    "text": "Trip.reconcileDays + TripDetailViewModel.applyEdit"
+   },
+   {
+    "type": "feat",
+    "text": "EditTripSheet with pencil toolbar and card menu entry"
+   },
+   {
+    "type": "feat",
+    "text": "Trip documents \u2014 flight, hotel, and custom files"
+   },
+   {
+    "type": "feat",
+    "text": "Parse attached documents into activity fields"
+   },
+   {
+    "type": "feat",
+    "text": "Map thumbnails on day activities"
+   },
+   {
+    "type": "fix",
+    "text": "Renamed trip stayed stale on the trip list"
+   },
+   {
+    "type": "feat",
+    "text": "Option A day screen \u2014 map on top, full editor on add"
+   },
+   {
+    "type": "fix",
+    "text": "Activities had no location, so the day map never appeared"
+   },
+   {
+    "type": "feat",
+    "text": "Hide the AI assistant behind a feature flag"
+   },
+   {
+    "type": "feat",
+    "text": "Share a trip from inside the app"
+   },
+   {
+    "type": "fix",
+    "text": "Sendable warning only a clean build reveals"
+   },
+   {
+    "type": "fix",
+    "text": "Build number never reached the IPA"
+   },
+   {
+    "type": "fix",
+    "text": "App Store rejected the upload; add auto semantic versioning"
+   },
+   {
+    "type": "fix",
+    "text": "IPhone only, and keep repo version in step with git tags"
+   },
+   {
+    "type": "fix",
+    "text": "One source of truth for project config; iPhone-only actually applied"
+   },
+   {
+    "type": "feat",
+    "text": "Version visible in the app, traceable to its git tag"
+   }
+  ]
+ }
+]

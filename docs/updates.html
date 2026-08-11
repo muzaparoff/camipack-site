@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What's New — Camipack</title>
+<link rel="icon" href="img/app-icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap narrow">
+  <header class="site">
+    <img src="img/app-icon.png" alt="Camipack icon">
+    <span class="name">Camipack</span>
+    <nav><a href="index.html">Home</a><a href="support.html">Support</a><a href="privacy-policy.html">Privacy</a></nav>
+  </header>
+
+  <p class="eyebrow">Release notes</p>
+  <h1>What's new in Camipack</h1>
+  <p class="lede">Every release, straight from the development history. New features are marked <span class="tag-feat">new</span>, fixes are marked <span class="tag-fix">fixed</span>.</p>
+
+  <div id="releases"><p style="color:var(--ink-2)">Loading…</p></div>
+
+  <footer class="site">
+    <span>© 2026 Camipack</span>
+    <a href="index.html">Home</a>
+    <a href="support.html">Support</a>
+  </footer>
+</div>
+<script>
+fetch('releases.json')
+  .then(function (r) { return r.json(); })
+  .then(function (releases) {
+    var root = document.getElementById('releases');
+    root.innerHTML = '';
+    releases.forEach(function (rel) {
+      var div = document.createElement('div');
+      div.className = 'release';
+      var notes = rel.notes.map(function (n) {
+        var tag = n.type === 'feat'
+          ? '<span class="tag-feat">new</span> '
+          : '<span class="tag-fix">fixed</span> ';
+        return '<li>' + tag + n.text
+          .replace(/&/g, '&amp;').replace(/</g, '&lt;') + '</li>';
+      }).join('');
+      div.innerHTML =
+        '<div class="ver"><h3>Version ' + rel.version + '</h3>' +
+        '<time datetime="' + rel.date + '">' + rel.date + '</time></div>' +
+        '<ul>' + notes + '</ul>';
+      root.appendChild(div);
+    });
+  })
+  .catch(function () {
+    document.getElementById('releases').innerHTML =
+      '<p style="color:var(--ink-2)">Release notes are temporarily unavailable.</p>';
+  });
+</script>
+</body>
+</html>
