@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How it works — Camipack</title>
+<meta name="description" content="Every Camipack feature, step by step: planning days on a map, offline maps, family sharing, packing lists, budget, documents, and calendar export.">
+<link rel="icon" href="img/app-icon.png">
+<link rel="stylesheet" href="style.css">
+<style>
+  .feature { display: grid; grid-template-columns: 300px 1fr; gap: 32px; align-items: start; margin: 44px 0; }
+  .feature:nth-child(even) { grid-template-columns: 1fr 300px; }
+  .feature:nth-child(even) .phone { order: 2; }
+  @media (max-width: 720px) {
+    .feature, .feature:nth-child(even) { grid-template-columns: 1fr; }
+    .feature:nth-child(even) .phone { order: 0; }
+    .feature .phone { justify-self: center; }
+  }
+  .feature h2 { margin-top: 0; }
+  .steps { list-style: none; margin: 14px 0 0; padding: 0; counter-reset: step; }
+  .steps li {
+    position: relative; padding: 0 0 12px 40px; counter-increment: step;
+    font-size: 15.5px;
+  }
+  .steps li::before {
+    content: counter(step);
+    position: absolute; left: 0; top: 1px;
+    width: 24px; height: 24px; border-radius: 50%;
+    background: var(--green-soft); color: var(--green);
+    font-size: 12px; font-weight: 800;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .steps b { font-weight: 700; }
+  .feature .note { font-size: 13.5px; color: var(--ink-2); margin-top: 8px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="site">
+    <img src="img/app-icon.png" alt="Camipack icon">
+    <span class="name">Camipack</span>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="updates.html">What's new</a>
+      <a href="support.html">Support</a>
+      <a href="privacy-policy.html">Privacy</a>
+    </nav>
+  </header>
+
+  <p class="eyebrow">The guide</p>
+  <h1>How Camipack works</h1>
+  <p class="lede">Every feature, step by step — the same guides that live in the app's Help, with room to breathe. Tap targets are named exactly as you'll see them on screen.</p>
+
+  <section class="feature">
+    <div class="phone"><img src="img/shot-trip.png" alt="A trip led by its living map, with the day-by-day plan below"></div>
+    <div>
+      <h2>Plan a trip, day by day</h2>
+      <p>A trip is a set of days; each day is a timeline of places, meals, walks, and tickets. The map at the top is alive — it grows from a city to a whole region as your plan does.</p>
+      <ol class="steps">
+        <li>On the home screen, tap the green <b>+ New Trip</b> button.</li>
+        <li>Name the trip, type a destination and pick it from the suggestions, choose the dates, tap <b>Create</b>.</li>
+        <li>Open the trip and tap any day card to plan that day.</li>
+        <li>Tap the round green <b>+</b> and pick <b>Place</b>, <b>Restaurant</b>, <b>Route</b>, or <b>Ticket</b>.</li>
+        <li>Inside an activity, tap <b>“Find on the map”</b> — Camipack looks the place up by name and pins it. Numbered pins match the timeline order.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="feature">
+    <div class="phone"><img src="img/shot-offline.png" alt="The offline map rendering London entirely from a file stored on the phone"></div>
+    <div>
+      <h2>Offline maps</h2>
+      <p>Download a trip's map once and it keeps working with no internet at all — streets, labels, your pins and walking routes. The map covers everything the trip pins down, with margin, and lives entirely on your phone. A city is roughly 10–40 MB.</p>
+      <ol class="steps">
+        <li>Open the trip and tap the <b>⋯</b> button, top right.</li>
+        <li>Tap <b>Offline Map…</b>, then <b>Download Offline Map</b> — best on Wi-Fi.</li>
+        <li>That's it. When you're offline, opening the trip map shows the offline map automatically. You can also open it any time from the same sheet.</li>
+        <li>Changed the plan? <b>Update Map</b> re-downloads around the new places. <b>Remove Download</b> frees the space.</li>
+      </ol>
+      <p class="note">Try it before the trip: download, switch on Airplane Mode, open the map.</p>
+    </div>
+  </section>
+
+  <section class="feature">
+    <div class="phone"><img src="img/shot-sync.png" alt="The sync sheet with iCloud status and shared trips"></div>
+    <div>
+      <h2>Plan together, sync everywhere</h2>
+      <p>Share a trip and the whole family edits the same plan — changes appear on everyone's phone within moments, with a badge showing who changed what. Sync runs through your own iCloud; Camipack has no servers.</p>
+      <ol class="steps">
+        <li>Open the trip → <b>⋯</b> → <b>Share Trip</b>, and send the invitation (Messages works best).</li>
+        <li>Your family member taps the link, then <b>Join Trip</b>.</li>
+        <li>The cloud pill on the home screen shows sync status — tap it for details or to pause syncing.</li>
+        <li>To end sharing: same menu → <b>Stop Sharing</b>.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="feature">
+    <div class="phone"><img src="img/shot-packing.png" alt="Packing lists: shared plus one per family member, with progress"></div>
+    <div>
+      <h2>Packing, per person</h2>
+      <p>One shared list for the family plus a personal list for each member, color-coded. Counts roll up so the trip screen always answers "are we packed?" at a glance.</p>
+      <ol class="steps">
+        <li>Open a trip and tap <b>Packing</b> — the middle of the three buttons under the map.</li>
+        <li>The shared list opens first; tap a name to switch lists.</li>
+        <li>Tap <b>+</b> to add an item, tap an item to check it off.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="feature">
+    <div class="phone"><img src="img/shot-budget.png" alt="Trip budget with expenses in multiple currencies"></div>
+    <div>
+      <h2>Budget in any currency</h2>
+      <p>Track costs as you plan and as you go. Each expense keeps its own currency — hotel in euros, museum in pounds — and the totals still add up in one place.</p>
+      <ol class="steps">
+        <li>Open a trip and tap <b>Budget</b> — the last of the three buttons under the map.</li>
+        <li>Tap <b>+</b> to add an expense with amount and category.</li>
+        <li>Pick the currency right in the add screen — every expense can use a different one.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="feature">
+    <div class="phone"><img src="img/shot-tripmap.png" alt="The whole trip on one map, pins and routes tinted per day"></div>
+    <div>
+      <h2>The whole trip on one map</h2>
+      <p>Every located activity from every day, pins and route lines tinted per day so Tuesday never blurs into Wednesday. Filter to a single day with one tap.</p>
+      <ol class="steps">
+        <li>Open a trip and tap the big map at the top.</li>
+        <li>Tap a day chip to focus that day; tap again for all days.</li>
+        <li>Tap any pin to see which stop it is.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="feature">
+    <div class="phone"><img src="img/shot-calendar.png" alt="Add to Calendar: the whole trip and every timed item, with alerts"></div>
+    <div>
+      <h2>Into the family calendar</h2>
+      <p>Put the trip where the family already looks: one all-day banner across the trip, and optionally every timed activity as its own event with an alert.</p>
+      <ol class="steps">
+        <li>Open the trip → <b>⋯</b> → <b>Add to Calendar</b>.</li>
+        <li>Choose what to add and pick the alerts.</li>
+        <li>Pick the calendar and confirm. Re-adding later updates events instead of duplicating them.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="feature">
+    <div class="phone"><img src="img/shot-home.png" alt="Home: trips on a year timeline with countdowns"></div>
+    <div>
+      <h2>A year of trips at a glance</h2>
+      <p>Home is a timeline, not a table: your trips in order, with photo cards, countdowns ("IN 3 MONTHS"), and the free gaps between trips — which is exactly where the next plan starts.</p>
+      <ol class="steps">
+        <li>Scroll the year; tap any trip card to open it.</li>
+        <li>Tap <b>+ New Trip</b> to fill a gap.</li>
+        <li>Add the widget to your Home Screen: long-press → <b>Edit</b> → <b>Add Widget</b> → search "Camipack". One tap opens the trip it shows.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="feature">
+    <div class="phone"><img src="img/shot-help.png" alt="The in-app Help with numbered, tap-by-tap steps"></div>
+    <div>
+      <h2>Help is built in</h2>
+      <p>Everything on this page also lives in the app — tap the cloud pill on the home screen, then <b>Help</b>. Each topic is a numbered guide showing exactly which button to press, so nobody in the family has to ask how anything works.</p>
+    </div>
+  </section>
+
+  <footer class="site">
+    <span>© 2026 Camipack</span>
+    <a href="index.html">Home</a>
+    <a href="updates.html">Release notes</a>
+    <a href="support.html">Support</a>
+    <a href="privacy-policy.html">Privacy policy</a>
+  </footer>
+</div>
+</body>
+</html>
