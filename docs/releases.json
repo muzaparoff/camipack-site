@@ -1,5 +1,15 @@
 [
  {
+  "version": "1.28.0",
+  "date": "2026-08-13",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "Earlier as timeline capsule with compact past-trip rows; countdown captions from today"
+   }
+  ]
+ },
+ {
   "version": "1.27.0",
   "date": "2026-08-13",
   "notes": [
