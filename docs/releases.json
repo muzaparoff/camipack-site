@@ -1,5 +1,15 @@
 [
  {
+  "version": "1.27.0",
+  "date": "2026-08-13",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "Feedback engine \u2014 smart rating prompt at happy moments + Send Feedback"
+   }
+  ]
+ },
+ {
   "version": "1.26.0",
   "date": "2026-08-11",
   "notes": [
