@@ -1,5 +1,15 @@
 [
  {
+  "version": "1.29.0",
+  "date": "2026-08-13",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "Destination photos everywhere \u2014 geocode typed destinations, per-trip landmark viewpoints, photo header for empty trips"
+   }
+  ]
+ },
+ {
   "version": "1.28.0",
   "date": "2026-08-13",
   "notes": [
