@@ -1,5 +1,15 @@
 [
  {
+  "version": "1.31.0",
+  "date": "2026-08-18",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "Solid New Trip button instead of the dashed outline"
+   }
+  ]
+ },
+ {
   "version": "1.30.1",
   "date": "2026-08-18",
   "notes": [
