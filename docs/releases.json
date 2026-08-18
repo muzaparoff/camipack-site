@@ -1,5 +1,19 @@
 [
  {
+  "version": "1.30.1",
+  "date": "2026-08-18",
+  "notes": [
+   {
+    "type": "fix",
+    "text": "Recapture screenshots 7 and 8 without iOS's calendar permission alert [skip ci]"
+   },
+   {
+    "type": "fix",
+    "text": "Give the trip list a grouped page so its cards stop matching it"
+   }
+  ]
+ },
+ {
   "version": "1.29.0",
   "date": "2026-08-13",
   "notes": [
