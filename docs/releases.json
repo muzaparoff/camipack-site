@@ -1,5 +1,15 @@
 [
  {
+  "version": "1.32.0",
+  "date": "2026-08-21",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "Shared packing list always visible; move/copy items; per-expense currency"
+   }
+  ]
+ },
+ {
   "version": "1.31.0",
   "date": "2026-08-18",
   "notes": [
