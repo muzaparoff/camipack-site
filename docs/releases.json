@@ -1,5 +1,23 @@
 [
  {
+  "version": "1.34.0",
+  "date": "2026-08-23",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "Ship a built-in lookup key so it works with no setup"
+   },
+   {
+    "type": "feat",
+    "text": "Generalise flights into travel legs, and make them findable"
+   },
+   {
+    "type": "fix",
+    "text": "Surface a failed Keychain write; skip that test where it cannot run"
+   }
+  ]
+ },
+ {
   "version": "1.33.0",
   "date": "2026-08-23",
   "notes": [
