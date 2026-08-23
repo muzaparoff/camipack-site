@@ -1,5 +1,31 @@
 [
  {
+  "version": "1.33.0",
+  "date": "2026-08-23",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "FlightInfo on DayItem, keyed off field presence not a new type"
+   },
+   {
+    "type": "feat",
+    "text": "FlightBoard \u2014 pure display logic for flight strings"
+   },
+   {
+    "type": "feat",
+    "text": "Flight rows get a plane glyph, airline/route subtitle, Flight badge"
+   },
+   {
+    "type": "feat",
+    "text": "Flight card, editing, and help text"
+   },
+   {
+    "type": "feat",
+    "text": "AeroDataBox lookup, with the key in the Keychain not the binary"
+   }
+  ]
+ },
+ {
   "version": "1.32.3",
   "date": "2026-08-22",
   "notes": [
