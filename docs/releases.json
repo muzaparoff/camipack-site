@@ -1,5 +1,19 @@
 [
  {
+  "version": "1.37.0",
+  "date": "2026-08-24",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "Give a document its dates, and read the file you attach"
+   },
+   {
+    "type": "feat",
+    "text": "Act on the usability audit \u2014 nine findings, seven changes"
+   }
+  ]
+ },
+ {
   "version": "1.36.0",
   "date": "2026-08-24",
   "notes": [
