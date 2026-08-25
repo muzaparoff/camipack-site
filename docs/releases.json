@@ -1,5 +1,35 @@
 [
  {
+  "version": "1.38.0",
+  "date": "2026-08-25",
+  "notes": [
+   {
+    "type": "fix",
+    "text": "The app could not ask for a rating, by design"
+   },
+   {
+    "type": "feat",
+    "text": "The trip card's actions stop being invisible"
+   },
+   {
+    "type": "feat",
+    "text": "Work out where each day starts and ends"
+   },
+   {
+    "type": "feat",
+    "text": "Ask where the airports are"
+   },
+   {
+    "type": "feat",
+    "text": "Draw the day, from where you slept to where you sleep"
+   },
+   {
+    "type": "fix",
+    "text": "Let the ticket decide which airport belongs to a day"
+   }
+  ]
+ },
+ {
   "version": "1.37.0",
   "date": "2026-08-24",
   "notes": [
