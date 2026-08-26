@@ -1,5 +1,15 @@
 [
  {
+  "version": "1.41.3",
+  "date": "2026-08-26",
+  "notes": [
+   {
+    "type": "fix",
+    "text": "Look the flight up on the day the ticket says, not the day before"
+   }
+  ]
+ },
+ {
   "version": "1.41.2",
   "date": "2026-08-26",
   "notes": [
