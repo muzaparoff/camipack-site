@@ -1,5 +1,15 @@
 [
  {
+  "version": "1.39.0",
+  "date": "2026-08-26",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "Point the way to the next stop, with no network"
+   }
+  ]
+ },
+ {
   "version": "1.38.2",
   "date": "2026-08-26",
   "notes": [
