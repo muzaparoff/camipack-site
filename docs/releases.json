@@ -1,5 +1,16 @@
 [
  {
+  "version": "1.44.0",
+  "date": "2026-08-26",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "Share a ticket into Camipack from anywhere"
+   }
+  ],
+  "summary": "YOUR FLIGHT ON THE LOCK SCREEN\nIn the hours before departure a flight shows itself on the Lock Screen and in the Dynamic Island: how long, which terminal, which gate, and whether it is running to time. Once you are aboard it keeps counting \u2014 to landing rather than to take-off \u2014 and it does all of that with no signal. The countdown and the progress run on the device, so they stay true at 35,000 feet.\n\nTrains, buses and ferries do the same, in their own words. A train has a platform, a ferry has a berth, and neither of them lands.\n\nREMINDERS BEFORE YOU GO\nThe evening before, while there is still time to pack, and five hours before departure \u2014 long enough to get to the airport, which an hour is not. Both can be switched off, along with the Lock Screen card, under the cloud button.\n\nTICKETS THAT FILL THEMSELVES IN\nImport a ticket and Camipack now looks the flight up by itself: the airline, both airports, the terminal and the current status, without you typing any of it.\n\nA SCREEN FOR READING A FLIGHT\nTapping a flight \u2014 from the Lock Screen, from the trip, or from the day \u2014 now opens the flight rather than a form. Check its status, get directions to the terminal, open the ticket you filed. Editing is still one tap away.\n\nTHE DAY, FROM WHERE YOU SLEPT\nCamipack works out where each day begins and ends: the airport on the day you arrive, your hotel in between, and back to the airport on the day you leave. Your next journey now appears on the trip itself, with the aircraft moving along the route as it flies.\n\nFINDING YOUR WAY WITH NO NETWORK\nA downloaded map can now point you to your next stop \u2014 a direction and a distance that need no signal at all.\n\nALSO\n\u2022 The Home Screen widget follows the flight\n\u2022 A trip's actions are visible instead of hidden behind a long press\n\u2022 Fixed: the Download button now opens the download\n\u2022 Fixed: your hotel is drawn on the map, and the way home is told apart from the way out\n\u2022 Fixed: tapping a day's map opens it\n\u2022 Fixed: a flight's times are shown in each airport's own time, not your phone's"
+ },
+ {
   "version": "1.43.0",
   "date": "2026-08-26",
   "notes": [
