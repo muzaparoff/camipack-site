@@ -1,5 +1,15 @@
 [
  {
+  "version": "1.40.0",
+  "date": "2026-08-26",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "Remind before a flight, and show it on the Lock Screen"
+   }
+  ]
+ },
+ {
   "version": "1.39.0",
   "date": "2026-08-26",
   "notes": [
