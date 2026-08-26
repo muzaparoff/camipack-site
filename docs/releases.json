@@ -1,5 +1,27 @@
 [
  {
+  "version": "1.41.0",
+  "date": "2026-08-26",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "Trains, buses and ferries get a Live Activity too"
+   },
+   {
+    "type": "feat",
+    "text": "The next journey on the trip screen, with the vehicle moving"
+   },
+   {
+    "type": "feat",
+    "text": "A screen for reading a journey, not editing it"
+   },
+   {
+    "type": "feat",
+    "text": "The journey on the Home Screen, stepping every ten minutes"
+   }
+  ]
+ },
+ {
   "version": "1.40.2",
   "date": "2026-08-26",
   "notes": [
