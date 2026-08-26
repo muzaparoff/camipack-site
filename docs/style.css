@@ -127,3 +127,15 @@ footer.site a { color: var(--ink-2); }
 .release li { margin-bottom: 5px; font-size: 15px; }
 .tag-feat { color: var(--green); font-weight: 800; }
 .tag-fix { color: var(--amber); font-weight: 800; }
+
+/* The App Store's own "What's New", above the per-commit changelog. */
+.release .summary { margin: 0 0 1.1rem; }
+.release .summary h4 {
+  font-size: .78rem; font-weight: 700; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--ink-2);
+  margin: 1.1rem 0 .35rem;
+}
+.release .summary h4:first-child { margin-top: 0; }
+.release .summary p { margin: 0 0 .6rem; }
+.release .summary ul.plain { margin: 0 0 .6rem; padding-left: 1.1rem; list-style: disc; }
+.release .summary ul.plain li { margin: .15rem 0; }

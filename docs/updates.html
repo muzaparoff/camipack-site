@@ -31,6 +31,34 @@
   </footer>
 </div>
 <script>
+function esc(t) {
+  return String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+// The App Store's own "What's New", when the release carries one. Plain text:
+// blank lines separate blocks, a short ALL-CAPS first line heads a block, and
+// lines opening with a bullet are a list. Absent on older releases, which keep
+// exactly the changelog they always had.
+function summaryHTML(text) {
+  if (!text) { return ''; }
+  var blocks = String(text).trim().split(/\n\s*\n/).map(function (block) {
+    var lines = block.split('\n').map(function (l) { return esc(l.trim()); })
+                     .filter(function (l) { return l.length; });
+    if (!lines.length) { return ''; }
+    var head = '';
+    if (lines.length > 1 && lines[0] === lines[0].toUpperCase() && lines[0].length < 60) {
+      head = '<h4>' + lines.shift() + '</h4>';
+    }
+    if (lines[0] && lines[0].charAt(0) === '\u2022') {
+      return head + '<ul class="plain">' + lines.map(function (l) {
+        return '<li>' + l.replace(/^\u2022\s*/, '') + '</li>';
+      }).join('') + '</ul>';
+    }
+    return head + '<p>' + lines.join(' ') + '</p>';
+  });
+  return '<div class="summary">' + blocks.join('') + '</div>';
+}
+
 fetch('releases.json')
   .then(function (r) { return r.json(); })
   .then(function (releases) {
@@ -43,12 +71,12 @@ fetch('releases.json')
         var tag = n.type === 'feat'
           ? '<span class="tag-feat">new</span> '
           : '<span class="tag-fix">fixed</span> ';
-        return '<li>' + tag + n.text
-          .replace(/&/g, '&amp;').replace(/</g, '&lt;') + '</li>';
+        return '<li>' + tag + esc(n.text) + '</li>';
       }).join('');
       div.innerHTML =
         '<div class="ver"><h3>Version ' + rel.version + '</h3>' +
         '<time datetime="' + rel.date + '">' + rel.date + '</time></div>' +
+        summaryHTML(rel.summary) +
         '<ul>' + notes + '</ul>';
       root.appendChild(div);
     });
