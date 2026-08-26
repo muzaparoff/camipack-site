@@ -1,5 +1,15 @@
 [
  {
+  "version": "1.40.2",
+  "date": "2026-08-26",
+  "notes": [
+   {
+    "type": "fix",
+    "text": "Fly the card \u2014 count down to landing, not to nothing"
+   }
+  ]
+ },
+ {
   "version": "1.40.1",
   "date": "2026-08-26",
   "notes": [
