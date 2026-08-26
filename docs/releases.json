@@ -1,5 +1,23 @@
 [
  {
+  "version": "1.38.1",
+  "date": "2026-08-26",
+  "notes": [
+   {
+    "type": "fix",
+    "text": "Stop advertising a key field nobody needs"
+   },
+   {
+    "type": "fix",
+    "text": "Tapping the day's map opens it"
+   },
+   {
+    "type": "fix",
+    "text": "Draw the hotel, and tell the way home from the way out"
+   }
+  ]
+ },
+ {
   "version": "1.38.0",
   "date": "2026-08-25",
   "notes": [
