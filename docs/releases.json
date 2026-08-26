@@ -1,5 +1,15 @@
 [
  {
+  "version": "1.41.2",
+  "date": "2026-08-26",
+  "notes": [
+   {
+    "type": "fix",
+    "text": "Survive the per-second throttle instead of mistaking it for the quota"
+   }
+  ]
+ },
+ {
   "version": "1.41.1",
   "date": "2026-08-26",
   "notes": [
