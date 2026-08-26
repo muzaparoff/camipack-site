@@ -1,5 +1,15 @@
 [
  {
+  "version": "1.38.2",
+  "date": "2026-08-26",
+  "notes": [
+   {
+    "type": "fix",
+    "text": "The Download button now shows the download"
+   }
+  ]
+ },
+ {
   "version": "1.38.1",
   "date": "2026-08-26",
   "notes": [
