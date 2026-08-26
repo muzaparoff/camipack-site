@@ -1,5 +1,15 @@
 [
  {
+  "version": "1.40.1",
+  "date": "2026-08-26",
+  "notes": [
+   {
+    "type": "fix",
+    "text": "Give the flight card real facts, and a way in and out"
+   }
+  ]
+ },
+ {
   "version": "1.40.0",
   "date": "2026-08-26",
   "notes": [
