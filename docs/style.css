@@ -139,3 +139,10 @@ footer.site a { color: var(--ink-2); }
 .release .summary p { margin: 0 0 .6rem; }
 .release .summary ul.plain { margin: 0 0 .6rem; padding-left: 1.1rem; list-style: disc; }
 .release .summary ul.plain li { margin: .15rem 0; }
+
+/* A diagram inside a feature's prose — the app's own drawing, not a screenshot. */
+.shot-inline { margin: 1.1rem 0 0; }
+.shot-inline img {
+  max-width: 100%; width: 340px; height: auto; display: block;
+  border-radius: 12px; border: 1px solid var(--rule, #DDE5DF);
+}
