@@ -1,5 +1,16 @@
 [
  {
+  "version": "1.52.0",
+  "date": "2026-08-27",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "A Language row that points at the switch iOS already added"
+   }
+  ],
+  "summary": "SPEAKS YOUR LANGUAGE\nCamipack is now in Spanish, Portuguese and Russian, as well as English \u2014 the whole app, not just the corners. Counts are properly declined too, which matters more in some languages than others.\n\nFLIGHTS THAT LOOK THEMSELVES UP\nImport a ticket and Camipack reads it: airline, both airports, terminal and status, with nothing to type. Pick the whole family's tickets at once and it collapses the duplicates into one flight per journey.\n\nON YOUR LOCK SCREEN\nA flight appears in the hours before departure \u2014 how long, which terminal, which gate \u2014 and keeps counting once you are aboard, to landing rather than take-off. It needs no signal: the countdown runs on the phone. Trains, buses and ferries do the same, in their own words.\n\nSHARE A TICKET STRAIGHT IN\nShare a PDF from Mail and pick the trip. Camipack files it and reads the dates out of it.\n\nASK SIRI\n\"Add a trip to Rome in Camipack\", \"save the Pantheon for later\", \"what's planned today\".\n\nALSO\n\u2022 Help now draws the three things words explain badly, including the offline guide that points the way with no signal\n\u2022 A dismissed Lock Screen card stays dismissed\n\u2022 Fixed: a flight looked up on the wrong day near midnight in eastern time zones\n\u2022 Fixed: arrival times now show in the destination's own time"
+ },
+ {
   "version": "1.51.2",
   "date": "2026-08-27",
   "notes": [
