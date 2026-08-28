@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cómo funciona — Camipack</title>
+<meta name="description" content="Cada función de Camipack, paso a paso: planificar los días sobre un mapa, mapas sin conexión, compartir en familia, listas de equipaje, presupuesto, documentos y exportar al calendario.">
+<link rel="icon" href="../img/app-icon.png">
+<link rel="stylesheet" href="../style.css">
+<link rel="alternate" hreflang="en" href="https://muzaparoff.github.io/camipack-site/how-it-works.html">
+<link rel="alternate" hreflang="es" href="https://muzaparoff.github.io/camipack-site/es/how-it-works.html">
+<link rel="alternate" hreflang="pt-PT" href="https://muzaparoff.github.io/camipack-site/pt/how-it-works.html">
+<link rel="alternate" hreflang="ru" href="https://muzaparoff.github.io/camipack-site/ru/how-it-works.html">
+<link rel="alternate" hreflang="x-default" href="https://muzaparoff.github.io/camipack-site/how-it-works.html">
+<style>
+  .feature { display: grid; grid-template-columns: 300px 1fr; gap: 32px; align-items: start; margin: 44px 0; }
+  .feature:nth-child(even) { grid-template-columns: 1fr 300px; }
+  .feature:nth-child(even) .phone { order: 2; }
+  @media (max-width: 720px) {
+    .feature, .feature:nth-child(even) { grid-template-columns: 1fr; }
+    .feature:nth-child(even) .phone { order: 0; }
+    .feature .phone { justify-self: center; }
+  }
+  .feature h2 { margin-top: 0; }
+  .steps { list-style: none; margin: 14px 0 0; padding: 0; counter-reset: step; }
+  .steps li {
+    position: relative; padding: 0 0 12px 40px; counter-increment: step;
+    font-size: 15.5px;
+  }
+  .steps li::before {
+    content: counter(step);
+    position: absolute; left: 0; top: 1px;
+    width: 24px; height: 24px; border-radius: 50%;
+    background: var(--green-soft); color: var(--green);
+    font-size: 12px; font-weight: 800;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .steps b { font-weight: 700; }
+  .feature .note { font-size: 13.5px; color: var(--ink-2); margin-top: 8px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="site">
+    <a href="../index.html">
+      <img src="../img/app-icon.png" alt="Camipack">
+      <span class="name">Camipack</span>
+    </a>
+    <nav><a href="../updates.html">Novedades</a><a href="support.html">Soporte</a><a href="../privacy-policy.html">Privacidad</a><span class="langs"><a href="../how-it-works.html" hreflang="en">EN</a><span class="lang-on" aria-current="true">ES</span><a href="../pt/how-it-works.html" hreflang="pt-PT">PT</a><a href="../ru/how-it-works.html" hreflang="ru">RU</a></span></nav>
+  </header>
+
+  <p class="eyebrow">La guía</p>
+  <h1>Cómo funciona Camipack</h1>
+  <p class="lede">Cada función, paso a paso — las mismas guías que viven en la Ayuda de la app, con más espacio. Los botones se nombran exactamente como los verás en pantalla.</p>
+
+  <section class="feature">
+    <div class="phone"><img src="../img/shot-trip.png" alt="Un viaje encabezado por su mapa vivo, con el plan día a día debajo"></div>
+    <div>
+      <h2>Planifica un viaje, día a día</h2>
+      <p>Un viaje es un conjunto de días; cada día es una línea de tiempo con lugares, comidas, paseos y billetes. El mapa de arriba está vivo: crece de una ciudad a una región entera a medida que crece tu plan.</p>
+      <ol class="steps">
+        <li>En la pantalla de inicio, toca el botón verde <b>+ Nuevo viaje</b>.</li>
+        <li>Ponle nombre, escribe un destino y elígelo de las sugerencias, escoge las fechas y toca <b>Crear</b>.</li>
+        <li>Abre el viaje y toca la tarjeta de cualquier día para planificarlo.</li>
+        <li>Toca el <b>+</b> verde y elige <b>Lugar</b>, <b>Restaurante</b>, <b>Ruta</b> o <b>Billete</b>.</li>
+        <li>Dentro de una actividad, toca <b>«Buscar en el mapa»</b> — Camipack busca el sitio por su nombre y lo sitúa. Los números de los pines siguen el orden del día.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="feature">
+    <div class="phone"><img src="../img/shot-flight.png" alt="Una tarjeta de vuelo: SWISS LX253, de TLV a ZRH, terminal 3 y puerta D62"></div>
+    <div>
+      <h2>Vuelos que se buscan solos</h2>
+      <p>Añade a cualquier día cómo llegas: avión, tren, coche, autobús, ferri, bici o a pie. Importa un billete y Camipack lo lee: la aerolínea, ambos aeropuertos, la terminal y si va en hora, sin que escribas nada. Elige los billetes de toda la familia a la vez y convierte cuatro archivos que describen los mismos dos trayectos en dos, crea a los viajeros y archiva la copia de cada uno.</p>
+      <p>En las cinco horas previas a la salida, el vuelo aparece en la pantalla bloqueada y en la Dynamic Island con su cuenta atrás — y sigue contando una vez a bordo, hasta el aterrizaje y no hasta el despegue. Funciona sin cobertura alguna: la cuenta atrás corre en el propio teléfono. Trenes, autobuses y ferris hacen lo mismo con sus propias palabras, porque un tren tiene andén y un ferri tiene atraque.</p>
+      <ol class="steps">
+        <li>Abre un viaje, toca <b>Documentos</b>, luego <b>+</b> e <b>«Importar billetes…»</b> — o comparte un PDF directamente a Camipack desde Mail.</li>
+        <li>Comprueba lo que ha encontrado y toca <b>Añadir</b>. Los aeropuertos y la terminal se rellenan solos un momento después.</li>
+        <li>Recibes un aviso la tarde anterior y cinco horas antes de salir. Tanto los avisos como la tarjeta de la pantalla bloqueada se pueden desactivar bajo el botón de la nube.</li>
+        <li>Toca la tarjeta de la pantalla bloqueada para abrir el vuelo: su estado, cómo llegar a la terminal y el billete que archivaste.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="feature">
+    <div class="phone"><img src="../img/shot-offline.png" alt="El mapa sin conexión dibujando Londres entero desde un archivo del teléfono"></div>
+    <div>
+      <h2>Mapas sin conexión</h2>
+      <p>Descarga el mapa de un viaje una vez y seguirá funcionando sin nada de internet: calles, nombres, tus pines y tus rutas a pie. El mapa cubre todo lo que el viaje sitúa, con margen, y vive entero en tu teléfono. Una ciudad ocupa unos 10–40 MB.</p>
+      <ol class="steps">
+        <li>Abre el viaje y toca el botón <b>⋯</b>, arriba a la derecha.</li>
+        <li>Toca <b>Mapa sin conexión…</b> y luego <b>Descargar el mapa sin conexión</b> — mejor con Wi-Fi.</li>
+        <li>Ya está. Cuando estés sin conexión, abrir el mapa del viaje muestra el mapa descargado automáticamente. También puedes abrirlo cuando quieras desde la misma hoja.</li>
+        <li>¿Has cambiado el plan? <b>Actualizar el mapa</b> vuelve a descargar alrededor de los lugares nuevos. <b>Eliminar la descarga</b> libera el espacio.</li>
+      </ol>
+      <p><b>También muestra dónde estás y señala el camino.</b> El posicionamiento por satélite solo recibe, así que tu teléfono sigue sabiendo dónde está en modo avión o en el extranjero con los datos apagados — simplemente tarda un poco más la primera vez. En el mapa sin conexión, toca un día arriba: un punto te marca a ti y una flecha con una distancia apunta a tu siguiente parada de ese día.</p>
+      <p>Es una dirección y una distancia, no indicaciones giro a giro. La flecha apunta directamente al sitio, atravesando lo que haya en medio — así que sigue la línea a pie ya dibujada en el mapa y usa la flecha para comprobar que sigues bien. Acércate a menos de 25 metros y pasa sola a la siguiente parada.</p>
+      <p class="shot-inline"><img src="../img/shot-guide.png" alt="Una flecha, una distancia de 240 metros, el nombre de la siguiente parada y una etiqueta que dice sin necesidad de cobertura"></p>
+      <p class="note">Pruébalo antes del viaje: descarga, activa el modo avión y abre el mapa.</p>
+    </div>
+  </section>
+
+  <section class="feature">
+    <div class="phone"><img src="../img/shot-sync.png" alt="La hoja de sincronización con el estado de iCloud y los viajes compartidos"></div>
+    <div>
+      <h2>Planificad juntos, sincronizado en todas partes</h2>
+      <p>Comparte un viaje y toda la familia edita el mismo plan — los cambios aparecen en el teléfono de todos en segundos, con una marca de quién cambió qué. La sincronización va por tu propio iCloud; Camipack no tiene servidores.</p>
+      <ol class="steps">
+        <li>Abre el viaje → <b>⋯</b> → <b>Compartir el viaje</b> y envía la invitación (Mensajes funciona mejor).</li>
+        <li>La otra persona toca el enlace y luego <b>Unirse al viaje</b>.</li>
+        <li>La nube de la pantalla de inicio muestra el estado de la sincronización — tócala para ver detalles o pausarla.</li>
+        <li>Para dejar de compartir: el mismo menú → <b>Dejar de compartir</b>.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="feature">
+    <div class="phone"><img src="../img/shot-packing.png" alt="Listas de equipaje: una compartida y una por cada miembro de la familia, con su progreso"></div>
+    <div>
+      <h2>Equipaje, por persona</h2>
+      <p>Una lista compartida para la familia más una lista personal por miembro, con su color. Los recuentos se suman, así que la pantalla del viaje siempre responde de un vistazo a «¿está todo?».</p>
+      <ol class="steps">
+        <li>Abre un viaje y toca <b>Equipaje</b> — el botón del medio de los tres que hay bajo el mapa.</li>
+        <li>La lista compartida se abre primero; toca un nombre para cambiar de lista.</li>
+        <li>Toca <b>+</b> para añadir algo y toca cada cosa para marcarla.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="feature">
+    <div class="phone"><img src="../img/shot-budget.png" alt="El presupuesto del viaje con gastos en varias monedas"></div>
+    <div>
+      <h2>Presupuesto en cualquier moneda</h2>
+      <p>Controla los costes mientras planificas y mientras viajas. Cada gasto conserva su moneda — el hotel en euros, el museo en libras — y los totales siguen cuadrando en un solo sitio.</p>
+      <ol class="steps">
+        <li>Abre un viaje y toca <b>Presupuesto</b> — el último de los tres botones bajo el mapa.</li>
+        <li>Toca <b>+</b> para añadir un gasto con su importe y su categoría.</li>
+        <li>Elige la moneda en la misma pantalla — cada gasto puede llevar una distinta.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="feature">
+    <div class="phone"><img src="../img/shot-tripmap.png" alt="El viaje entero en un mapa, con pines y rutas teñidos por día"></div>
+    <div>
+      <h2>El viaje entero en un mapa</h2>
+      <p>Todas las actividades con ubicación de todos los días, con pines y rutas teñidos por día para que el martes nunca se confunda con el miércoles. Filtra a un solo día con un toque.</p>
+      <ol class="steps">
+        <li>Abre un viaje y toca el mapa grande de arriba.</li>
+        <li>Toca la etiqueta de un día para centrarte en él; tócala otra vez para verlos todos.</li>
+        <li>Toca cualquier pin para ver qué parada es.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="feature">
+    <div class="phone"><img src="../img/shot-calendar.png" alt="Añadir al calendario: el viaje entero y cada actividad con hora, con avisos"></div>
+    <div>
+      <h2>En el calendario de la familia</h2>
+      <p>Pon el viaje donde la familia ya mira: un evento de día completo que cubre el viaje entero y, si quieres, cada actividad con hora como su propio evento con aviso.</p>
+      <ol class="steps">
+        <li>Abre el viaje → <b>⋯</b> → <b>Añadir al calendario</b>.</li>
+        <li>Elige qué añadir y escoge los avisos.</li>
+        <li>Elige el calendario y confirma. Volver a añadirlo más tarde actualiza los eventos en vez de duplicarlos.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="feature">
+    <div class="phone"><img src="../img/shot-home.png" alt="Inicio: los viajes en una línea de tiempo anual con cuentas atrás"></div>
+    <div>
+      <h2>Un año de viajes de un vistazo</h2>
+      <p>El inicio es una línea de tiempo, no una tabla: tus viajes en orden, con tarjetas con foto, cuentas atrás («EN 3 MESES») y los huecos libres entre viajes — que es justo donde empieza el siguiente plan.</p>
+      <ol class="steps">
+        <li>Recorre el año; toca la tarjeta de cualquier viaje para abrirlo.</li>
+        <li>Toca <b>+ Nuevo viaje</b> para llenar un hueco.</li>
+        <li>Añade el widget a la pantalla de inicio: mantén pulsado → <b>Editar</b> → <b>Añadir widget</b> → busca «Camipack». Un toque abre el viaje que muestra.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="feature">
+    <div class="phone"><img src="../img/shot-help.png" alt="La Ayuda dentro de la app, con pasos numerados"></div>
+    <div>
+      <h2>La ayuda va incluida</h2>
+      <p>Todo lo de esta página vive también dentro de la app — toca la nube de la pantalla de inicio y luego <b>Ayuda</b>. Cada tema es una guía numerada que enseña exactamente qué botón pulsar, para que nadie en la familia tenga que preguntar cómo se hace algo.</p>
+      <p>La app habla español, inglés, portugués y ruso, y iOS permite fijar el idioma solo para Camipack sin cambiar el del teléfono.</p>
+    </div>
+  </section>
+
+  <footer class="site">
+    <span>© 2026 Camipack</span>
+    <a href="https://apps.apple.com/app/id6798912287">App Store</a>
+    <a href="../index.html">Inicio</a>
+    <a href="../updates.html">Notas de versión</a>
+    <a href="support.html">Soporte</a>
+    <a href="../privacy-policy.html">Política de privacidad</a>
+  </footer>
+</div>
+</body>
+</html>

@@ -146,3 +146,11 @@ footer.site a { color: var(--ink-2); }
   max-width: 100%; width: 340px; height: auto; display: block;
   border-radius: 12px; border: 1px solid var(--rule, #DDE5DF);
 }
+
+/* Language switcher in the site header. The current language is marked, not
+   linked — a link to the page you are already on is a dead end. */
+.langs { margin-left: auto; padding-left: 14px; display: inline-flex; gap: 8px; align-items: center; }
+.langs a, .langs .lang-on { font-size: 12px; font-weight: 700; letter-spacing: .04em; }
+.langs .lang-on { color: var(--green); }
+.langs a { color: var(--ink-2); text-decoration: none; }
+.langs a:hover { color: var(--ink); }
