@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>What's new — Camipack</title>
-<meta name="description" content="Every Camipack release, with the App Store notes and the changelog underneath.">
-<link rel="icon" href="img/app-icon.png">
-<link rel="stylesheet" href="style.css">
+<title>Что нового — Camipack</title>
+<meta name="description" content="Каждая версия Camipack с текстом из App Store и списком изменений под ним.">
+<link rel="icon" href="../img/app-icon.png">
+<link rel="stylesheet" href="../style.css">
 <link rel="alternate" hreflang="en" href="https://muzaparoff.github.io/camipack-site/updates.html">
 <link rel="alternate" hreflang="es" href="https://muzaparoff.github.io/camipack-site/es/updates.html">
 <link rel="alternate" hreflang="pt-PT" href="https://muzaparoff.github.io/camipack-site/pt/updates.html">
@@ -16,24 +16,24 @@
 <body>
 <div class="wrap narrow">
   <header class="site">
-    <a href="index.html">
-      <img src="img/app-icon.png" alt="Camipack">
+    <a href="../index.html">
+      <img src="../img/app-icon.png" alt="Camipack">
       <span class="name">Camipack</span>
     </a>
-    <nav><a href="how-it-works.html">How it works</a><a href="support.html">Support</a><a href="privacy-policy.html">Privacy</a><span class="langs"><span class="lang-on" aria-current="true">EN</span><a href="es/updates.html" hreflang="es">ES</a><a href="pt/updates.html" hreflang="pt-PT">PT</a><a href="ru/updates.html" hreflang="ru">RU</a></span></nav>
+    <nav><a href="how-it-works.html">Как это работает</a><a href="support.html">Поддержка</a><a href="../privacy-policy.html">Приватность</a><span class="langs"><a href="../updates.html" hreflang="en">EN</a><a href="../es/updates.html" hreflang="es">ES</a><a href="../pt/updates.html" hreflang="pt-PT">PT</a><span class="lang-on" aria-current="true">RU</span></span></nav>
   </header>
 
-  <p class="eyebrow">Release notes</p>
-  <h1>What's new in Camipack</h1>
-  <p class="lede">Every release, straight from the development history. New features are marked <span class="tag-feat">new</span>, fixes are marked <span class="tag-fix">fixed</span>.</p>
+  <p class="eyebrow">Список изменений</p>
+  <h1>Что нового в Camipack</h1>
+  <p class="lede">Каждая версия — прямо из истории разработки. Новые возможности помечены как <span class="tag-feat">новое</span>, исправления — как <span class="tag-fix">исправлено</span>.</p>
 
-  <div id="releases"><p style="color:var(--ink-2)">Loading…</p></div>
+  <div id="releases"><p style="color:var(--ink-2)">Загрузка…</p></div>
 
   <footer class="site">
     <span>© 2026 Camipack</span>
     <a href="https://apps.apple.com/app/id6798912287">App Store</a>
-    <a href="index.html">Home</a>
-    <a href="support.html">Support</a>
+    <a href="../index.html">Главная</a>
+    <a href="support.html">Поддержка</a>
   </footer>
 </div>
 <script>
@@ -73,7 +73,7 @@ function pick(rel) {
   return rel['summary_' + lang] || rel.summary;
 }
 
-fetch('releases.json')
+fetch('../releases.json')
   .then(function (r) { return r.json(); })
   .then(function (releases) {
     var root = document.getElementById('releases');
@@ -83,12 +83,12 @@ fetch('releases.json')
       div.className = 'release';
       var notes = rel.notes.map(function (n) {
         var tag = n.type === 'feat'
-          ? '<span class="tag-feat">new</span> '
-          : '<span class="tag-fix">fixed</span> ';
+          ? '<span class="tag-feat">новое</span> '
+          : '<span class="tag-fix">исправлено</span> ';
         return '<li>' + tag + esc(n.text) + '</li>';
       }).join('');
       div.innerHTML =
-        '<div class="ver"><h3>Version ' + rel.version + '</h3>' +
+        '<div class="ver"><h3>Версия ' + rel.version + '</h3>' +
         '<time datetime="' + rel.date + '">' + rel.date + '</time></div>' +
         summaryHTML(pick(rel)) +
         '<ul>' + notes + '</ul>';
@@ -97,7 +97,7 @@ fetch('releases.json')
   })
   .catch(function () {
     document.getElementById('releases').innerHTML =
-      '<p style="color:var(--ink-2)">Release notes are temporarily unavailable.</p>';
+      '<p style="color:var(--ink-2)">Список изменений сейчас недоступен.</p>';
   });
 </script>
 </body>
