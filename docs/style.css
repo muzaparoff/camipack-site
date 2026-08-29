@@ -149,8 +149,49 @@ footer.site a { color: var(--ink-2); }
 
 /* Language switcher in the site header. The current language is marked, not
    linked — a link to the page you are already on is a dead end. */
-.langs { margin-left: auto; padding-left: 14px; display: inline-flex; gap: 8px; align-items: center; }
-.langs a, .langs .lang-on { font-size: 12px; font-weight: 700; letter-spacing: .04em; }
-.langs .lang-on { color: var(--green); }
-.langs a { color: var(--ink-2); text-decoration: none; }
-.langs a:hover { color: var(--ink); }
+/* Language menu.
+   A <details> rather than a <select>: the options stay real <a href> links, so
+   crawlers follow them and the translated pages keep being discovered. No
+   JavaScript, so it works on the first paint and with scripting off. */
+.langs { margin-left: auto; padding-left: 14px; position: relative; }
+.langs > summary {
+  list-style: none; cursor: pointer; display: inline-flex; align-items: center;
+  gap: 6px; font-size: 12px; font-weight: 700; letter-spacing: .02em;
+  color: var(--ink-2); padding: 5px 9px; border-radius: 999px;
+  border: 1px solid var(--line); background: var(--card);
+}
+.langs > summary::-webkit-details-marker { display: none; }
+.langs > summary::after {
+  content: ""; width: 5px; height: 5px; margin-left: 1px;
+  border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg) translate(-1px, -1px);
+}
+.langs[open] > summary::after { transform: rotate(-135deg) translate(-2px, -2px); }
+.langs > summary:hover { color: var(--ink); }
+.langs > summary:focus-visible { outline: 2px solid var(--green); outline-offset: 2px; }
+
+.langs ul {
+  position: absolute; right: 0; top: calc(100% + 6px); z-index: 20;
+  margin: 0; padding: 5px; list-style: none; min-width: 168px;
+  background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+  box-shadow: 0 8px 26px rgba(0,0,0,.14);
+}
+.langs ul a, .langs ul .on {
+  display: flex; align-items: center; gap: 9px;
+  padding: 8px 10px; border-radius: 7px;
+  font-size: 13px; font-weight: 600; text-decoration: none; color: var(--ink-2);
+}
+.langs ul a:hover { background: var(--green-soft); color: var(--ink); }
+.langs ul .on { color: var(--green); }
+/* The flag renders as a country flag on Apple and Android and as a letter pair
+   on most Windows builds, which have no flag glyphs. The language name beside it
+   is what actually carries the meaning — the flag is decoration, and is hidden
+   from screen readers for the same reason. */
+.langs .fl { font-size: 15px; line-height: 1; font-family: "Apple Color Emoji",
+  "Segoe UI Emoji", "Noto Color Emoji", sans-serif; }
+.langs .cur { display: inline-block; }
+
+@media (max-width: 520px) {
+  .langs .cur { display: none; }
+  .langs > summary { padding: 5px 8px; }
+}
