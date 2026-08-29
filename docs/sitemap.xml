@@ -103,4 +103,11 @@
     <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/updates.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/updates.html"/>
   </url>
+
+<url><loc>https://camipack.com/de/how-it-works.html</loc><changefreq>monthly</changefreq></url>
+<url><loc>https://camipack.com/de/support.html</loc><changefreq>monthly</changefreq></url>
+<url><loc>https://camipack.com/de/updates.html</loc><changefreq>monthly</changefreq></url>
+<url><loc>https://camipack.com/fr/how-it-works.html</loc><changefreq>monthly</changefreq></url>
+<url><loc>https://camipack.com/fr/support.html</loc><changefreq>monthly</changefreq></url>
+<url><loc>https://camipack.com/fr/updates.html</loc><changefreq>monthly</changefreq></url>
 </urlset>

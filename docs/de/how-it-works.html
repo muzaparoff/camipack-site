@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>So funktioniert es — Camipack</title>
+<meta name="description" content="Every Camipack feature, step by step: planning days on a map, offline maps, family sharing, packing lists, budget, documents, and calendar export.">
+<link rel="icon" href="../img/app-icon.png">
+<link rel="stylesheet" href="../style.css">
+<link rel="canonical" href="https://camipack.com/de/how-it-works.html">
+<link rel="alternate" hreflang="en" href="https://camipack.com/how-it-works.html"><link rel="alternate" hreflang="de" href="https://camipack.com/de/how-it-works.html"><link rel="alternate" hreflang="es" href="https://camipack.com/es/how-it-works.html"><link rel="alternate" hreflang="fr" href="https://camipack.com/fr/how-it-works.html"><link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/how-it-works.html"><link rel="alternate" hreflang="ru" href="https://camipack.com/ru/how-it-works.html"><link rel="alternate" hreflang="x-default" href="https://camipack.com/how-it-works.html">
+<link rel="alternate" hreflang="es" href="https://camipack.com/es/how-it-works.html">
+<link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/how-it-works.html">
+<link rel="alternate" hreflang="ru" href="https://camipack.com/ru/how-it-works.html">
+<link rel="alternate" hreflang="x-default" href="https://camipack.com/how-it-works.html">
+<style>
+  .feature { display: grid; grid-template-columns: 300px 1fr; gap: 32px; align-items: start; margin: 44px 0; }
+  .feature:nth-child(even) { grid-template-columns: 1fr 300px; }
+  .feature:nth-child(even) .phone { order: 2; }
+  @media (max-width: 720px) {
+    .feature, .feature:nth-child(even) { grid-template-columns: 1fr; }
+    .feature:nth-child(even) .phone { order: 0; }
+    .feature .phone { justify-self: center; }
+  }
+  .feature h2 { margin-top: 0; }
+  .steps { list-style: none; margin: 14px 0 0; padding: 0; counter-reset: step; }
+  .steps li {
+    position: relative; padding: 0 0 12px 40px; counter-increment: step;
+    font-size: 15.5px;
+  }
+  .steps li::before {
+    content: counter(step);
+    position: absolute; left: 0; top: 1px;
+    width: 24px; height: 24px; border-radius: 50%;
+    background: var(--green-soft); color: var(--green);
+    font-size: 12px; font-weight: 800;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .steps b { font-weight: 700; }
+  .feature .note { font-size: 13.5px; color: var(--ink-2); margin-top: 8px; }
+</style>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Camipack">
+<meta property="og:locale" content="de">
+<meta property="og:url" content="https://camipack.com/de/how-it-works.html">
+<meta property="og:title" content="How it works — Camipack">
+<meta property="og:description" content="Every Camipack feature, step by step: planning days on a map, offline maps, family sharing, packing lists, budget, documents, and calendar export.">
+<meta property="og:image" content="https://camipack.com/img/shot-trip.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How it works — Camipack">
+<meta name="twitter:description" content="Every Camipack feature, step by step: planning days on a map, offline maps, family sharing, packing lists, budget, documents, and calendar export.">
+<meta name="twitter:image" content="https://camipack.com/img/shot-trip.png">
+</head>
+<body>
+<div class="wrap">
+  <header class="site">
+    <a href="../index.html">
+      <img src="../img/app-icon.png" alt="Camipack">
+      <span class="name">Camipack</span>
+    </a>
+    <nav><a href="updates.html">Neues</a><a href="support.html">Hilfe</a><a href="../privacy-policy.html">Datenschutz</a><details class="langs"><summary aria-label="Sprache ändern"><span class="fl" aria-hidden="true">🇩🇪</span><span class="cur">Deutsch</span></summary><ul><li><a href="../how-it-works.html" hreflang="en" lang="en"><span class="fl" aria-hidden="true">🌐</span>English</a></li><li><span class="on" aria-current="true" lang="de"><span class="fl" aria-hidden="true">🇩🇪</span>Deutsch</span></li><li><a href="../es/how-it-works.html" hreflang="es" lang="es"><span class="fl" aria-hidden="true">🇪🇸</span>Español</a></li><li><a href="../fr/how-it-works.html" hreflang="fr" lang="fr"><span class="fl" aria-hidden="true">🇫🇷</span>Français</a></li><li><a href="../pt/how-it-works.html" hreflang="pt-PT" lang="pt-PT"><span class="fl" aria-hidden="true">🇵🇹</span>Português</a></li><li><a href="../ru/how-it-works.html" hreflang="ru" lang="ru"><span class="fl" aria-hidden="true">🇷🇺</span>Русский</a></li></ul></details></nav>
+  </header>
+
+  <p class="eyebrow">Die Anleitung</p>
+  <h1>So funktioniert Camipack</h1>
+  <p class="lede">Jede Funktion, Schritt für Schritt – dieselben Anleitungen wie in der Hilfe der App, nur mit mehr Luft. Die Tippziele heißen genau so, wie Sie sie auf dem Bildschirm sehen.</p>
+
+  <section class="feature">
+    <div class="phone"><img src="../img/shot-trip.png" alt="Eine Reise, angeführt von ihrer lebendigen Karte, darunter der Plan Tag für Tag"></div>
+    <div>
+      <h2>Eine Reise planen, Tag für Tag</h2>
+      <p>Eine Reise ist eine Folge von Tagen; jeder Tag ist ein Zeitstrahl aus Orten, Essen, Spaziergängen und Tickets. Die Karte oben lebt – sie wächst von einer Stadt zu einer ganzen Region, so wie Ihr Plan.</p>
+      <ol class="steps">
+        <li>On the home screen, tap the green <b>+ Neue Reise</b> button.</li>
+        <li>Name the trip, type a destination and pick it from the suggestions, choose the dates, tap <b>Erstellen</b>.</li>
+        <li>Öffnen Sie die Reise und tippen Sie auf eine Tageskarte, um diesen Tag zu planen.</li>
+        <li>Tap the round green <b>+</b> and pick <b>Ort</b>, <b>Restaurant</b>, <b>Route</b>, or <b>Ticket</b>.</li>
+        <li>Inside an activity, tap <b>„Auf der Karte finden“</b> — Camipack looks the place up by name and pins it. Numbered pins match the timeline order.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="feature">
+    <div class="phone"><img src="../img/shot-flight.png" alt="Eine Flugkarte mit SWISS LX253, TLV nach ZRH, Terminal 3 und Gate D62"></div>
+    <div>
+      <h2>Flüge, die sich selbst nachschlagen</h2>
+      <p>Tragen Sie zu jedem Tag ein, wie Sie irgendwohin kommen – Flugzeug, Zug, Auto, Bus, Fähre, Rad oder zu Fuß. Importieren Sie ein Ticket, und Camipack liest es: Fluggesellschaft, beide Flughäfen, Terminal und ob er pünktlich ist, ohne dass Sie etwas tippen. Wählen Sie die Tickets der ganzen Familie auf einmal, und aus vier Dateien über dieselben zwei Reisen werden zwei – die Reisenden werden angelegt und die Kopie jeder Person abgelegt.</p>
+      <p>In the five hours before departure the flight appears on your Lock Screen and in the Dynamic Island, counting down — and it keeps counting once you are aboard, to landing rather than to take&#8209;off. That works with no signal at all: the countdown runs on the phone itself. Trains, buses and ferries do the same in their own words, because a train has a platform and a ferry has a berth.</p>
+      <ol class="steps">
+        <li>Open a trip, tap <b>Docs</b>, then <b>+</b> and <b>„Tickets importieren …“</b> — or share a PDF straight into Camipack from Mail.</li>
+        <li>Check what it found, then tap <b>Hinzufügen</b>. The airports and terminal fill themselves in a moment later.</li>
+        <li>Sie werden am Vorabend und fünf Stunden vor dem Abflug erinnert. Beide Erinnerungen und die Karte auf dem Sperrbildschirm lassen sich unter der Wolken-Taste ausschalten.</li>
+        <li>Tippen Sie die Karte auf dem Sperrbildschirm an, um den Flug zu öffnen: Status, Weg zum Terminal und das abgelegte Ticket.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="feature">
+    <div class="phone"><img src="../img/shot-offline.png" alt="Die Offline-Karte zeichnet London vollständig aus einer Datei auf dem Telefon"></div>
+    <div>
+      <h2>Offline-Karten</h2>
+      <p>Laden Sie die Karte einer Reise einmal, und sie funktioniert ganz ohne Internet weiter – Straßen, Beschriftungen, Ihre Nadeln und Fußwege. Die Karte deckt alles ab, was die Reise festlegt, mit etwas Rand, und liegt vollständig auf Ihrem Telefon. Eine Stadt sind etwa 10–40 MB.</p>
+      <ol class="steps">
+        <li>Open the trip and tap the <b>⋯</b> button, top right.</li>
+        <li>Tap <b>Offline-Karte …</b>, then <b>Offline-Karte laden</b> — best on Wi-Fi.</li>
+        <li>Das war's. Sind Sie offline, zeigt die Reisekarte beim Öffnen automatisch die Offline-Karte. Sie können sie jederzeit über dasselbe Fenster öffnen.</li>
+        <li>Changed the plan? <b>Karte aktualisieren</b> re-downloads around the new places. <b>Download entfernen</b> frees the space.</li>
+      </ol>
+      <p><b>Sie zeigt außerdem, wo Sie sind, und weist den Weg.</b> Satellite positioning is receive&#8209;only, so your phone still knows its position in Airplane Mode or abroad with data switched off — it simply takes a little longer to find it the first time. On the offline map, tap one day along the top: a dot marks you, and an arrow with a distance points at your next stop on that day.</p>
+      <p>Es sind Richtung und Entfernung, keine Abbiegehinweise. Der Pfeil weist geradewegs zum Ort, quer durch alles dazwischen – folgen Sie also dem bereits eingezeichneten Fußweg und prüfen Sie mit dem Pfeil, ob Sie noch richtig gehen. Kommen Sie auf 25 Meter heran, springt er von selbst zum nächsten Halt.</p>
+      <p class="shot-inline"><img src="../img/shot-guide.png" alt="Ein Pfeil, eine Entfernung von 240 Metern, der Name des nächsten Halts und der Hinweis, dass kein Empfang nötig ist"></p>
+      <p class="note">Probieren Sie es vor der Reise: laden, Flugmodus einschalten, Karte öffnen.</p>
+    </div>
+  </section>
+
+  <section class="feature">
+    <div class="phone"><img src="../img/shot-sync.png" alt="Das Sync-Fenster mit iCloud-Status und geteilten Reisen"></div>
+    <div>
+      <h2>Gemeinsam planen, überall abgeglichen</h2>
+      <p>Teilen Sie eine Reise, und die ganze Familie bearbeitet denselben Plan – Änderungen erscheinen binnen Augenblicken auf jedem Telefon, mit einem Hinweis, wer was geändert hat. Der Abgleich läuft über Ihre eigene iCloud; Camipack hat keine Server.</p>
+      <ol class="steps">
+        <li>Open the trip → <b>⋯</b> → <b>Reise teilen</b> und schicken Sie die Einladung (am besten über Nachrichten).</li>
+        <li>Your family member taps the link, then <b>Reise beitreten</b>.</li>
+        <li>Die Wolken-Pille auf dem Startbildschirm zeigt den Sync-Status – tippen Sie sie für Details oder zum Pausieren an.</li>
+        <li>To end sharing: same menu → <b>Teilen beenden</b>.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="feature">
+    <div class="phone"><img src="../img/shot-packing.png" alt="Packlisten: gemeinsam und je eine pro Familienmitglied, mit Fortschritt"></div>
+    <div>
+      <h2>Packen, pro Person</h2>
+      <p>Eine gemeinsame Liste für die Familie und dazu eine persönliche für jedes Mitglied, farblich unterschieden. Die Zähler laufen zusammen, sodass der Reisebildschirm die Frage „Sind wir gepackt?“ immer auf einen Blick beantwortet.</p>
+      <ol class="steps">
+        <li>Open a trip and tap <b>Packen</b> — the middle of the three buttons under the map.</li>
+        <li>Zuerst öffnet sich die gemeinsame Liste; tippen Sie auf einen Namen, um die Liste zu wechseln.</li>
+        <li>Tap <b>+</b> to add an item, tap an item to check it off.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="feature">
+    <div class="phone"><img src="../img/shot-budget.png" alt="Reisebudget mit Ausgaben in mehreren Währungen"></div>
+    <div>
+      <h2>Budget in jeder Währung</h2>
+      <p>Behalten Sie die Kosten im Blick, beim Planen und unterwegs. Jede Ausgabe behält ihre eigene Währung – Hotel in Euro, Museum in Pfund – und die Summen stimmen trotzdem an einer Stelle.</p>
+      <ol class="steps">
+        <li>Open a trip and tap <b>Budget</b> — the last of the three buttons under the map.</li>
+        <li>Tap <b>+</b> to add an expense with amount and category.</li>
+        <li>Wählen Sie die Währung direkt im Eingabefenster – jede Ausgabe kann eine andere haben.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="feature">
+    <div class="phone"><img src="../img/shot-tripmap.png" alt="Die ganze Reise auf einer Karte, Nadeln und Routen pro Tag eingefärbt"></div>
+    <div>
+      <h2>Die ganze Reise auf einer Karte</h2>
+      <p>Jede verortete Aktivität aus jedem Tag, Nadeln und Routenlinien pro Tag eingefärbt, damit Dienstag nie mit Mittwoch verschwimmt. Mit einem Tippen auf einen einzelnen Tag filtern.</p>
+      <ol class="steps">
+        <li>Öffnen Sie eine Reise und tippen Sie oben auf die große Karte.</li>
+        <li>Tippen Sie auf eine Tages-Pille, um diesen Tag hervorzuheben; noch einmal für alle Tage.</li>
+        <li>Tippen Sie eine Nadel an, um zu sehen, welcher Halt sie ist.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="feature">
+    <div class="phone"><img src="../img/shot-calendar.png" alt="Zum Kalender hinzufügen: die ganze Reise und jeder Termin, mit Hinweisen"></div>
+    <div>
+      <h2>In den Familienkalender</h2>
+      <p>Legen Sie die Reise dorthin, wo die Familie ohnehin hinsieht: ein ganztägiger Balken über die Reise und wahlweise jede zeitlich festgelegte Aktivität als eigener Termin mit Hinweis.</p>
+      <ol class="steps">
+        <li>Open the trip → <b>⋯</b> → <b>Zum Kalender hinzufügen</b>.</li>
+        <li>Wählen Sie, was hinzukommt, und dazu die Hinweise.</li>
+        <li>Wählen Sie den Kalender und bestätigen Sie. Ein späteres erneutes Hinzufügen aktualisiert die Termine, statt sie zu verdoppeln.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="feature">
+    <div class="phone"><img src="../img/shot-home.png" alt="Start: Reisen auf einem Jahres-Zeitstrahl mit Countdowns"></div>
+    <div>
+      <h2>Ein Jahr Reisen auf einen Blick</h2>
+      <p>Der Start ist ein Zeitstrahl, keine Tabelle: Ihre Reisen der Reihe nach, mit Fotokarten, Countdowns („IN 3 MONATEN“) und den freien Lücken dazwischen – genau dort beginnt der nächste Plan.</p>
+      <ol class="steps">
+        <li>Scrollen Sie durch das Jahr; tippen Sie eine Reisekarte an, um sie zu öffnen.</li>
+        <li>Tap <b>+ Neue Reise</b> to fill a gap.</li>
+        <li>Add the widget to your Home Screen: long-press → <b>Bearbeiten</b> → <b>Widget hinzufügen</b> → search "Camipack". One tap opens the trip it shows.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="feature">
+    <div class="phone"><img src="../img/shot-help.png" alt="Die Hilfe in der App mit nummerierten Schritten, Tipp für Tipp"></div>
+    <div>
+      <h2>Die Hilfe ist eingebaut</h2>
+      <p>Everything on this page also lives in the app — tap the cloud pill on the home screen, then <b>Hilfe</b>. Each topic is a numbered guide showing exactly which button to press, so nobody in the family has to ask how anything works.</p>
+      <p>Die App spricht Englisch, Deutsch, Französisch, Spanisch, Portugiesisch und Russisch, und iOS lässt Sie die Sprache für Camipack allein festlegen, ohne Ihr Telefon umzustellen.</p>
+    </div>
+  </section>
+
+  <footer class="site">
+    <span>© 2026 Camipack</span>
+    <a href="https://apps.apple.com/app/id6798912287">App Store</a>
+    <a href="../index.html">Start</a>
+    <a href="updates.html">Neuerungen</a>
+    <a href="support.html">Hilfe</a>
+    <a href="../privacy-policy.html">Datenschutzerklärung</a>
+  </footer>
+</div>
+</body>
+</html>
