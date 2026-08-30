@@ -2,95 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://camipack.com/es/how-it-works.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/how-it-works.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/how-it-works.html"/>
-    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/how-it-works.html"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/how-it-works.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/how-it-works.html"/>
-  </url>
-  <url>
-    <loc>https://camipack.com/es/support.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/support.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/support.html"/>
-    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/support.html"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/support.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/support.html"/>
-  </url>
-  <url>
-    <loc>https://camipack.com/es/updates.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/updates.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/updates.html"/>
-    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/updates.html"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/updates.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/updates.html"/>
-  </url>
-  <url>
-    <loc>https://camipack.com/how-it-works.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/how-it-works.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/how-it-works.html"/>
-    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/how-it-works.html"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/how-it-works.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/how-it-works.html"/>
-  </url>
-  <url>
-    <loc>https://camipack.com/</loc>
+    <loc>https://camipack.com/index.html</loc>
   </url>
   <url>
     <loc>https://camipack.com/privacy-policy.html</loc>
   </url>
   <url>
-    <loc>https://camipack.com/pt/how-it-works.html</loc>
+    <loc>https://camipack.com/how-it-works.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/how-it-works.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/how-it-works.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/how-it-works.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/how-it-works.html"/>
     <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/how-it-works.html"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/how-it-works.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/how-it-works.html"/>
   </url>
   <url>
-    <loc>https://camipack.com/pt/support.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/support.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/support.html"/>
-    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/support.html"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/support.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/support.html"/>
+    <loc>https://camipack.com/de/how-it-works.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/how-it-works.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/how-it-works.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/how-it-works.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/how-it-works.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/how-it-works.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/how-it-works.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/how-it-works.html"/>
   </url>
   <url>
-    <loc>https://camipack.com/pt/updates.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/updates.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/updates.html"/>
-    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/updates.html"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/updates.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/updates.html"/>
+    <loc>https://camipack.com/es/how-it-works.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/how-it-works.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/how-it-works.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/how-it-works.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/how-it-works.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/how-it-works.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/how-it-works.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/how-it-works.html"/>
+  </url>
+  <url>
+    <loc>https://camipack.com/fr/how-it-works.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/how-it-works.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/how-it-works.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/how-it-works.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/how-it-works.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/how-it-works.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/how-it-works.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/how-it-works.html"/>
+  </url>
+  <url>
+    <loc>https://camipack.com/pt/how-it-works.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/how-it-works.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/how-it-works.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/how-it-works.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/how-it-works.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/how-it-works.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/how-it-works.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/how-it-works.html"/>
   </url>
   <url>
     <loc>https://camipack.com/ru/how-it-works.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/how-it-works.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/how-it-works.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/how-it-works.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/how-it-works.html"/>
     <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/how-it-works.html"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/how-it-works.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/how-it-works.html"/>
   </url>
   <url>
-    <loc>https://camipack.com/ru/support.html</loc>
+    <loc>https://camipack.com/support.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/support.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/support.html"/>
     <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/support.html"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/support.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/support.html"/>
   </url>
   <url>
-    <loc>https://camipack.com/ru/updates.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/updates.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/updates.html"/>
-    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/updates.html"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/updates.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/updates.html"/>
+    <loc>https://camipack.com/de/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/support.html"/>
   </url>
   <url>
-    <loc>https://camipack.com/support.html</loc>
+    <loc>https://camipack.com/es/support.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/support.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/support.html"/>
+  </url>
+  <url>
+    <loc>https://camipack.com/fr/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/support.html"/>
+  </url>
+  <url>
+    <loc>https://camipack.com/pt/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/support.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/support.html"/>
+  </url>
+  <url>
+    <loc>https://camipack.com/ru/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/support.html"/>
     <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/support.html"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/support.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/support.html"/>
@@ -98,16 +130,241 @@
   <url>
     <loc>https://camipack.com/updates.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/updates.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/updates.html"/>
     <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/updates.html"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/updates.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/updates.html"/>
   </url>
-
-<url><loc>https://camipack.com/de/how-it-works.html</loc><changefreq>monthly</changefreq></url>
-<url><loc>https://camipack.com/de/support.html</loc><changefreq>monthly</changefreq></url>
-<url><loc>https://camipack.com/de/updates.html</loc><changefreq>monthly</changefreq></url>
-<url><loc>https://camipack.com/fr/how-it-works.html</loc><changefreq>monthly</changefreq></url>
-<url><loc>https://camipack.com/fr/support.html</loc><changefreq>monthly</changefreq></url>
-<url><loc>https://camipack.com/fr/updates.html</loc><changefreq>monthly</changefreq></url>
+  <url>
+    <loc>https://camipack.com/de/updates.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/updates.html"/>
+  </url>
+  <url>
+    <loc>https://camipack.com/es/updates.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/updates.html"/>
+  </url>
+  <url>
+    <loc>https://camipack.com/fr/updates.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/updates.html"/>
+  </url>
+  <url>
+    <loc>https://camipack.com/pt/updates.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/updates.html"/>
+  </url>
+  <url>
+    <loc>https://camipack.com/ru/updates.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/updates.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/updates.html"/>
+  </url>
+  <url>
+    <loc>https://camipack.com/wanderlog-alternative.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/wanderlog-alternative.html"/>
+  </url>
+  <url>
+    <loc>https://camipack.com/de/wanderlog-alternative.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/wanderlog-alternative.html"/>
+  </url>
+  <url>
+    <loc>https://camipack.com/es/wanderlog-alternative.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/wanderlog-alternative.html"/>
+  </url>
+  <url>
+    <loc>https://camipack.com/fr/wanderlog-alternative.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/wanderlog-alternative.html"/>
+  </url>
+  <url>
+    <loc>https://camipack.com/pt/wanderlog-alternative.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/wanderlog-alternative.html"/>
+  </url>
+  <url>
+    <loc>https://camipack.com/ru/wanderlog-alternative.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/wanderlog-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/wanderlog-alternative.html"/>
+  </url>
+  <url>
+    <loc>https://camipack.com/tripit-alternative.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/tripit-alternative.html"/>
+  </url>
+  <url>
+    <loc>https://camipack.com/de/tripit-alternative.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/tripit-alternative.html"/>
+  </url>
+  <url>
+    <loc>https://camipack.com/es/tripit-alternative.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/tripit-alternative.html"/>
+  </url>
+  <url>
+    <loc>https://camipack.com/fr/tripit-alternative.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/tripit-alternative.html"/>
+  </url>
+  <url>
+    <loc>https://camipack.com/pt/tripit-alternative.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/tripit-alternative.html"/>
+  </url>
+  <url>
+    <loc>https://camipack.com/ru/tripit-alternative.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/tripit-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/tripit-alternative.html"/>
+  </url>
+  <url>
+    <loc>https://camipack.com/tripsy-alternative.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/tripsy-alternative.html"/>
+  </url>
+  <url>
+    <loc>https://camipack.com/de/tripsy-alternative.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/tripsy-alternative.html"/>
+  </url>
+  <url>
+    <loc>https://camipack.com/es/tripsy-alternative.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/tripsy-alternative.html"/>
+  </url>
+  <url>
+    <loc>https://camipack.com/fr/tripsy-alternative.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/tripsy-alternative.html"/>
+  </url>
+  <url>
+    <loc>https://camipack.com/pt/tripsy-alternative.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/tripsy-alternative.html"/>
+  </url>
+  <url>
+    <loc>https://camipack.com/ru/tripsy-alternative.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/tripsy-alternative.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/tripsy-alternative.html"/>
+  </url>
 </urlset>
