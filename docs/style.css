@@ -196,6 +196,61 @@ footer.site a { color: var(--ink-2); }
   .langs > summary { padding: 5px 8px; }
 }
 
+/* Header menu.
+   Below 640px the four nav links collapse behind a ☰, so the header stops
+   overflowing sideways on a phone. The links sit in a sibling .menu-panel rather
+   than inside the <details>: a browser will not reveal a closed details' children
+   whatever you set `display` to, so the details carries only the button and :has()
+   drives the panel from its open state. On desktop the panel is display:contents
+   and the links flow as nav's own flex children, exactly as they always have.
+
+   Both header menus share name="camipack-hdr" — the browser closes one when the
+   other opens. An exclusive pair with no JavaScript, the same stance as the
+   language menu above. */
+.menu-panel { display: contents; }
+header.site nav .menu { display: none; }
+
+@media (max-width: 640px) {
+  header.site { position: relative; }
+  header.site nav { gap: 10px; align-items: center; }
+
+  header.site nav .menu { display: block; }
+  .menu > summary {
+    list-style: none; cursor: pointer;
+    display: flex; flex-direction: column; gap: 4px;
+    padding: 8px 7px; border-radius: 8px;
+    border: 1px solid var(--line); background: var(--card);
+  }
+  .menu > summary::-webkit-details-marker { display: none; }
+  /* Three bars: two pseudo-elements plus the one real span, which is also the
+     hook screen readers skip past to the summary's aria-label. */
+  .menu > summary::before,
+  .menu > summary::after,
+  .menu .bars {
+    content: ""; display: block;
+    width: 15px; height: 1.7px; border-radius: 2px;
+    background: var(--ink-2);
+  }
+  .menu[open] > summary { background: var(--green-soft); border-color: var(--green); }
+  .menu[open] > summary::before,
+  .menu[open] > summary::after,
+  .menu[open] .bars { background: var(--green); }
+  .menu > summary:focus-visible { outline: 2px solid var(--green); outline-offset: 2px; }
+
+  header.site nav .menu-panel { display: none; }
+  header.site nav:has(.menu[open]) .menu-panel {
+    display: flex; flex-direction: column; gap: 1px;
+    position: absolute; left: 0; right: 0; top: calc(100% - 14px); z-index: 20;
+    padding: 6px; border-radius: 12px;
+    background: var(--card); border: 1px solid var(--line);
+    box-shadow: 0 8px 26px rgba(0,0,0,.14);
+  }
+  header.site nav .menu-panel a {
+    padding: 11px 12px; border-radius: 8px; font-size: 15px;
+  }
+  header.site nav .menu-panel a:hover { background: var(--green-soft); color: var(--ink); }
+}
+
 /* Links between the comparison pages, and from how-it-works to them. */
 .cmp-links { list-style: none; margin: 14px 0 8px; padding: 0; display: flex;
              flex-wrap: wrap; gap: 10px; }

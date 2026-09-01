@@ -3,9 +3,25 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://camipack.com/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/index.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/index.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/index.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/index.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://camipack.com/pl/index.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/index.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/index.html"/>
   </url>
   <url>
     <loc>https://camipack.com/privacy-policy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://camipack.com/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://camipack.com/de/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://camipack.com/es/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://camipack.com/fr/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://camipack.com/pl/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://camipack.com/pt/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://camipack.com/ru/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/privacy-policy.html"/>
   </url>
   <url>
     <loc>https://camipack.com/how-it-works.html</loc>
