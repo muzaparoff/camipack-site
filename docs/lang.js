@@ -20,7 +20,7 @@
   var KEY = 'camipack-lang';
 
   /* Language code -> folder under the site root. English is the root itself. */
-  var FOLDER = { en: '', de: 'de', es: 'es', fr: 'fr', pl: 'pl', pt: 'pt', ru: 'ru' };
+  var FOLDER = { en: '', de: 'de', es: 'es', fr: 'fr', pl: 'pl', pt: 'pt', ru: 'ru', uk: 'uk' };
 
   /* The pages that exist inside every language folder — all of them, now that
      index.html and privacy-policy.html are translated too. Anything not listed here
