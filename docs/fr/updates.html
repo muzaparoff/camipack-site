@@ -61,19 +61,31 @@ function esc(t) {
   return String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
-// The App Store's own "What's New", when the release carries one. Plain text:
-// blank lines separate blocks, a short ALL-CAPS first line heads a block, and
-// lines opening with a bullet are a list. Absent on older releases, which keep
-// exactly the changelog they always had.
-function summaryHTML(text) {
+
+// The App Store's own "What's New", collapsed to its first heading.
+//
+// Every release rendered its notes in full, so a page carrying 171 of them was
+// 140,000 characters of prose to scroll past to reach the one release anybody
+// came for. Each block already opens with a heading; that heading is the line
+// you see, and the rest opens on tap. The newest release opens by itself,
+// because it is the answer to the question the page is visited with.
+//
+// Plain text in: blank lines separate blocks, a short ALL-CAPS first line heads
+// a block, and lines opening with a bullet are a list. Absent on older
+// releases, which keep exactly the changelog they always had.
+function summaryHTML(text, open) {
   if (!text) { return ''; }
-  var blocks = String(text).trim().split(/\n\s*\n/).map(function (block) {
+  var headline = '';
+  var blocks = String(text).trim().split(/\n\s*\n/).map(function (block, i) {
     var lines = block.split('\n').map(function (l) { return esc(l.trim()); })
                      .filter(function (l) { return l.length; });
     if (!lines.length) { return ''; }
     var head = '';
     if (lines.length > 1 && lines[0] === lines[0].toUpperCase() && lines[0].length < 60) {
-      head = '<h4>' + lines.shift() + '</h4>';
+      head = lines.shift();
+      // The first heading is the line you see while it is closed, so printing
+      // it again inside would say the same thing twice.
+      head = (i === 0 && !headline) ? (headline = head, '') : '<h4>' + head + '</h4>';
     }
     if (lines[0] && lines[0].charAt(0) === '\u2022') {
       return head + '<ul class="plain">' + lines.map(function (l) {
@@ -82,7 +94,12 @@ function summaryHTML(text) {
     }
     return head + '<p>' + lines.join(' ') + '</p>';
   });
-  return '<div class="summary">' + blocks.join('') + '</div>';
+  // A release with no ALL-CAPS heading has nothing to collapse behind, so it
+  // stays as it was rather than growing a blank toggle.
+  if (!headline) { return '<div class="summary">' + blocks.join('') + '</div>'; }
+  return '<details class="summary"' + (open ? ' open' : '') + '>'
+       + '<summary>' + headline + '</summary>'
+       + blocks.join('') + '</details>';
 }
 
 // The App Store copy in the reader's language where this release has it.
@@ -98,7 +115,7 @@ fetch('releases.json')
   .then(function (releases) {
     var root = document.getElementById('releases');
     root.innerHTML = '';
-    releases.forEach(function (rel) {
+    releases.forEach(function (rel, index) {
       var div = document.createElement('div');
       div.className = 'release';
       var notes = rel.notes.map(function (n) {
@@ -110,7 +127,7 @@ fetch('releases.json')
       div.innerHTML =
         '<div class="ver"><h3>Version ' + rel.version + '</h3>' +
         '<time datetime="' + rel.date + '">' + rel.date + '</time></div>' +
-        summaryHTML(pick(rel)) +
+        summaryHTML(pick(rel), index === 0) +
         '<ul>' + notes + '</ul>';
       root.appendChild(div);
     });

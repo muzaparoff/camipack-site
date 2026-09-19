@@ -130,6 +130,16 @@ footer.site a { color: var(--ink-2); }
 
 /* The App Store's own "What's New", above the per-commit changelog. */
 .release .summary { margin: 0 0 1.1rem; }
+.release details.summary > summary { cursor: pointer; font-weight: 600; font-size: 15px;
+  list-style: none; display: flex; align-items: baseline; gap: 8px; }
+.release details.summary > summary::-webkit-details-marker { display: none; }
+.release details.summary > summary::before { content: "\203A"; color: var(--ink-2);
+  transition: transform .15s ease; }
+@media (prefers-reduced-motion: reduce) {
+  .release details.summary > summary::before { transition: none; }
+}
+.release details.summary[open] > summary::before { transform: rotate(90deg); }
+.release details.summary[open] > summary { margin-bottom: .7rem; }
 .release .summary h4 {
   font-size: .78rem; font-weight: 700; letter-spacing: .08em;
   text-transform: uppercase; color: var(--ink-2);
