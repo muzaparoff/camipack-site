@@ -101,6 +101,9 @@ a { color: var(--sky); }
 .card .icon { font-size: 22px; margin-bottom: 8px; }
 .card h3 { margin: 0 0 4px; font-size: 16px; }
 .card p { margin: 0; font-size: 14.5px; color: var(--ink-2); }
+.pricing .card p.price { margin: 2px 0 10px; font-size: 18px; font-weight: 800; color: var(--ink); }
+.pricing .card ul { margin: 0; padding-left: 18px; font-size: 14.5px; color: var(--ink-2); }
+.pricing .card li + li { margin-top: 6px; }
 
 .privacy-strip {
   background: var(--green-soft); border-radius: 16px;
