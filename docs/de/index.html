@@ -38,6 +38,11 @@
   "applicationCategory": "TravelApplication",
   "operatingSystem": "iOS 17.0 or later",
   "url": "https://camipack.com/de/index.html",
+  "sameAs": [
+    "https://www.youtube.com/@Camipack",
+    "https://www.instagram.com/camipackapp/",
+    "https://www.tiktok.com/@camipack"
+  ],
   "downloadUrl": "https://apps.apple.com/app/id6798912287",
   "inLanguage": ["en", "de", "es", "fr", "pt-PT", "pl", "ru"],
   "offers": [
@@ -115,11 +120,53 @@
     <div class="card"><div class="icon">✈️</div><h3>Offline-Karten</h3><p>Laden Sie die Karte einer Reise einmal (eine Stadt sind etwa 10–40 MB) und sie funktioniert im Flugmodus — Straßen, Beschriftungen, Ihre Nadeln und Routen. Kein Empfang im Ausland, kein Problem.</p></div>
     <div class="card"><div class="icon">👨‍👩‍👧</div><h3>Gemeinsam planen</h3><p>Teilen Sie eine Reise mit Ihren Mitreisenden und bearbeiten Sie sie gemeinsam — Änderungen gleichen sich binnen Augenblicken über iCloud ab, mit einem Hinweis, wer was geändert hat.</p></div>
     <div class="card"><div class="icon">🎒</div><h3>Packen, pro Person</h3><p>Eine gemeinsame Liste plus je eine für jede reisende Person. Abhaken und zusehen, wie der Packzähler der Reise steigt.</p></div>
-    <div class="card"><div class="icon">💶</div><h3>Budget in jeder Währung</h3><p>Hotel in Euro, Museum in Pfund, Flüge in Schekel — jede Ausgabe behält ihre Währung, und die Summen ergeben trotzdem Sinn.</p></div>
+    <div class="card"><div class="icon">💶</div><h3>Budget in jeder Währung</h3><p>Hotel in Euro, Museum in Pfund, Flüge in Dollar — jede Ausgabe behält ihre Währung, und die Summen ergeben trotzdem Sinn.</p></div>
     <div class="card"><div class="icon">🎟️</div><h3>Dokumente, wo Sie sie brauchen</h3><p>Tickets und Buchungen hängen am Tag, zu dem sie gehören. Mit Camipack Pro liest Camipack sie für Sie und trägt Zeiten und Adressen ein.</p></div>
     <div class="card"><div class="icon">📅</div><h3>Kalender &amp; Widget</h3><p>Legen Sie die ganze Reise mit Hinweisen in Ihren Kalender und behalten Sie den Countdown — oder die heutige Route — auf dem Startbildschirm.</p></div>
     <div class="card"><div class="icon">📦</div><h3>Immer Ihres</h3><p>Exportieren Sie jede Reise als eine einzige Datei — den vollständigen Plan mit allen Dokumenten. Sichern, senden, überall wieder importieren.</p></div>
   </div>
+
+  <section aria-labelledby="action">
+  <h2 id="action">Camipack in Aktion</h2>
+  <p class="action-intro">Je eine halbe Minute, gezeigt an einem echten Reiseplan auf dem iPhone. Videos auf Englisch.</p>
+  <div class="vids">
+    <figure class="vid">
+      <a class="tile yt" href="https://www.youtube.com/shorts/G6uP-DieYFc" data-id="G6uP-DieYFc" aria-label="Video abspielen: Offline-Karte und Fußweg"><img src="../img/v/e1.jpg" alt="" width="480" height="854" loading="lazy"><span class="play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="#fff"><path d="M6 4l15 8-15 8z"/></svg></span></a>
+      <figcaption><b>Offline-Karte und Fußweg</b><span class="tier">Kostenlos</span></figcaption>
+    </figure>
+    <figure class="vid">
+      <a class="tile yt" href="https://www.youtube.com/shorts/-lpiIJdDCGw" data-id="-lpiIJdDCGw" aria-label="Video abspielen: Die lebendige Karte"><img src="../img/v/e5.jpg" alt="" width="480" height="854" loading="lazy"><span class="play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="#fff"><path d="M6 4l15 8-15 8z"/></svg></span></a>
+      <figcaption><b>Die lebendige Karte</b><span class="tier">Kostenlos</span></figcaption>
+    </figure>
+    <figure class="vid">
+      <a class="tile yt" href="https://www.youtube.com/shorts/BHy20Cw-88I" data-id="BHy20Cw-88I" aria-label="Video abspielen: Budget aufteilen"><img src="../img/v/e2.jpg" alt="" width="480" height="854" loading="lazy"><span class="play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="#fff"><path d="M6 4l15 8-15 8z"/></svg></span></a>
+      <figcaption><b>Budget aufteilen</b><span class="tier pro">Kostenlos · Belege lesen mit Pro</span></figcaption>
+    </figure>
+    <figure class="vid">
+      <a class="tile yt" href="https://www.youtube.com/shorts/ckD5nqvBrv4" data-id="ckD5nqvBrv4" aria-label="Video abspielen: Tickets werden für Sie gelesen"><img src="../img/v/e3b.jpg" alt="" width="480" height="854" loading="lazy"><span class="play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="#fff"><path d="M6 4l15 8-15 8z"/></svg></span></a>
+      <figcaption><b>Tickets werden für Sie gelesen</b><span class="tier pro">Camipack Pro</span></figcaption>
+    </figure>
+  </div>
+  <div class="more">
+    <a href="https://www.youtube.com/@Camipack" target="_blank" rel="noopener">Mehr auf YouTube ↗</a>
+    <a class="store-badge" href="https://apps.apple.com/app/id6798912287">Im App Store laden</a>
+    <span class="pill">Kostenlos laden · iPhone</span>
+  </div>
+  <script>
+  /* Without JS each tile is a plain link to the Short. With it, the tap swaps the
+     poster for the player, so nothing loads from YouTube until someone asks. */
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a.yt'); if (!a) return;
+    e.preventDefault();
+    var f = document.createElement('iframe');
+    f.src = 'https://www.youtube-nocookie.com/embed/' + a.dataset.id + '?autoplay=1&playsinline=1&rel=0';
+    f.title = a.getAttribute('aria-label');
+    f.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+    f.allowFullscreen = true;
+    f.className = 'tile'; a.replaceWith(f);
+  });
+  </script>
+  </section>
 
   <div class="privacy-strip">
     <strong>Datenschutz ist hier keine Funktion — er ist die Architektur.</strong><br>
@@ -136,16 +183,22 @@
     Camipack hat keine Werbung, verkauft nichts über Sie und betreibt keine Server — nichts anderes bezahlt also die Entwicklung. Tickets und Belege zu lesen ist der Teil, der nie fertig wird: Jede Airline, jede Buchungsseite und jedes Geschäft gestaltet ihre Dokumente anders, und sie ändern sich ständig. Pro bezahlt diese Arbeit. Das Lesen selbst passiert auf Ihrem iPhone — Ihre Dokumente werden nie hochgeladen.
   </div>
 
-  <h2>Sehen Sie selbst</h2>
+  <h2>Screenshots</h2>
   <div class="shots">
-    <div class="phone"><img src="../img/shot-home.png" alt="Start: Ihre Reisen auf einem Jahres-Zeitstrahl mit Countdowns"></div>
-    <div class="phone"><img src="../img/shot-trip.png" alt="Eine Reise, angeführt von ihrer lebendigen Karte"></div>
-    <div class="phone"><img src="../img/shot-offline.png" alt="Die Offline-Karte zeichnet London vollständig aus einer Datei auf dem Telefon"></div>
-    <div class="phone"><img src="../img/shot-packing.png" alt="Packlisten je reisender Person"></div>
-    <div class="phone"><img src="../img/shot-budget.png" alt="Reisebudget mit Ausgaben in mehreren Währungen"></div>
+    <div class="phone"><img loading="lazy" src="../img/shot-home.png" alt="Start: Ihre Reisen auf einem Jahres-Zeitstrahl mit Countdowns"></div>
+    <div class="phone"><img loading="lazy" src="../img/shot-trip.png" alt="Eine Reise, angeführt von ihrer lebendigen Karte"></div>
+    <div class="phone"><img loading="lazy" src="../img/shot-offline.png" alt="Die Offline-Karte zeichnet London vollständig aus einer Datei auf dem Telefon"></div>
+    <div class="phone"><img loading="lazy" src="../img/shot-packing.png" alt="Packlisten je reisender Person"></div>
+    <div class="phone"><img loading="lazy" src="../img/shot-budget.png" alt="Reisebudget mit Ausgaben in mehreren Währungen"></div>
   </div>
 
   <footer class="site">
+    <nav class="social" aria-label="Camipack in sozialen Medien">
+      <span class="lbl">Camipack folgen</span>
+      <a href="https://www.youtube.com/@Camipack" target="_blank" rel="noopener me" aria-label="Camipack auf YouTube (öffnet in neuem Tab)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="M10 9.2v5.6l4.8-2.8z" fill="currentColor" stroke="none"/></svg>YouTube</a>
+      <a href="https://www.instagram.com/camipackapp/" target="_blank" rel="noopener me" aria-label="Camipack auf Instagram (öffnet in neuem Tab)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>Instagram</a>
+      <a href="https://www.tiktok.com/@camipack" target="_blank" rel="noopener me" aria-label="Camipack auf TikTok (öffnet in neuem Tab)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M13.5 3.5v11.2a3.6 3.6 0 1 1-3.6-3.6"/><path d="M13.5 3.5c.4 2.6 2.3 4.4 5 4.6"/></svg>TikTok</a>
+    </nav>
     <span>© 2026 Camipack</span>
     <a href="https://apps.apple.com/app/id6798912287">App Store</a>
     <a href="how-it-works.html">So funktioniert es</a>
