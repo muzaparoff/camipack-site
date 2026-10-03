@@ -110,6 +110,11 @@ a { color: var(--sky); }
   padding: 22px; margin: 36px 0; text-align: center;
 }
 .privacy-strip strong { color: var(--green); }
+.highlight { display: flex; gap: 16px; align-items: flex-start; margin: 36px 0; padding: 22px; }
+.highlight .icon { font-size: 30px; margin: 0; line-height: 1; }
+.highlight h2 { margin: 0 0 8px; }
+.highlight p + p { margin-top: 8px; }
+@media (max-width: 520px) { .highlight { flex-direction: column; gap: 10px; padding: 18px; } }
 
 .shots { display: flex; gap: 18px; overflow-x: auto; padding: 8px 0 16px; }
 .shots .phone { flex: none; max-width: 230px; }
