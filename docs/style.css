@@ -89,6 +89,9 @@ a { color: var(--sky); }
 .banner { margin: 8px 0 32px; }
 .banner video { display: block; width: 100%; aspect-ratio: 3840 / 1646; object-fit: cover;
   border-radius: 20px; background: #0e3b28; box-shadow: var(--shadow); }
+/* On a phone the headline in the video is ~9 px tall, and the hero above already
+   says it -- so the banner is for wide screens only. */
+@media (max-width: 720px) { .banner { display: none; } }
 
 .phone {
   border-radius: 36px; padding: 10px; background: #111;
