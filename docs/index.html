@@ -114,6 +114,21 @@
     <div class="phone"><img src="img/shot-trip.png" alt="A Camipack trip: the living map header with the route through London, and the day-by-day plan"></div>
   </section>
 
+  <!-- The App Store header loop. Muted and silent, so it may autoplay; a still
+       for anyone who asked for less motion. -->
+  <figure class="banner">
+    <video autoplay muted loop playsinline preload="metadata" poster="img/header-loop.jpg"
+           aria-label="A Camipack trip in front of the Dolomites at sunset: your whole trip, planned together">
+      <source src="img/header-loop.mp4" type="video/mp4">
+    </video>
+    <script>
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      var v = document.currentScript.previousElementSibling;
+      v.removeAttribute('autoplay'); v.pause();
+    }
+    </script>
+  </figure>
+
   <h2>Everything a trip needs</h2>
   <div class="grid">
     <div class="card"><div class="icon">🎒</div><h3>Packing, per person</h3><p>A shared list plus one for every traveller. Check things off and watch the trip's packed counter climb.</p></div>
