@@ -9,7 +9,7 @@
       "steps": [
         {
           "icon": "plus",
-          "text": "On the home screen, tap the green “+ New Trip” button."
+          "text": "On the home screen, tap + at the top right."
         },
         {
           "icon": "character.cursor.ibeam",
@@ -69,15 +69,15 @@
       "steps": [
         {
           "icon": "plus.circle.fill",
-          "text": "In a day, tap + and choose Route."
+          "text": "Open a day with two or more places and tap “Draw this day's route” under its header."
         },
         {
           "icon": "hand.tap",
-          "text": "Tap “Edit Route”, then tap the map once for every stop — the walking path appears between them."
+          "text": "Choose how you're getting around, and reverse the order if you like. The path is drawn between your stops."
         },
         {
           "icon": "checkmark",
-          "text": "Tap “Save Route”. The dashed line now shows on the day map and the trip map."
+          "text": "Tap “Keep”. The route now shows on the day map and the trip map."
         }
       ],
       "title": "Draw a walking route"
@@ -145,15 +145,15 @@
         },
         {
           "icon": "person.2",
-          "text": "The shared list opens first. Tap a name at the top to switch to that person's list."
+          "text": "Every list is on one page: Shared first, then one for each person. Tap a list's name to show only that list."
         },
         {
           "icon": "plus",
-          "text": "Tap + to add an item to whichever list is open."
+          "text": "Tap “New item” under a list to add to it."
         },
         {
           "icon": "checkmark.circle",
-          "text": "Tap an item to check it off — the trip screen shows packed/total at a glance."
+          "text": "Tap the circle next to an item to tick it off — the trip screen shows packed/total at a glance."
         }
       ],
       "title": "Packing lists"

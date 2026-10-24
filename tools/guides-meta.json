@@ -4,7 +4,7 @@
     "first-trip": {
       "featured": true, "minutes": 2, "icon": "★", "title": "Plan your first trip", "card": "Your first trip in 2 minutes", "blurb": "New Trip → a day → a place → a booking",
       "steps": {
-        "1": {"tap": {"x": 13.5, "y": 57.0, "w": 44.0, "h": 4.6, "shape": "zone"}},
+        "1": {"tap": {"x": 84.3, "y": 0.8, "w": 11.8, "h": 5.7, "shape": "ring"}},
         "2": {"tap": {"x": 73.5, "y": 2.6, "w": 22.8, "h": 6.0, "shape": "ring"}},
         "3": {"tap": {"x": 4.0, "y": 55.5, "w": 92.0, "h": 15.0, "shape": "zone"}},
         "4": {"tap": {"x": 84.3, "y": 0.8, "w": 11.8, "h": 5.7, "shape": "ring"}}
@@ -15,14 +15,14 @@
       "steps": {
         "1": {"tap": {"x": 29.5, "y": 47.5, "w": 40.8, "h": 6.9, "shape": "zone"}},
         "2": {"tap": {"x": 5.8, "y": 91.8, "w": 88.4, "h": 7.4, "shape": "zone"}},
-        "3": {"tap": {"x": 4.4, "y": 38.8, "w": 91.2, "h": 6.2, "shape": "zone"}},
-        "4": {"placeholder": "shot-flight.png"}
+        "3": {"tap": {"x": 4.4, "y": 38.8, "w": 91.2, "h": 6.2, "shape": "zone"}}
       }
     },
     "routes": {
       "minutes": 1, "icon": "🚶",
       "steps": {
-        "1": {"tap": {"x": 84.3, "y": 0.8, "w": 11.8, "h": 5.7, "shape": "ring"}}
+        "1": {"tap": {"x": 4.0, "y": 29.6, "w": 92.0, "h": 5.4, "shape": "zone"}},
+        "2": {"tap": {"x": 6.5, "y": 88.5, "w": 87.0, "h": 4.6, "shape": "zone"}}
       }
     },
     "sharing": {
@@ -37,16 +37,17 @@
       "minutes": 1, "icon": "▤",
       "steps": {
         "1": {"tap": {"x": 4.0, "y": 36.8, "w": 29.5, "h": 8.6, "shape": "zone"}},
-        "2": {"tap": {"x": 84.3, "y": 0.8, "w": 11.8, "h": 5.7, "shape": "ring"}}
+        "2": {"tap": {"x": 84.3, "y": 0.8, "w": 11.8, "h": 5.7, "shape": "ring"}},
+        "4": {"tap": {"x": 4.4, "y": 91.8, "w": 91.2, "h": 7.0, "shape": "zone"}}
       }
     },
     "packing": {
       "minutes": 1, "icon": "✓",
       "steps": {
         "1": {"tap": {"x": 35.3, "y": 36.8, "w": 29.5, "h": 8.6, "shape": "zone"}},
-        "2": {"tap": {"x": 83.4, "y": 0.6, "w": 12.8, "h": 5.9, "shape": "ring"}},
+        "2": {"tap": {"x": 6.0, "y": 7.8, "w": 23.0, "h": 4.6, "shape": "zone"}},
         "3": {"tap": {"x": 4.4, "y": 22.3, "w": 91.2, "h": 7.0, "shape": "zone"}},
-        "4": {"tap": {"x": 4.4, "y": 13.6, "w": 91.2, "h": 7.2, "shape": "zone"}}
+        "4": {"tap": {"x": 8.8, "y": 15.2, "w": 7.4, "h": 3.6, "shape": "ring"}}
       }
     },
     "budget": {
@@ -61,7 +62,6 @@
       "minutes": 2, "icon": "↓",
       "steps": {
         "1": {"tap": {"x": 84.3, "y": 0.8, "w": 11.8, "h": 5.7, "shape": "ring"}},
-        "2": {"placeholder": "shot-offline-sheet.png"},
         "3": {"placeholder": "shot-offline.png"},
         "4": {"placeholder": "shot-offline.png"},
         "5": {"placeholder": "shot-offline-sheet.png"},
@@ -75,7 +75,7 @@
         "1": {"tap": {"x": 84.3, "y": 0.8, "w": 11.8, "h": 5.7, "shape": "ring"}},
         "2": {"tap": {"x": 38.5, "y": 28.3, "w": 55.5, "h": 5.5, "shape": "zone"}},
         "3": {"tap": {"x": 6.0, "y": 56.3, "w": 88.0, "h": 15.6, "shape": "zone"}},
-        "4": {"placeholder": "shot-calendar.png"}
+        "4": {"tap": {"x": 77.5, "y": 45.6, "w": 17.0, "h": 6.0, "shape": "ring"}}
       }
     },
     "widget": {"minutes": 1, "icon": "▣", "steps": {}},
