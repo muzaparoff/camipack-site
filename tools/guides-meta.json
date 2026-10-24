@@ -1,0 +1,92 @@
+{
+  "_about": "Hand-kept extras for tools/build-guides.py. Words come from guides.json (the app's Help, exported with -exportGuides); this file only adds what the app does not know. Per guide: minutes, featured, icon, optional title/card/blurb overrides. Per step (keyed by step number): tap = the orange highlight, x/y/w/h in % of the screenshot, shape ring|zone; placeholder = an older site image standing in until the capture run replaces it (img/<slug>-<n>.png). A step with no placeholder and no capture renders without a picture.",
+  "guides": {
+    "first-trip": {
+      "featured": true, "minutes": 2, "icon": "★",
+      "title": "Plan your first trip",
+      "card": "Your first trip in 2 minutes",
+      "blurb": "New Trip → a day → a place → a booking",
+      "steps": {
+        "1": {"placeholder": "shot-home.png", "tap": {"x": 3.6, "y": 55.7, "w": 92.8, "h": 5.3, "shape": "zone"}},
+        "3": {"placeholder": "shot-trip.png", "tap": {"x": 3.6, "y": 57.7, "w": 92.8, "h": 14.9, "shape": "zone"}},
+        "4": {"placeholder": "shot-day.png", "tap": {"x": 82.2, "y": 87.5, "w": 12.8, "h": 5.9, "shape": "ring"}},
+        "5": {"placeholder": "shot-day.png", "tap": {"x": 82.2, "y": 87.5, "w": 12.8, "h": 5.9, "shape": "ring"}},
+        "6": {"placeholder": "shot-trip.png", "tap": {"x": 3.6, "y": 13.0, "w": 92.8, "h": 22.5, "shape": "zone"}}
+      }
+    },
+    "travel": {
+      "minutes": 2, "icon": "✈︎",
+      "steps": {
+        "1": {"placeholder": "shot-trip.png", "tap": {"x": 3.6, "y": 36.9, "w": 30.0, "h": 6.8, "shape": "zone"}},
+        "2": {"placeholder": "shot-day.png", "tap": {"x": 82.2, "y": 87.5, "w": 12.8, "h": 5.9, "shape": "ring"}},
+        "4": {"placeholder": "shot-flight.png"}
+      }
+    },
+    "routes": {
+      "minutes": 1, "icon": "🚶",
+      "steps": {
+        "1": {"placeholder": "shot-day.png", "tap": {"x": 82.2, "y": 87.5, "w": 12.8, "h": 5.9, "shape": "ring"}},
+        "3": {"placeholder": "shot-day.png", "tap": {"x": 4.0, "y": 20.2, "w": 92.0, "h": 21.8, "shape": "zone"}}
+      }
+    },
+    "sharing": {
+      "minutes": 1, "icon": "👥",
+      "steps": {
+        "1": {"placeholder": "shot-trip.png", "tap": {"x": 85.5, "y": 6.5, "w": 10.0, "h": 4.6, "shape": "ring"}},
+        "4": {"placeholder": "shot-sync.png"},
+        "5": {"placeholder": "shot-trip.png", "tap": {"x": 85.5, "y": 6.5, "w": 10.0, "h": 4.6, "shape": "ring"}}
+      }
+    },
+    "documents": {
+      "minutes": 1, "icon": "▤",
+      "steps": {
+        "1": {"placeholder": "shot-trip.png", "tap": {"x": 3.6, "y": 36.9, "w": 30.0, "h": 6.8, "shape": "zone"}}
+      }
+    },
+    "packing": {
+      "minutes": 1, "icon": "✓",
+      "steps": {
+        "1": {"placeholder": "shot-trip.png", "tap": {"x": 35.2, "y": 36.9, "w": 29.7, "h": 6.8, "shape": "zone"}},
+        "2": {"placeholder": "shot-packing.png"},
+        "3": {"placeholder": "shot-packing.png"},
+        "4": {"placeholder": "shot-packing.png"}
+      }
+    },
+    "budget": {
+      "minutes": 1, "icon": "€",
+      "steps": {
+        "1": {"placeholder": "shot-trip.png", "tap": {"x": 66.9, "y": 36.9, "w": 29.5, "h": 6.8, "shape": "zone"}},
+        "2": {"placeholder": "shot-budget.png"},
+        "3": {"placeholder": "shot-budget.png"}
+      }
+    },
+    "offline": {
+      "minutes": 2, "icon": "↓",
+      "steps": {
+        "1": {"placeholder": "shot-trip.png", "tap": {"x": 85.5, "y": 6.5, "w": 10.0, "h": 4.6, "shape": "ring"}},
+        "2": {"placeholder": "shot-offline-sheet.png"},
+        "3": {"placeholder": "shot-offline.png"},
+        "4": {"placeholder": "shot-offline.png"},
+        "5": {"placeholder": "shot-offline-sheet.png"},
+        "7": {"placeholder": "shot-walk.png"},
+        "8": {"placeholder": "shot-walk.png"}
+      }
+    },
+    "calendar": {
+      "minutes": 1, "icon": "▦",
+      "steps": {
+        "1": {"placeholder": "shot-trip.png", "tap": {"x": 85.5, "y": 6.5, "w": 10.0, "h": 4.6, "shape": "ring"}},
+        "3": {"placeholder": "shot-calendar.png"},
+        "4": {"placeholder": "shot-calendar.png"}
+      }
+    },
+    "widget": {"minutes": 1, "icon": "▣", "steps": {}},
+    "importexport": {
+      "minutes": 1, "icon": "⇄",
+      "steps": {
+        "2": {"placeholder": "shot-trip.png", "tap": {"x": 85.5, "y": 6.5, "w": 10.0, "h": 4.6, "shape": "ring"}}
+      }
+    },
+    "privacy": {"minutes": 1, "icon": "🔒", "steps": {}}
+  }
+}

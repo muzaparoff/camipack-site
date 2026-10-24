@@ -1,0 +1,302 @@
+{
+  "appVersion": "1.142.0",
+  "guides": [
+    {
+      "body": "A trip is a set of days; each day is a timeline of places, meals, walks, and tickets. Activities with a location show as numbered pins that match the timeline order.",
+      "id": "planning",
+      "showMe": "camipack://new-trip",
+      "slug": "first-trip",
+      "steps": [
+        {
+          "icon": "plus",
+          "text": "On the home screen, tap the green “+ New Trip” button."
+        },
+        {
+          "icon": "character.cursor.ibeam",
+          "text": "Type a destination and pick it from the suggestions, choose the dates, then tap Create. A name is optional."
+        },
+        {
+          "icon": "hand.tap",
+          "text": "Open the trip and tap any day card to plan that day."
+        },
+        {
+          "icon": "plus.circle.fill",
+          "text": "Tap the round green + and pick Place. Search for it by name, browse what's around you, or take one off your saved shelf."
+        },
+        {
+          "icon": "airplane",
+          "text": "For a flight, train, drive, bus or ferry, tap + and pick Booking. Scan the ticket or paste the email and Camipack fills in the rest; typing it by hand is there when there's nothing to scan."
+        },
+        {
+          "icon": "map",
+          "text": "Tap the big map at the top of the trip to see everything at once; each day has its own map too."
+        }
+      ],
+      "title": "Plan a trip, day by day"
+    },
+    {
+      "body": "Add how you get somewhere to any day, and Camipack keeps track of it for you. Import a ticket and it looks the flight up by itself — the airline, both airports, the terminal and whether it is running to time — so there is nothing to type. In the five hours before you leave, the flight appears on your Lock Screen with a countdown, and keeps counting to landing once you are aboard. It needs no signal: the countdown runs on the phone itself.",
+      "id": "travel",
+      "slug": "travel",
+      "steps": [
+        {
+          "icon": "doc.badge.plus",
+          "text": "Open a trip, tap Docs, then + and “Import tickets…”. Pick everybody's ticket at once — Camipack collapses the family's copies of one flight into one flight and files each person's ticket."
+        },
+        {
+          "icon": "airplane.departure",
+          "text": "Or add one by hand: in a day, tap + and choose Travel. Type the flight number and tap “Check flight”."
+        },
+        {
+          "icon": "bell",
+          "text": "You are reminded the evening before, and five hours before departure. Both can be switched off in Settings, under Notifications."
+        },
+        {
+          "icon": "lock.iphone",
+          "text": "Tap the Lock Screen card to open the flight: its status, directions to the terminal, and the ticket you filed."
+        },
+        {
+          "icon": "tram.fill",
+          "text": "Trains, buses and ferries work the same way, in their own words — a train has a platform, a ferry has a berth."
+        }
+      ],
+      "title": "Flights, trains and ferries"
+    },
+    {
+      "body": "A Route is an activity whose shape you draw yourself. Camipack snaps a real walking path between your stops and keeps it stored in the trip, so it still draws when you're offline later.",
+      "id": "routes",
+      "slug": "routes",
+      "steps": [
+        {
+          "icon": "plus.circle.fill",
+          "text": "In a day, tap + and choose Route."
+        },
+        {
+          "icon": "hand.tap",
+          "text": "Tap “Edit Route”, then tap the map once for every stop — the walking path appears between them."
+        },
+        {
+          "icon": "checkmark",
+          "text": "Tap “Save Route”. The dashed line now shows on the day map and the trip map."
+        }
+      ],
+      "title": "Draw a walking route"
+    },
+    {
+      "body": "Sharing lets two people edit the very same trip, with changes syncing through iCloud within moments. Both of you need to be signed in to iCloud. If you edit the same activity at the same moment, the later change wins.",
+      "id": "sharing",
+      "slug": "sharing",
+      "steps": [
+        {
+          "icon": "ellipsis",
+          "text": "Open the trip and tap the ⋯ button in the top-right corner."
+        },
+        {
+          "icon": "square.and.arrow.up",
+          "text": "Tap “Share” and send the invitation — Messages works best."
+        },
+        {
+          "icon": "checkmark.circle",
+          "text": "The other person taps the link and then “Join Trip”. The trip appears in their Camipack."
+        },
+        {
+          "icon": "icloud",
+          "text": "Settings on the home screen shows sync status — tap it, then iCloud Sync, for details or to pause syncing."
+        },
+        {
+          "icon": "person.crop.circle.badge.xmark",
+          "text": "To end sharing later: same ⋯ menu → “Stop Sharing”. The trip disappears from their device."
+        }
+      ],
+      "title": "Share a trip with family or friends"
+    },
+    {
+      "body": "Keep tickets, bookings, and papers inside the trip they belong to. Attach to a single activity (a museum ticket) or to the whole trip (insurance). Camipack reads attachments and fills in what it finds — a time, an address, a link — but only into fields you've left empty, and Undo puts things back.",
+      "id": "documents",
+      "slug": "documents",
+      "steps": [
+        {
+          "icon": "folder.fill",
+          "text": "Open a trip and tap “Docs” — the first of the three buttons under the map."
+        },
+        {
+          "icon": "plus",
+          "text": "Tap + and attach a PDF or photo, from Files or straight from the camera."
+        },
+        {
+          "icon": "hand.tap",
+          "text": "Tap a document once to view it full-screen. Long-press it to rename or delete."
+        },
+        {
+          "icon": "sparkles",
+          "text": "For activity tickets: open the activity, attach there — empty fields fill in automatically."
+        }
+      ],
+      "title": "Tickets & documents"
+    },
+    {
+      "body": "Every trip has one shared packing list plus a personal list for each traveller. Counts on the trip screen show how much is already packed, and shared lists sync like everything else.",
+      "id": "packing",
+      "slug": "packing",
+      "steps": [
+        {
+          "icon": "backpack.fill",
+          "text": "Open a trip and tap “Packing” — the middle of the three buttons under the map."
+        },
+        {
+          "icon": "person.2",
+          "text": "The shared list opens first. Tap a name at the top to switch to that person's list."
+        },
+        {
+          "icon": "plus",
+          "text": "Tap + to add an item to whichever list is open."
+        },
+        {
+          "icon": "checkmark.circle",
+          "text": "Tap an item to check it off — the trip screen shows packed/total at a glance."
+        }
+      ],
+      "title": "Packing lists"
+    },
+    {
+      "body": "Track what the trip costs as you plan and as you go. Each expense keeps its own currency — pay for a hotel in euros and a museum in pounds, and the totals still add up in one place.",
+      "id": "budget",
+      "slug": "budget",
+      "steps": [
+        {
+          "icon": "chart.pie.fill",
+          "text": "Open a trip and tap “Budget” — the last of the three buttons under the map."
+        },
+        {
+          "icon": "plus",
+          "text": "Tap + to add an expense with its amount and category."
+        },
+        {
+          "icon": "coloncurrencysign.circle",
+          "text": "Pick the currency right in the add screen — every expense can use a different one."
+        }
+      ],
+      "title": "Budget & expenses"
+    },
+    {
+      "body": "Download a trip's map once, and it keeps working with no internet at all — streets, labels, your pins and walking routes. The map covers everything the trip pins down, with margin around it, and is stored entirely on your phone. A city is roughly 20–40 MB.\n\nIt also shows where you are and points the way to your next stop, with no signal of any kind. Satellite positioning is receive-only, so your phone still knows its position in Airplane Mode or abroad with the data switched off — it just takes a little longer to find it the first time.",
+      "id": "offline",
+      "showMe": "camipack://offline-maps",
+      "slug": "offline",
+      "steps": [
+        {
+          "icon": "ellipsis",
+          "text": "Open the trip and tap the ⋯ button in the top-right corner."
+        },
+        {
+          "icon": "arrow.down.circle",
+          "text": "Tap “Offline Map…”, then “Download Offline Map” — best on Wi-Fi."
+        },
+        {
+          "icon": "airplane",
+          "text": "To test it: turn on Airplane Mode, then open the trip and tap the map. The offline map opens automatically."
+        },
+        {
+          "icon": "map",
+          "text": "You can also open it any time from the same sheet — “View Offline Map”."
+        },
+        {
+          "icon": "arrow.clockwise",
+          "text": "Changed the plan? “Update Map” re-downloads around the new places. “Remove Download” frees the space."
+        },
+        {
+          "icon": "internaldrive",
+          "text": "Settings › Offline maps lists every map. It can save them before each trip by itself, and removes them a week after the trip unless you keep them."
+        },
+        {
+          "icon": "location.north.fill",
+          "text": "To find your way: on the offline map, tap one day along the top. A blue dot shows where you are, and an arrow with a distance points to your next stop on that day."
+        },
+        {
+          "icon": "figure.walk",
+          "text": "The arrow is a direction and a distance, not turn-by-turn — it points straight at the place, through whatever is between. Follow the walking line drawn on the map and use the arrow to check you are still going the right way. Walk within 25 m and it moves on to the next stop by itself."
+        }
+      ],
+      "title": "Offline maps"
+    },
+    {
+      "body": "Put the trip into the calendar your family already checks: one all-day banner across the whole trip, and optionally every timed activity as its own event with an alert.",
+      "id": "calendar",
+      "slug": "calendar",
+      "steps": [
+        {
+          "icon": "ellipsis",
+          "text": "Open the trip and tap the ⋯ button in the top-right corner."
+        },
+        {
+          "icon": "calendar.badge.plus",
+          "text": "Tap “Share & Export”, then “Add to Calendar…”."
+        },
+        {
+          "icon": "switch.2",
+          "text": "Choose what to add — the whole trip, every timed item, or both — and pick the alerts."
+        },
+        {
+          "icon": "checkmark",
+          "text": "Pick the calendar and tap “Add”. Re-adding later updates the events instead of duplicating them."
+        }
+      ],
+      "title": "Add a trip to your calendar"
+    },
+    {
+      "body": "The widget shows your next trip with its photo, countdown, and — during the trip — today's route. Tapping it opens that trip directly.",
+      "id": "widget",
+      "slug": "widget",
+      "steps": [
+        {
+          "icon": "hand.tap",
+          "text": "Long-press an empty spot on your iPhone Home Screen until the apps wiggle."
+        },
+        {
+          "icon": "plus",
+          "text": "Tap Edit → “Add Widget”, then search for Camipack."
+        },
+        {
+          "icon": "square.grid.2x2",
+          "text": "Pick the small or medium size and tap “Add Widget”."
+        },
+        {
+          "icon": "arrow.up.forward.app",
+          "text": "From now on, one tap on the widget jumps straight into the trip it shows."
+        }
+      ],
+      "title": "Home Screen widget"
+    },
+    {
+      "body": "Export Trip creates a .camipack file — the whole trip with its documents, named after the trip. Send it to anyone or keep it as a backup; tapping one opens Camipack and offers to add it. An exported file is an independent copy: it does not stay in sync with the original. For live planning together, use Share Trip instead.",
+      "id": "importexport",
+      "showMe": "camipack://import",
+      "slug": "importexport",
+      "steps": [
+        {
+          "icon": "square.and.arrow.down",
+          "text": "To import: tap Settings in the top-left of the home screen, then “Import Trip…”, and pick a .camipack file."
+        },
+        {
+          "icon": "ellipsis",
+          "text": "To export: open the trip, tap ⋯ top right, then “Share & Export” and “Trip File…”."
+        }
+      ],
+      "title": "Import & export"
+    },
+    {
+      "body": "No accounts, no analytics, no servers. Your trips sync through your own iCloud account, and live on your devices and nowhere else. With iCloud off, everything still works on this device; you just lose sync between your devices and the ability to share. To turn it on: Settings → your name → iCloud, and enable iCloud for Camipack.",
+      "id": "privacy",
+      "showMe": "camipack://settings",
+      "slug": "privacy",
+      "steps": [
+        {
+          "icon": "envelope",
+          "text": "Found a bug or have an idea? Tap Settings on the home screen, then “Send Feedback” — it pre-fills an email with your version details."
+        }
+      ],
+      "title": "Privacy & iCloud"
+    }
+  ],
+  "language": "en"
+}

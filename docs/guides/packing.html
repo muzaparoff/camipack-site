@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Packing lists — Camipack guide</title>
+<meta name="description" content="Every trip has one shared packing list plus a personal list for each traveller. Counts on the trip screen show how much is already packed, and shared lists sync like everything else.">
+<link rel="icon" href="../img/app-icon.png">
+<link rel="stylesheet" href="../style.css">
+<link rel="canonical" href="https://camipack.com/guides/packing.html">
+<style>
+  [hidden] { display: none !important; }
+  :root { --tap: #f07a1a; --tap-soft: rgba(240, 122, 26, 0.16); }
+  @media (prefers-color-scheme: dark) { :root { --tap: #ff9a45; --tap-soft: rgba(255, 154, 69, 0.18); } }
+  .search { display: flex; align-items: center; gap: 10px; background: var(--card);
+    border: 1px solid var(--line); border-radius: 12px; padding: 10px 14px; margin: 22px 0 18px; }
+  .search:focus-within { border-color: var(--green); }
+  .search svg { width: 18px; height: 18px; flex: none; color: var(--ink-2); }
+  .search input { flex: 1; min-width: 0; border: 0; outline: 0; background: transparent;
+    color: var(--ink); font: inherit; font-size: 16px; }
+  .guide-card { display: block; text-decoration: none; color: inherit; }
+  .guide-card:hover h3 { color: var(--green); }
+  .guide-card:focus-visible { outline: 2px solid var(--green); outline-offset: 2px; }
+  .guide-card .meta { font-size: 13px; color: var(--ink-2); margin-top: 6px; }
+  .featured { display: flex; gap: 16px; align-items: center; padding: 22px;
+    background: var(--green-soft); box-shadow: none; margin-bottom: 14px; }
+  .featured .icon { font-size: 28px; margin: 0; color: var(--green); }
+  .featured h3 { font-size: 20px; margin: 0 0 4px; }
+  .empty { color: var(--ink-2); font-size: 15px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 18px; }
+  .chip { font-size: 13px; font-weight: 700; color: var(--ink-2); background: var(--card);
+    border: 1px solid var(--line); border-radius: 999px; padding: 4px 11px; }
+  .open-app { display: inline-block; background: var(--green); color: var(--page);
+    border-radius: 10px; padding: 10px 18px; text-decoration: none; font-weight: 700; font-size: 15px; }
+  .open-note { font-size: 13.5px; color: var(--ink-2); margin: 8px 0 0; }
+  .gsteps { list-style: none; margin: 32px 0 0; padding: 0; }
+  .gstep { display: grid; grid-template-columns: 1fr 260px; gap: 28px; align-items: start;
+    padding: 26px 0; border-top: 1px solid var(--line); }
+  .gstep.noshot { grid-template-columns: 1fr; }
+  .gstep .num { display: inline-flex; align-items: center; justify-content: center;
+    width: 30px; height: 30px; border-radius: 50%; background: var(--green-soft);
+    color: var(--green); font-size: 14px; font-weight: 800; margin-bottom: 10px; }
+  .gstep p { font-size: 17px; margin: 0; max-width: 520px; }
+  .gstep .phone { max-width: 260px; justify-self: center; }
+  .shot { position: relative; }
+  .shot img { display: block; width: 100%; border-radius: 28px; }
+  .tap { position: absolute; border: 3px solid var(--tap); pointer-events: none; }
+  .tap.ring { border-radius: 50%; box-shadow: 0 0 0 6px var(--tap-soft); }
+  .tap.zone { border-radius: 14px; background: var(--tap-soft); }
+  .pager { display: flex; justify-content: space-between; gap: 14px; flex-wrap: wrap;
+    margin: 36px 0 0; padding-top: 22px; border-top: 1px solid var(--line); }
+  .pager a { text-decoration: none; font-weight: 700; font-size: 15px; max-width: 48%; }
+  .pager .lbl { display: block; font-size: 12px; font-weight: 800; letter-spacing: .1em;
+    text-transform: uppercase; color: var(--ink-2); }
+  .pager .next { margin-left: auto; text-align: right; }
+  @media (max-width: 640px) {
+    .gstep { grid-template-columns: 1fr; gap: 16px; }
+    .gstep .phone { max-width: 240px; }
+    .pager a { max-width: 100%; }
+  }
+</style>
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Camipack">
+<meta property="og:locale" content="en_GB">
+<meta property="og:url" content="https://camipack.com/guides/packing.html">
+<meta property="og:title" content="Packing lists — Camipack guide">
+<meta property="og:description" content="Every trip has one shared packing list plus a personal list for each traveller. Counts on the trip screen show how much is already packed, and shared lists sync like everything else.">
+<meta property="og:image" content="https://camipack.com/img/shot-trip.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Packing lists — Camipack guide">
+<meta name="twitter:description" content="Every trip has one shared packing list plus a personal list for each traveller. Counts on the trip screen show how much is already packed, and shared lists sync like everything else.">
+<meta name="twitter:image" content="https://camipack.com/img/shot-trip.png">
+</head>
+<body>
+<div class="wrap">
+
+  <header class="site">
+    <a href="../index.html">
+      <img src="../img/app-icon.png" alt="Camipack">
+      <span class="name">Camipack</span>
+    </a>
+    <nav><div class="menu-panel"><a href="../how-it-works.html">How it works</a><a href="../guides/index.html">Guides</a><a href="../updates.html">What's new</a><a href="../index.html#pricing">Pricing</a><a href="../support.html">Support</a><a href="../privacy-policy.html">Privacy</a></div><details class="langs" name="camipack-hdr"><summary aria-label="Change language"><span class="fl" aria-hidden="true">🌐</span><span class="cur">English</span></summary><ul><li><span class="on" aria-current="true" lang="en"><span class="fl" aria-hidden="true">🌐</span>English</span></li><li><a href="../ru/how-it-works.html" hreflang="ru" lang="ru"><span class="fl" aria-hidden="true">🇷🇺</span>Русский</a></li><li><a href="../de/how-it-works.html" hreflang="de" lang="de"><span class="fl" aria-hidden="true">🇩🇪</span>Deutsch</a></li><li><a href="../es/how-it-works.html" hreflang="es" lang="es"><span class="fl" aria-hidden="true">🇪🇸</span>Español</a></li><li><a href="../fr/how-it-works.html" hreflang="fr" lang="fr"><span class="fl" aria-hidden="true">🇫🇷</span>Français</a></li><li><a href="../pl/how-it-works.html" hreflang="pl" lang="pl"><span class="fl" aria-hidden="true">🇵🇱</span>Polski</a></li><li><a href="../pt/how-it-works.html" hreflang="pt-PT" lang="pt-PT"><span class="fl" aria-hidden="true">🇵🇹</span>Português</a></li><li><a href="../uk/how-it-works.html" hreflang="uk" lang="uk"><span class="fl" aria-hidden="true">🇺🇦</span>Українська</a></li></ul></details><details class="menu" name="camipack-hdr"><summary aria-label="Menu"><span class="bars" aria-hidden="true"></span></summary></details></nav>
+  </header>
+  <p class="eyebrow">Guide · 4 steps · 1 min</p>
+  <h1>Packing lists</h1>
+  <div class="chips"><span class="chip">Camipack 1.142</span><span class="chip">iPhone</span><span class="chip">Updated 24 Oct 2026</span></div>
+  <p class="lede">Every trip has one shared packing list plus a personal list for each traveller. Counts on the trip screen show how much is already packed, and shared lists sync like everything else.</p>
+  <p class="badges"><a class="store-badge" href="https://apps.apple.com/app/apple-store/id6798912287?pt=128092100&amp;ct=website-guides&amp;mt=8">Download on the App Store</a></p>
+  <ol class="gsteps">
+    <li class="gstep"><div><span class="num">1</span><p>Open a trip and tap “Packing” — the middle of the three buttons under the map.</p></div>
+      <div class="phone"><div class="shot" data-placeholder="true"><img src="../img/shot-trip.png" alt="Step 1: Packing lists" loading="lazy"><span class="tap zone" aria-hidden="true" style="left:35.2%;top:36.9%;width:29.7%;height:6.8%"></span></div></div></li>
+    <li class="gstep"><div><span class="num">2</span><p>The shared list opens first. Tap a name at the top to switch to that person&#x27;s list.</p></div>
+      <div class="phone"><div class="shot" data-placeholder="true"><img src="../img/shot-packing.png" alt="Step 2: Packing lists" loading="lazy"></div></div></li>
+    <li class="gstep"><div><span class="num">3</span><p>Tap + to add an item to whichever list is open.</p></div>
+      <div class="phone"><div class="shot" data-placeholder="true"><img src="../img/shot-packing.png" alt="Step 3: Packing lists" loading="lazy"></div></div></li>
+    <li class="gstep"><div><span class="num">4</span><p>Tap an item to check it off — the trip screen shows packed/total at a glance.</p></div>
+      <div class="phone"><div class="shot" data-placeholder="true"><img src="../img/shot-packing.png" alt="Step 4: Packing lists" loading="lazy"></div></div></li>
+  </ol>
+  <nav class="pager" aria-label="More guides">
+    <a class="prev" href="documents.html"><span class="lbl">‹ Previous</span>Tickets &amp; documents</a>
+    <a class="next" href="budget.html"><span class="lbl">Next ›</span>Budget &amp; expenses</a>
+  </nav>
+  <footer class="site">
+    <nav class="social" aria-label="Camipack on social media">
+      <span class="lbl">Follow Camipack</span>
+      <a href="https://www.youtube.com/@Camipack" target="_blank" rel="noopener me" aria-label="Camipack on YouTube (opens in a new tab)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="M10 9.2v5.6l4.8-2.8z" fill="currentColor" stroke="none"/></svg>YouTube</a>
+      <a href="https://www.instagram.com/camipackapp/" target="_blank" rel="noopener me" aria-label="Camipack on Instagram (opens in a new tab)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>Instagram</a>
+      <a href="https://www.tiktok.com/@camipack" target="_blank" rel="noopener me" aria-label="Camipack on TikTok (opens in a new tab)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M13.5 3.5v11.2a3.6 3.6 0 1 1-3.6-3.6"/><path d="M13.5 3.5c.4 2.6 2.3 4.4 5 4.6"/></svg>TikTok</a>
+    </nav>
+    <span>© 2026 Camipack</span>
+    <a href="https://apps.apple.com/app/apple-store/id6798912287?pt=128092100&amp;ct=website-footer&amp;mt=8">App Store</a>
+    <a href="../index.html">Home</a>
+    <a href="../how-it-works.html">How it works</a>
+    <a href="../updates.html">Release notes</a>
+    <a href="../privacy-policy.html">Privacy policy</a>
+    <a href="../terms-of-service.html">Terms of Service</a>
+  </footer>
+</div>
+</body>
+</html>

@@ -602,4 +602,43 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://camipack.com/tripsy-alternative.html"/>
   </url>
   <url><loc>https://camipack.com/terms-of-service.html</loc></url>
+  <url>
+    <loc>https://camipack.com/guides/index.html</loc>
+  </url>
+  <url>
+    <loc>https://camipack.com/guides/first-trip.html</loc>
+  </url>
+  <url>
+    <loc>https://camipack.com/guides/travel.html</loc>
+  </url>
+  <url>
+    <loc>https://camipack.com/guides/routes.html</loc>
+  </url>
+  <url>
+    <loc>https://camipack.com/guides/sharing.html</loc>
+  </url>
+  <url>
+    <loc>https://camipack.com/guides/documents.html</loc>
+  </url>
+  <url>
+    <loc>https://camipack.com/guides/packing.html</loc>
+  </url>
+  <url>
+    <loc>https://camipack.com/guides/budget.html</loc>
+  </url>
+  <url>
+    <loc>https://camipack.com/guides/offline.html</loc>
+  </url>
+  <url>
+    <loc>https://camipack.com/guides/calendar.html</loc>
+  </url>
+  <url>
+    <loc>https://camipack.com/guides/widget.html</loc>
+  </url>
+  <url>
+    <loc>https://camipack.com/guides/importexport.html</loc>
+  </url>
+  <url>
+    <loc>https://camipack.com/guides/privacy.html</loc>
+  </url>
 </urlset>
