@@ -11,7 +11,8 @@
 <style>
   [hidden] { display: none !important; }
   :root { --tap: #f07a1a; --tap-soft: rgba(240, 122, 26, 0.16); }
-  @media (prefers-color-scheme: dark) { :root { --tap: #ff9a45; --tap-soft: rgba(255, 154, 69, 0.18); } }
+  @media (prefers-color-scheme: dark) { :root { --tap: #ff9a45; --tap-soft: rgba(255, 154, 69, 0.18); }
+    .gstep .phone { box-shadow: 0 0 0 1px var(--line), 0 16px 40px rgba(0,0,0,0.25); } }
   .search { display: flex; align-items: center; gap: 10px; background: var(--card);
     border: 1px solid var(--line); border-radius: 12px; padding: 10px 14px; margin: 22px 0 18px; }
   .search:focus-within { border-color: var(--green); }
@@ -88,13 +89,14 @@
   <p class="badges"><a class="store-badge" href="https://apps.apple.com/app/apple-store/id6798912287?pt=128092100&amp;ct=website-guides&amp;mt=8">Download on the App Store</a></p>
   <ol class="gsteps">
     <li class="gstep"><div><span class="num">1</span><p>Open the trip and tap the ⋯ button in the top-right corner.</p></div>
-      <div class="phone"><div class="shot" data-placeholder="true"><img src="../img/shot-trip.png" alt="Step 1: Share a trip with family or friends" loading="lazy"><span class="tap ring" aria-hidden="true" style="left:85.5%;top:6.5%;width:10.0%;height:4.6%"></span></div></div></li>
-    <li class="gstep noshot"><div><span class="num">2</span><p>Tap “Share” and send the invitation — Messages works best.</p></div></li>
+      <div class="phone"><div class="shot"><img src="img/sharing-1.jpg" alt="Step 1: Share a trip with family or friends" loading="lazy"><span class="tap ring" aria-hidden="true" style="left:84.3%;top:0.8%;width:11.8%;height:5.7%"></span></div></div></li>
+    <li class="gstep"><div><span class="num">2</span><p>Tap “Share” and send the invitation — Messages works best.</p></div>
+      <div class="phone"><div class="shot"><img src="img/sharing-2.jpg" alt="Step 2: Share a trip with family or friends" loading="lazy"><span class="tap ring" aria-hidden="true" style="left:57.5%;top:2.3%;width:13.0%;height:6.8%"></span></div></div></li>
     <li class="gstep noshot"><div><span class="num">3</span><p>The other person taps the link and then “Join Trip”. The trip appears in their Camipack.</p></div></li>
     <li class="gstep"><div><span class="num">4</span><p>Settings on the home screen shows sync status — tap it, then iCloud Sync, for details or to pause syncing.</p></div>
-      <div class="phone"><div class="shot" data-placeholder="true"><img src="../img/shot-sync.png" alt="Step 4: Share a trip with family or friends" loading="lazy"></div></div></li>
+      <div class="phone"><div class="shot"><img src="img/sharing-4.jpg" alt="Step 4: Share a trip with family or friends" loading="lazy"><span class="tap zone" aria-hidden="true" style="left:4.4%;top:13.8%;width:91.2%;height:6.8%"></span></div></div></li>
     <li class="gstep"><div><span class="num">5</span><p>To end sharing later: same ⋯ menu → “Stop Sharing”. The trip disappears from their device.</p></div>
-      <div class="phone"><div class="shot" data-placeholder="true"><img src="../img/shot-trip.png" alt="Step 5: Share a trip with family or friends" loading="lazy"><span class="tap ring" aria-hidden="true" style="left:85.5%;top:6.5%;width:10.0%;height:4.6%"></span></div></div></li>
+      <div class="phone"><div class="shot"><img src="img/sharing-5.jpg" alt="Step 5: Share a trip with family or friends" loading="lazy"></div></div></li>
   </ol>
   <nav class="pager" aria-label="More guides">
     <a class="prev" href="routes.html"><span class="lbl">‹ Previous</span>Draw a walking route</a>

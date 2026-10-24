@@ -11,7 +11,8 @@
 <style>
   [hidden] { display: none !important; }
   :root { --tap: #f07a1a; --tap-soft: rgba(240, 122, 26, 0.16); }
-  @media (prefers-color-scheme: dark) { :root { --tap: #ff9a45; --tap-soft: rgba(255, 154, 69, 0.18); } }
+  @media (prefers-color-scheme: dark) { :root { --tap: #ff9a45; --tap-soft: rgba(255, 154, 69, 0.18); }
+    .gstep .phone { box-shadow: 0 0 0 1px var(--line), 0 16px 40px rgba(0,0,0,0.25); } }
   .search { display: flex; align-items: center; gap: 10px; background: var(--card);
     border: 1px solid var(--line); border-radius: 12px; padding: 10px 14px; margin: 22px 0 18px; }
   .search:focus-within { border-color: var(--green); }
@@ -88,10 +89,11 @@
   <p class="badges"><a class="store-badge" href="https://apps.apple.com/app/apple-store/id6798912287?pt=128092100&amp;ct=website-guides&amp;mt=8">Download on the App Store</a></p>
   <ol class="gsteps">
     <li class="gstep"><div><span class="num">1</span><p>In a day, tap + and choose Route.</p></div>
-      <div class="phone"><div class="shot" data-placeholder="true"><img src="../img/shot-day.png" alt="Step 1: Draw a walking route" loading="lazy"><span class="tap ring" aria-hidden="true" style="left:82.2%;top:87.5%;width:12.8%;height:5.9%"></span></div></div></li>
-    <li class="gstep noshot"><div><span class="num">2</span><p>Tap “Edit Route”, then tap the map once for every stop — the walking path appears between them.</p></div></li>
+      <div class="phone"><div class="shot"><img src="img/routes-1.jpg" alt="Step 1: Draw a walking route" loading="lazy"><span class="tap ring" aria-hidden="true" style="left:84.3%;top:0.8%;width:11.8%;height:5.7%"></span></div></div></li>
+    <li class="gstep"><div><span class="num">2</span><p>Tap “Edit Route”, then tap the map once for every stop — the walking path appears between them.</p></div>
+      <div class="phone"><div class="shot"><img src="img/routes-2.jpg" alt="Step 2: Draw a walking route" loading="lazy"></div></div></li>
     <li class="gstep"><div><span class="num">3</span><p>Tap “Save Route”. The dashed line now shows on the day map and the trip map.</p></div>
-      <div class="phone"><div class="shot" data-placeholder="true"><img src="../img/shot-day.png" alt="Step 3: Draw a walking route" loading="lazy"><span class="tap zone" aria-hidden="true" style="left:4.0%;top:20.2%;width:92.0%;height:21.8%"></span></div></div></li>
+      <div class="phone"><div class="shot"><img src="img/routes-3.jpg" alt="Step 3: Draw a walking route" loading="lazy"></div></div></li>
   </ol>
   <nav class="pager" aria-label="More guides">
     <a class="prev" href="travel.html"><span class="lbl">‹ Previous</span>Flights, trains and ferries</a>

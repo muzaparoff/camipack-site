@@ -11,7 +11,8 @@
 <style>
   [hidden] { display: none !important; }
   :root { --tap: #f07a1a; --tap-soft: rgba(240, 122, 26, 0.16); }
-  @media (prefers-color-scheme: dark) { :root { --tap: #ff9a45; --tap-soft: rgba(255, 154, 69, 0.18); } }
+  @media (prefers-color-scheme: dark) { :root { --tap: #ff9a45; --tap-soft: rgba(255, 154, 69, 0.18); }
+    .gstep .phone { box-shadow: 0 0 0 1px var(--line), 0 16px 40px rgba(0,0,0,0.25); } }
   .search { display: flex; align-items: center; gap: 10px; background: var(--card);
     border: 1px solid var(--line); border-radius: 12px; padding: 10px 14px; margin: 22px 0 18px; }
   .search:focus-within { border-color: var(--green); }
@@ -97,16 +98,17 @@
   </script>
   <ol class="gsteps">
     <li class="gstep"><div><span class="num">1</span><p>On the home screen, tap the green “+ New Trip” button.</p></div>
-      <div class="phone"><div class="shot" data-placeholder="true"><img src="../img/shot-home.png" alt="Step 1: Plan a trip, day by day" loading="lazy"><span class="tap zone" aria-hidden="true" style="left:3.6%;top:55.7%;width:92.8%;height:5.3%"></span></div></div></li>
-    <li class="gstep noshot"><div><span class="num">2</span><p>Type a destination and pick it from the suggestions, choose the dates, then tap Create. A name is optional.</p></div></li>
+      <div class="phone"><div class="shot"><img src="img/first-trip-1.jpg" alt="Step 1: Plan a trip, day by day" loading="lazy"><span class="tap zone" aria-hidden="true" style="left:13.5%;top:57.0%;width:44.0%;height:4.6%"></span></div></div></li>
+    <li class="gstep"><div><span class="num">2</span><p>Type a destination and pick it from the suggestions, choose the dates, then tap Create. A name is optional.</p></div>
+      <div class="phone"><div class="shot"><img src="img/first-trip-2.jpg" alt="Step 2: Plan a trip, day by day" loading="lazy"><span class="tap ring" aria-hidden="true" style="left:73.5%;top:2.6%;width:22.8%;height:6.0%"></span></div></div></li>
     <li class="gstep"><div><span class="num">3</span><p>Open the trip and tap any day card to plan that day.</p></div>
-      <div class="phone"><div class="shot" data-placeholder="true"><img src="../img/shot-trip.png" alt="Step 3: Plan a trip, day by day" loading="lazy"><span class="tap zone" aria-hidden="true" style="left:3.6%;top:57.7%;width:92.8%;height:14.9%"></span></div></div></li>
+      <div class="phone"><div class="shot"><img src="img/first-trip-3.jpg" alt="Step 3: Plan a trip, day by day" loading="lazy"><span class="tap zone" aria-hidden="true" style="left:4.0%;top:55.5%;width:92.0%;height:15.0%"></span></div></div></li>
     <li class="gstep"><div><span class="num">4</span><p>Tap the round green + and pick Place. Search for it by name, browse what&#x27;s around you, or take one off your saved shelf.</p></div>
-      <div class="phone"><div class="shot" data-placeholder="true"><img src="../img/shot-day.png" alt="Step 4: Plan a trip, day by day" loading="lazy"><span class="tap ring" aria-hidden="true" style="left:82.2%;top:87.5%;width:12.8%;height:5.9%"></span></div></div></li>
+      <div class="phone"><div class="shot"><img src="img/first-trip-4.jpg" alt="Step 4: Plan a trip, day by day" loading="lazy"><span class="tap ring" aria-hidden="true" style="left:84.3%;top:0.8%;width:11.8%;height:5.7%"></span></div></div></li>
     <li class="gstep"><div><span class="num">5</span><p>For a flight, train, drive, bus or ferry, tap + and pick Booking. Scan the ticket or paste the email and Camipack fills in the rest; typing it by hand is there when there&#x27;s nothing to scan.</p></div>
-      <div class="phone"><div class="shot" data-placeholder="true"><img src="../img/shot-day.png" alt="Step 5: Plan a trip, day by day" loading="lazy"><span class="tap ring" aria-hidden="true" style="left:82.2%;top:87.5%;width:12.8%;height:5.9%"></span></div></div></li>
+      <div class="phone"><div class="shot"><img src="img/first-trip-5.jpg" alt="Step 5: Plan a trip, day by day" loading="lazy"></div></div></li>
     <li class="gstep"><div><span class="num">6</span><p>Tap the big map at the top of the trip to see everything at once; each day has its own map too.</p></div>
-      <div class="phone"><div class="shot" data-placeholder="true"><img src="../img/shot-trip.png" alt="Step 6: Plan a trip, day by day" loading="lazy"><span class="tap zone" aria-hidden="true" style="left:3.6%;top:13.0%;width:92.8%;height:22.5%"></span></div></div></li>
+      <div class="phone"><div class="shot"><img src="img/first-trip-6.jpg" alt="Step 6: Plan a trip, day by day" loading="lazy"></div></div></li>
   </ol>
   <nav class="pager" aria-label="More guides">
     <a class="next" href="travel.html"><span class="lbl">Next ›</span>Flights, trains and ferries</a>

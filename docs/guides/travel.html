@@ -11,7 +11,8 @@
 <style>
   [hidden] { display: none !important; }
   :root { --tap: #f07a1a; --tap-soft: rgba(240, 122, 26, 0.16); }
-  @media (prefers-color-scheme: dark) { :root { --tap: #ff9a45; --tap-soft: rgba(255, 154, 69, 0.18); } }
+  @media (prefers-color-scheme: dark) { :root { --tap: #ff9a45; --tap-soft: rgba(255, 154, 69, 0.18); }
+    .gstep .phone { box-shadow: 0 0 0 1px var(--line), 0 16px 40px rgba(0,0,0,0.25); } }
   .search { display: flex; align-items: center; gap: 10px; background: var(--card);
     border: 1px solid var(--line); border-radius: 12px; padding: 10px 14px; margin: 22px 0 18px; }
   .search:focus-within { border-color: var(--green); }
@@ -88,10 +89,11 @@
   <p class="badges"><a class="store-badge" href="https://apps.apple.com/app/apple-store/id6798912287?pt=128092100&amp;ct=website-guides&amp;mt=8">Download on the App Store</a></p>
   <ol class="gsteps">
     <li class="gstep"><div><span class="num">1</span><p>Open a trip, tap Docs, then + and “Import tickets…”. Pick everybody&#x27;s ticket at once — Camipack collapses the family&#x27;s copies of one flight into one flight and files each person&#x27;s ticket.</p></div>
-      <div class="phone"><div class="shot" data-placeholder="true"><img src="../img/shot-trip.png" alt="Step 1: Flights, trains and ferries" loading="lazy"><span class="tap zone" aria-hidden="true" style="left:3.6%;top:36.9%;width:30.0%;height:6.8%"></span></div></div></li>
+      <div class="phone"><div class="shot"><img src="img/travel-1.jpg" alt="Step 1: Flights, trains and ferries" loading="lazy"><span class="tap zone" aria-hidden="true" style="left:29.5%;top:47.5%;width:40.8%;height:6.9%"></span></div></div></li>
     <li class="gstep"><div><span class="num">2</span><p>Or add one by hand: in a day, tap + and choose Travel. Type the flight number and tap “Check flight”.</p></div>
-      <div class="phone"><div class="shot" data-placeholder="true"><img src="../img/shot-day.png" alt="Step 2: Flights, trains and ferries" loading="lazy"><span class="tap ring" aria-hidden="true" style="left:82.2%;top:87.5%;width:12.8%;height:5.9%"></span></div></div></li>
-    <li class="gstep noshot"><div><span class="num">3</span><p>You are reminded the evening before, and five hours before departure. Both can be switched off in Settings, under Notifications.</p></div></li>
+      <div class="phone"><div class="shot"><img src="img/travel-2.jpg" alt="Step 2: Flights, trains and ferries" loading="lazy"><span class="tap zone" aria-hidden="true" style="left:5.8%;top:91.8%;width:88.4%;height:7.4%"></span></div></div></li>
+    <li class="gstep"><div><span class="num">3</span><p>You are reminded the evening before, and five hours before departure. Both can be switched off in Settings, under Notifications.</p></div>
+      <div class="phone"><div class="shot"><img src="img/travel-3.jpg" alt="Step 3: Flights, trains and ferries" loading="lazy"><span class="tap zone" aria-hidden="true" style="left:4.4%;top:38.8%;width:91.2%;height:6.2%"></span></div></div></li>
     <li class="gstep"><div><span class="num">4</span><p>Tap the Lock Screen card to open the flight: its status, directions to the terminal, and the ticket you filed.</p></div>
       <div class="phone"><div class="shot" data-placeholder="true"><img src="../img/shot-flight.png" alt="Step 4: Flights, trains and ferries" loading="lazy"></div></div></li>
     <li class="gstep noshot"><div><span class="num">5</span><p>Trains, buses and ferries work the same way, in their own words — a train has a platform, a ferry has a berth.</p></div></li>

@@ -11,7 +11,8 @@
 <style>
   [hidden] { display: none !important; }
   :root { --tap: #f07a1a; --tap-soft: rgba(240, 122, 26, 0.16); }
-  @media (prefers-color-scheme: dark) { :root { --tap: #ff9a45; --tap-soft: rgba(255, 154, 69, 0.18); } }
+  @media (prefers-color-scheme: dark) { :root { --tap: #ff9a45; --tap-soft: rgba(255, 154, 69, 0.18); }
+    .gstep .phone { box-shadow: 0 0 0 1px var(--line), 0 16px 40px rgba(0,0,0,0.25); } }
   .search { display: flex; align-items: center; gap: 10px; background: var(--card);
     border: 1px solid var(--line); border-radius: 12px; padding: 10px 14px; margin: 22px 0 18px; }
   .search:focus-within { border-color: var(--green); }
@@ -88,11 +89,11 @@
   <p class="badges"><a class="store-badge" href="https://apps.apple.com/app/apple-store/id6798912287?pt=128092100&amp;ct=website-guides&amp;mt=8">Download on the App Store</a></p>
   <ol class="gsteps">
     <li class="gstep"><div><span class="num">1</span><p>Open a trip and tap “Budget” — the last of the three buttons under the map.</p></div>
-      <div class="phone"><div class="shot" data-placeholder="true"><img src="../img/shot-trip.png" alt="Step 1: Budget &amp; expenses" loading="lazy"><span class="tap zone" aria-hidden="true" style="left:66.9%;top:36.9%;width:29.5%;height:6.8%"></span></div></div></li>
+      <div class="phone"><div class="shot"><img src="img/budget-1.jpg" alt="Step 1: Budget &amp; expenses" loading="lazy"><span class="tap zone" aria-hidden="true" style="left:66.5%;top:36.8%;width:29.5%;height:8.6%"></span></div></div></li>
     <li class="gstep"><div><span class="num">2</span><p>Tap + to add an expense with its amount and category.</p></div>
-      <div class="phone"><div class="shot" data-placeholder="true"><img src="../img/shot-budget.png" alt="Step 2: Budget &amp; expenses" loading="lazy"></div></div></li>
+      <div class="phone"><div class="shot"><img src="img/budget-2.jpg" alt="Step 2: Budget &amp; expenses" loading="lazy"><span class="tap ring" aria-hidden="true" style="left:84.8%;top:1.2%;width:10.6%;height:5.0%"></span></div></div></li>
     <li class="gstep"><div><span class="num">3</span><p>Pick the currency right in the add screen — every expense can use a different one.</p></div>
-      <div class="phone"><div class="shot" data-placeholder="true"><img src="../img/shot-budget.png" alt="Step 3: Budget &amp; expenses" loading="lazy"></div></div></li>
+      <div class="phone"><div class="shot"><img src="img/budget-3.jpg" alt="Step 3: Budget &amp; expenses" loading="lazy"><span class="tap zone" aria-hidden="true" style="left:60.5%;top:16.0%;width:19.0%;height:5.0%"></span></div></div></li>
   </ol>
   <nav class="pager" aria-label="More guides">
     <a class="prev" href="packing.html"><span class="lbl">‹ Previous</span>Packing lists</a>

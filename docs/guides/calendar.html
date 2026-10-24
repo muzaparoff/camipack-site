@@ -11,7 +11,8 @@
 <style>
   [hidden] { display: none !important; }
   :root { --tap: #f07a1a; --tap-soft: rgba(240, 122, 26, 0.16); }
-  @media (prefers-color-scheme: dark) { :root { --tap: #ff9a45; --tap-soft: rgba(255, 154, 69, 0.18); } }
+  @media (prefers-color-scheme: dark) { :root { --tap: #ff9a45; --tap-soft: rgba(255, 154, 69, 0.18); }
+    .gstep .phone { box-shadow: 0 0 0 1px var(--line), 0 16px 40px rgba(0,0,0,0.25); } }
   .search { display: flex; align-items: center; gap: 10px; background: var(--card);
     border: 1px solid var(--line); border-radius: 12px; padding: 10px 14px; margin: 22px 0 18px; }
   .search:focus-within { border-color: var(--green); }
@@ -88,10 +89,11 @@
   <p class="badges"><a class="store-badge" href="https://apps.apple.com/app/apple-store/id6798912287?pt=128092100&amp;ct=website-guides&amp;mt=8">Download on the App Store</a></p>
   <ol class="gsteps">
     <li class="gstep"><div><span class="num">1</span><p>Open the trip and tap the ⋯ button in the top-right corner.</p></div>
-      <div class="phone"><div class="shot" data-placeholder="true"><img src="../img/shot-trip.png" alt="Step 1: Add a trip to your calendar" loading="lazy"><span class="tap ring" aria-hidden="true" style="left:85.5%;top:6.5%;width:10.0%;height:4.6%"></span></div></div></li>
-    <li class="gstep noshot"><div><span class="num">2</span><p>Tap “Share &amp; Export”, then “Add to Calendar…”.</p></div></li>
+      <div class="phone"><div class="shot"><img src="img/calendar-1.jpg" alt="Step 1: Add a trip to your calendar" loading="lazy"><span class="tap ring" aria-hidden="true" style="left:84.3%;top:0.8%;width:11.8%;height:5.7%"></span></div></div></li>
+    <li class="gstep"><div><span class="num">2</span><p>Tap “Share &amp; Export”, then “Add to Calendar…”.</p></div>
+      <div class="phone"><div class="shot"><img src="img/calendar-2.jpg" alt="Step 2: Add a trip to your calendar" loading="lazy"><span class="tap zone" aria-hidden="true" style="left:38.5%;top:28.3%;width:55.5%;height:5.5%"></span></div></div></li>
     <li class="gstep"><div><span class="num">3</span><p>Choose what to add — the whole trip, every timed item, or both — and pick the alerts.</p></div>
-      <div class="phone"><div class="shot" data-placeholder="true"><img src="../img/shot-calendar.png" alt="Step 3: Add a trip to your calendar" loading="lazy"></div></div></li>
+      <div class="phone"><div class="shot"><img src="img/calendar-3.jpg" alt="Step 3: Add a trip to your calendar" loading="lazy"><span class="tap zone" aria-hidden="true" style="left:6.0%;top:56.3%;width:88.0%;height:15.6%"></span></div></div></li>
     <li class="gstep"><div><span class="num">4</span><p>Pick the calendar and tap “Add”. Re-adding later updates the events instead of duplicating them.</p></div>
       <div class="phone"><div class="shot" data-placeholder="true"><img src="../img/shot-calendar.png" alt="Step 4: Add a trip to your calendar" loading="lazy"></div></div></li>
   </ol>

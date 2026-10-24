@@ -10,7 +10,7 @@ Writes docs/guides/index.html and docs/guides/<slug>.html, adds the pages to
 docs/sitemap.xml and a "Guides" item to every English page's header.
 
 Step text is the app's Help text, word for word, so the app and the site never
-disagree; nothing here rewrites it. Screenshots are docs/guides/img/<slug>-<n>.png
+disagree; nothing here rewrites it. Screenshots are docs/guides/img/<slug>-<n>.jpg
 from the capture run; until a step has one, its placeholder (an older image from
 docs/img) stands in, and the build lists every step still on one.
 
@@ -85,7 +85,8 @@ def footer(up):
 STYLE = '''<style>
   [hidden] { display: none !important; }
   :root { --tap: #f07a1a; --tap-soft: rgba(240, 122, 26, 0.16); }
-  @media (prefers-color-scheme: dark) { :root { --tap: #ff9a45; --tap-soft: rgba(255, 154, 69, 0.18); } }
+  @media (prefers-color-scheme: dark) { :root { --tap: #ff9a45; --tap-soft: rgba(255, 154, 69, 0.18); }
+    .gstep .phone { box-shadow: 0 0 0 1px var(--line), 0 16px 40px rgba(0,0,0,0.25); } }
   .search { display: flex; align-items: center; gap: 10px; background: var(--card);
     border: 1px solid var(--line); border-radius: 12px; padding: 10px 14px; margin: 22px 0 18px; }
   .search:focus-within { border-color: var(--green); }
@@ -174,7 +175,7 @@ def end(up):
 def shot_for(guide, n, meta_step, placeholders):
     """(src relative to guides/, alt-ready flag) or None. A real capture wins
     over a placeholder, so a capture run needs no edit here to take effect."""
-    captured = OUT / "img" / f"{guide['slug']}-{n}.png"
+    captured = OUT / "img" / f"{guide['slug']}-{n}.jpg"
     if captured.exists():
         return f"img/{captured.name}"
     if meta_step.get("placeholder"):

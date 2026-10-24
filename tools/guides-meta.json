@@ -1,69 +1,66 @@
 {
-  "_about": "Hand-kept extras for tools/build-guides.py. Words come from guides.json (the app's Help, exported with -exportGuides); this file only adds what the app does not know. Per guide: minutes, featured, icon, optional title/card/blurb overrides. Per step (keyed by step number): tap = the orange highlight, x/y/w/h in % of the screenshot, shape ring|zone; placeholder = an older site image standing in until the capture run replaces it (img/<slug>-<n>.png). A step with no placeholder and no capture renders without a picture.",
+  "_about": "Hand-kept extras for tools/build-guides.py. Words come from guides.json (the app's Help, exported with -exportGuides); this file only adds what the app does not know. Per guide: minutes, featured, icon, optional title/card/blurb overrides. Per step (keyed by step number): tap = the orange highlight, x/y/w/h in % of the screenshot (status bar already cropped off), shape ring|zone; placeholder = an older site image standing in until the capture run replaces it (img/<slug>-<n>.jpg). A step with no placeholder and no capture renders without a picture.",
   "guides": {
     "first-trip": {
-      "featured": true, "minutes": 2, "icon": "★",
-      "title": "Plan your first trip",
-      "card": "Your first trip in 2 minutes",
-      "blurb": "New Trip → a day → a place → a booking",
+      "featured": true, "minutes": 2, "icon": "★", "title": "Plan your first trip", "card": "Your first trip in 2 minutes", "blurb": "New Trip → a day → a place → a booking",
       "steps": {
-        "1": {"placeholder": "shot-home.png", "tap": {"x": 3.6, "y": 55.7, "w": 92.8, "h": 5.3, "shape": "zone"}},
-        "3": {"placeholder": "shot-trip.png", "tap": {"x": 3.6, "y": 57.7, "w": 92.8, "h": 14.9, "shape": "zone"}},
-        "4": {"placeholder": "shot-day.png", "tap": {"x": 82.2, "y": 87.5, "w": 12.8, "h": 5.9, "shape": "ring"}},
-        "5": {"placeholder": "shot-day.png", "tap": {"x": 82.2, "y": 87.5, "w": 12.8, "h": 5.9, "shape": "ring"}},
-        "6": {"placeholder": "shot-trip.png", "tap": {"x": 3.6, "y": 13.0, "w": 92.8, "h": 22.5, "shape": "zone"}}
+        "1": {"tap": {"x": 13.5, "y": 57.0, "w": 44.0, "h": 4.6, "shape": "zone"}},
+        "2": {"tap": {"x": 73.5, "y": 2.6, "w": 22.8, "h": 6.0, "shape": "ring"}},
+        "3": {"tap": {"x": 4.0, "y": 55.5, "w": 92.0, "h": 15.0, "shape": "zone"}},
+        "4": {"tap": {"x": 84.3, "y": 0.8, "w": 11.8, "h": 5.7, "shape": "ring"}}
       }
     },
     "travel": {
       "minutes": 2, "icon": "✈︎",
       "steps": {
-        "1": {"placeholder": "shot-trip.png", "tap": {"x": 3.6, "y": 36.9, "w": 30.0, "h": 6.8, "shape": "zone"}},
-        "2": {"placeholder": "shot-day.png", "tap": {"x": 82.2, "y": 87.5, "w": 12.8, "h": 5.9, "shape": "ring"}},
+        "1": {"tap": {"x": 29.5, "y": 47.5, "w": 40.8, "h": 6.9, "shape": "zone"}},
+        "2": {"tap": {"x": 5.8, "y": 91.8, "w": 88.4, "h": 7.4, "shape": "zone"}},
+        "3": {"tap": {"x": 4.4, "y": 38.8, "w": 91.2, "h": 6.2, "shape": "zone"}},
         "4": {"placeholder": "shot-flight.png"}
       }
     },
     "routes": {
       "minutes": 1, "icon": "🚶",
       "steps": {
-        "1": {"placeholder": "shot-day.png", "tap": {"x": 82.2, "y": 87.5, "w": 12.8, "h": 5.9, "shape": "ring"}},
-        "3": {"placeholder": "shot-day.png", "tap": {"x": 4.0, "y": 20.2, "w": 92.0, "h": 21.8, "shape": "zone"}}
+        "1": {"tap": {"x": 84.3, "y": 0.8, "w": 11.8, "h": 5.7, "shape": "ring"}}
       }
     },
     "sharing": {
       "minutes": 1, "icon": "👥",
       "steps": {
-        "1": {"placeholder": "shot-trip.png", "tap": {"x": 85.5, "y": 6.5, "w": 10.0, "h": 4.6, "shape": "ring"}},
-        "4": {"placeholder": "shot-sync.png"},
-        "5": {"placeholder": "shot-trip.png", "tap": {"x": 85.5, "y": 6.5, "w": 10.0, "h": 4.6, "shape": "ring"}}
+        "1": {"tap": {"x": 84.3, "y": 0.8, "w": 11.8, "h": 5.7, "shape": "ring"}},
+        "2": {"tap": {"x": 57.5, "y": 2.3, "w": 13.0, "h": 6.8, "shape": "ring"}},
+        "4": {"tap": {"x": 4.4, "y": 13.8, "w": 91.2, "h": 6.8, "shape": "zone"}}
       }
     },
     "documents": {
       "minutes": 1, "icon": "▤",
       "steps": {
-        "1": {"placeholder": "shot-trip.png", "tap": {"x": 3.6, "y": 36.9, "w": 30.0, "h": 6.8, "shape": "zone"}}
+        "1": {"tap": {"x": 4.0, "y": 36.8, "w": 29.5, "h": 8.6, "shape": "zone"}},
+        "2": {"tap": {"x": 84.3, "y": 0.8, "w": 11.8, "h": 5.7, "shape": "ring"}}
       }
     },
     "packing": {
       "minutes": 1, "icon": "✓",
       "steps": {
-        "1": {"placeholder": "shot-trip.png", "tap": {"x": 35.2, "y": 36.9, "w": 29.7, "h": 6.8, "shape": "zone"}},
-        "2": {"placeholder": "shot-packing.png"},
-        "3": {"placeholder": "shot-packing.png"},
-        "4": {"placeholder": "shot-packing.png"}
+        "1": {"tap": {"x": 35.3, "y": 36.8, "w": 29.5, "h": 8.6, "shape": "zone"}},
+        "2": {"tap": {"x": 83.4, "y": 0.6, "w": 12.8, "h": 5.9, "shape": "ring"}},
+        "3": {"tap": {"x": 4.4, "y": 22.3, "w": 91.2, "h": 7.0, "shape": "zone"}},
+        "4": {"tap": {"x": 4.4, "y": 13.6, "w": 91.2, "h": 7.2, "shape": "zone"}}
       }
     },
     "budget": {
       "minutes": 1, "icon": "€",
       "steps": {
-        "1": {"placeholder": "shot-trip.png", "tap": {"x": 66.9, "y": 36.9, "w": 29.5, "h": 6.8, "shape": "zone"}},
-        "2": {"placeholder": "shot-budget.png"},
-        "3": {"placeholder": "shot-budget.png"}
+        "1": {"tap": {"x": 66.5, "y": 36.8, "w": 29.5, "h": 8.6, "shape": "zone"}},
+        "2": {"tap": {"x": 84.8, "y": 1.2, "w": 10.6, "h": 5.0, "shape": "ring"}},
+        "3": {"tap": {"x": 60.5, "y": 16.0, "w": 19.0, "h": 5.0, "shape": "zone"}}
       }
     },
     "offline": {
       "minutes": 2, "icon": "↓",
       "steps": {
-        "1": {"placeholder": "shot-trip.png", "tap": {"x": 85.5, "y": 6.5, "w": 10.0, "h": 4.6, "shape": "ring"}},
+        "1": {"tap": {"x": 84.3, "y": 0.8, "w": 11.8, "h": 5.7, "shape": "ring"}},
         "2": {"placeholder": "shot-offline-sheet.png"},
         "3": {"placeholder": "shot-offline.png"},
         "4": {"placeholder": "shot-offline.png"},
@@ -75,8 +72,9 @@
     "calendar": {
       "minutes": 1, "icon": "▦",
       "steps": {
-        "1": {"placeholder": "shot-trip.png", "tap": {"x": 85.5, "y": 6.5, "w": 10.0, "h": 4.6, "shape": "ring"}},
-        "3": {"placeholder": "shot-calendar.png"},
+        "1": {"tap": {"x": 84.3, "y": 0.8, "w": 11.8, "h": 5.7, "shape": "ring"}},
+        "2": {"tap": {"x": 38.5, "y": 28.3, "w": 55.5, "h": 5.5, "shape": "zone"}},
+        "3": {"tap": {"x": 6.0, "y": 56.3, "w": 88.0, "h": 15.6, "shape": "zone"}},
         "4": {"placeholder": "shot-calendar.png"}
       }
     },
@@ -84,7 +82,8 @@
     "importexport": {
       "minutes": 1, "icon": "⇄",
       "steps": {
-        "2": {"placeholder": "shot-trip.png", "tap": {"x": 85.5, "y": 6.5, "w": 10.0, "h": 4.6, "shape": "ring"}}
+        "1": {"tap": {"x": 4.4, "y": 77.5, "w": 91.2, "h": 6.4, "shape": "zone"}},
+        "2": {"tap": {"x": 38.3, "y": 38.8, "w": 55.5, "h": 5.4, "shape": "zone"}}
       }
     },
     "privacy": {"minutes": 1, "icon": "🔒", "steps": {}}
