@@ -245,6 +245,16 @@ def guide_page(guide, meta, prev, nxt, version, updated, placeholders):
     return "\n".join(x for x in out if x != "") + end("../")
 
 
+# Hand-written pages that aren't in the app's Help export: the build keeps
+# them in the index and sitemap instead of wiping them on the next run.
+EXTRA = [
+    ("ai-claude", "Use Camipack with Claude", "6 steps · 3 min",
+     "use camipack with claude ai assistant anthropic connector code share trip changes undo day plan notifications disconnect delete"),
+    ("ai-chatgpt", "Use Camipack with ChatGPT (computer)", "7 steps · 4 min",
+     "use camipack with chatgpt computer openai ai assistant plugin mcp code disconnect"),
+]
+
+
 def index_page(guides, metas):
     out = [head("Guides — Camipack", "Step-by-step guides for Camipack, with a screenshot for every tap: "
                 "planning a trip, flights, routes, sharing, packing, budget, offline maps and more.",
@@ -280,6 +290,12 @@ def index_page(guides, metas):
       <div class="icon" aria-hidden="true">{m.get('icon', '')}</div>
       <h3>{e(m.get('card', g['title']))}</h3>
       <p class="meta">{meta_line(g, m)}</p>
+    </a>''')
+    for slug, title, meta, words in EXTRA:
+        out.append(f'''    <a class="card guide-card" href="{slug}.html" data-q="{e(words)}">
+      <div class="icon" aria-hidden="true">✦</div>
+      <h3>{e(title)}</h3>
+      <p class="meta">{meta}</p>
     </a>''')
     out.append("  </div>")
     out.append('  <p class="empty" id="none" hidden>No guide matches that. Try fewer words, or '
@@ -354,7 +370,7 @@ def main():
         (OUT / f"{g['slug']}.html").write_text(
             guide_page(g, metas[g["slug"]], prev, nxt, version, args.updated, placeholders))
     (OUT / "index.html").write_text(index_page(guides, metas))
-    update_sitemap([g["slug"] for g in guides])
+    update_sitemap([g["slug"] for g in guides] + [x[0] for x in EXTRA])
     add_nav_item()
 
     print(f"wrote {len(guides)} guides + index to {OUT.relative_to(ROOT)}")

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Support — Camipack</title>
-<meta name="description" content="Answers to the common questions about planning trips, offline maps, sharing and iCloud sync in Camipack.">
+<meta name="description" content="Answers to the common questions about planning trips, offline maps, sharing, iCloud sync and AI assistants in Camipack.">
 <link rel="icon" href="img/app-icon.png">
 <link rel="stylesheet" href="style.css">
 <link rel="canonical" href="https://camipack.com/support.html">
@@ -23,11 +23,11 @@
 <meta property="og:locale" content="en_GB">
 <meta property="og:url" content="https://camipack.com/support.html">
 <meta property="og:title" content="Support — Camipack">
-<meta property="og:description" content="Answers to the common questions about planning trips, offline maps, sharing and iCloud sync in Camipack.">
+<meta property="og:description" content="Answers to the common questions about planning trips, offline maps, sharing, iCloud sync and AI assistants in Camipack.">
 <meta property="og:image" content="https://camipack.com/img/shot-trip.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Support — Camipack">
-<meta name="twitter:description" content="Answers to the common questions about planning trips, offline maps, sharing and iCloud sync in Camipack.">
+<meta name="twitter:description" content="Answers to the common questions about planning trips, offline maps, sharing, iCloud sync and AI assistants in Camipack.">
 <meta name="twitter:image" content="https://camipack.com/img/shot-trip.png">
 <script type="application/ld+json">
 {
@@ -95,7 +95,71 @@
       "name": "Where is my data stored? Do you have access to it?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "On your iPhone and in your own iCloud. We have no servers and no access — see the privacy policy."
+        "text": "On your iPhone and in your own iCloud. There is no account, and we have no access to your iCloud. The one exception is optional: if you connect an AI assistant to a trip, a summary of that trip is kept on Camipack's server so the assistant can read it — see AI assistants in the privacy policy."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Claude: the code is expired or wrong",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A code works once and only for 10 minutes. In Camipack, tap New code and type the new one in Claude. Codes are 8 characters; check you haven't swapped similar-looking letters and digits."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Claude doesn’t show Camipack",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Add Camipack as a custom connector in Claude first (on claude.ai or Claude Desktop) — see Use Camipack with Claude. Then, in a chat, open + → Connectors and make sure Camipack is switched on."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Claude says it can’t see the trip",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In Camipack, open the trip → Share → Claude and make sure sharing with Claude is switched on. Then open Camipack once while you are online, so it can upload the latest version of the trip."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Claude’s changes aren’t appearing",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Open Camipack. Changes are picked up when the app is open and online; they then appear straight away, with Undo. Day plans Claude proposes stay as drafts until you accept them."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "I don’t get a notification when Claude changes my trip",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Check iOS Settings → Notifications → Camipack and make sure notifications are allowed. Notifications only come for trips shared with an assistant."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I disconnect an assistant or delete my data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In Camipack: Settings → AI Assistants → Disconnect. To delete everything Camipack keeps on its server at once, tap Delete everything on Camipack's server on the same screen. Deleting the app alone does not delete the server copy — use that button first, or email privacy@camipack.com. You can also remove Camipack from the assistant's own connector settings."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What can Claude see?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Only the trips you share with it, and only a summary: dates, places, times, areas, opening hours, travel and stay details, document titles, and notes with names, phone numbers, emails, links and codes removed. Traveller names, street addresses, day notes, budget and packing are sent only if you switch them on. Map coordinates, booking codes, files and phone numbers are never sent. The full list is in the privacy policy."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use ChatGPT instead?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "On a computer, yes: ChatGPT can connect as a plugin at chatgpt.com, depending on your ChatGPT plan. It doesn't work in the ChatGPT phone app. See Use Camipack with ChatGPT (computer)."
       }
     }
   ]
@@ -115,7 +179,7 @@
 
   <p class="eyebrow">Support</p>
   <h1>How can we help?</h1>
-  <p class="lede">The fastest answers are below. For anything else, email <a href="mailto:muzyukins@gmail.com">muzyukins@gmail.com</a> or <a href="https://github.com/muzaparoff/camipack-site/issues">open a GitHub issue</a> — we read both.</p>
+  <p class="lede">The fastest answers are below. For anything else, email <a href="mailto:support@camipack.com">support@camipack.com</a> or <a href="https://github.com/muzaparoff/camipack-site/issues">open a GitHub issue</a> — we read both. Privacy questions and data requests: <a href="mailto:privacy@camipack.com">privacy@camipack.com</a>.</p>
 
   <h2>Frequently asked</h2>
 
@@ -141,10 +205,36 @@
   <p>Camipack is in English, Spanish, Portuguese and Russian. iOS lets you set the language for one app without changing your phone: <em>iOS Settings → Camipack → Language</em>. The app also links there from its own settings.</p>
 
   <h3>Where is my data stored? Do you have access to it?</h3>
-  <p>On your iPhone and in your own iCloud. We have no servers and no access — see the <a href="privacy-policy.html">privacy policy</a>.</p>
+  <p>On your iPhone and in your own iCloud. There is no account, and we have no access to your iCloud. The one exception is optional: if you connect an AI assistant to a trip, a summary of that trip is kept on Camipack&#x27;s server so the assistant can read it — see <a href="privacy-policy.html#ai">AI assistants in the privacy policy</a>.</p>
+
+  <h2 id="ai">AI assistants</h2>
+
+  <h3>Claude: the code is expired or wrong</h3>
+  <p>A code works once and only for 10 minutes. In Camipack, tap <strong>New code</strong> and type the new one in Claude. Codes are 8 characters; check you haven&#x27;t swapped similar-looking letters and digits.</p>
+
+  <h3>Claude doesn’t show Camipack</h3>
+  <p>Add Camipack as a custom connector in Claude first (on claude.ai or Claude Desktop) — see <a href="guides/ai-claude.html">Use Camipack with Claude</a>. Then, in a chat, open <strong>+</strong> → <strong>Connectors</strong> and make sure Camipack is switched on.</p>
+
+  <h3>Claude says it can’t see the trip</h3>
+  <p>In Camipack, open the trip → <strong>Share</strong> → <strong>Claude</strong> and make sure sharing with Claude is switched on. Then open Camipack once while you are online, so it can upload the latest version of the trip.</p>
+
+  <h3>Claude’s changes aren’t appearing</h3>
+  <p>Open Camipack. Changes are picked up when the app is open and online; they then appear straight away, with <strong>Undo</strong>. Day plans Claude proposes stay as drafts until you accept them.</p>
+
+  <h3>I don’t get a notification when Claude changes my trip</h3>
+  <p>Check <em>iOS Settings → Notifications → Camipack</em> and make sure notifications are allowed. Notifications only come for trips shared with an assistant.</p>
+
+  <h3>How do I disconnect an assistant or delete my data?</h3>
+  <p>In Camipack: <strong>Settings → AI Assistants → Disconnect</strong>. To delete everything Camipack keeps on its server at once, tap <strong>Delete everything on Camipack&#x27;s server</strong> on the same screen. Deleting the app alone does not delete the server copy — use that button first, or email <a href="mailto:privacy@camipack.com">privacy@camipack.com</a>. You can also remove Camipack from the assistant&#x27;s own connector settings.</p>
+
+  <h3>What can Claude see?</h3>
+  <p>Only the trips you share with it, and only a summary: dates, places, times, areas, opening hours, travel and stay details, document titles, and notes with names, phone numbers, emails, links and codes removed. Traveller names, street addresses, day notes, budget and packing are sent only if you switch them on. Map coordinates, booking codes, files and phone numbers are never sent. The full list is in the <a href="privacy-policy.html#ai">privacy policy</a>.</p>
+
+  <h3>Can I use ChatGPT instead?</h3>
+  <p>On a computer, yes: ChatGPT can connect as a plugin at chatgpt.com, depending on your ChatGPT plan. It doesn&#x27;t work in the ChatGPT phone app. See <a href="guides/ai-chatgpt.html">Use Camipack with ChatGPT (computer)</a>.</p>
 
   <h2>Report a problem</h2>
-  <p>Email <a href="mailto:muzyukins@gmail.com">muzyukins@gmail.com</a> with what you did, what you expected, and what happened instead — a screenshot helps enormously.</p>
+  <p>Email <a href="mailto:support@camipack.com">support@camipack.com</a> with what you did, what you expected, and what happened instead — a screenshot helps enormously. For privacy questions or to have your data deleted, email <a href="mailto:privacy@camipack.com">privacy@camipack.com</a>.</p>
 
   <footer class="site">
     <nav class="social" aria-label="Camipack on social media">
