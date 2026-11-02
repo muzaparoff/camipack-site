@@ -324,3 +324,6 @@ header.site nav .menu { display: none; }
 .cmp-links a { display: inline-block; background: var(--card); border: 1px solid var(--line);
                border-radius: 10px; padding: 9px 15px; text-decoration: none;
                font-weight: 600; font-size: 15px; }
+.ai-steps { margin: 10px 0; padding-left: 22px; font-size: 15px; }
+.ai-steps li + li { margin-top: 4px; }
+.highlight .fine { font-size: 13.5px; color: var(--ink-2); }
