@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Підтримка — Camipack</title>
-<meta name="description" content="Відповіді на часті запитання про планування подорожей, офлайн-карти, спільний доступ і синхронізацію через iCloud у Camipack.">
+<meta name="description" content="Відповіді на часті запитання про планування подорожей, офлайн-карти, спільний доступ, синхронізацію через iCloud і ШІ-асистентів у Camipack.">
 <link rel="icon" href="../img/app-icon.png">
 <link rel="stylesheet" href="../style.css">
 <link rel="canonical" href="https://camipack.com/uk/support.html">
@@ -23,11 +23,11 @@
 <meta property="og:locale" content="ru_RU">
 <meta property="og:url" content="https://camipack.com/uk/support.html">
 <meta property="og:title" content="Підтримка — Camipack">
-<meta property="og:description" content="Відповіді на часті запитання про планування подорожей, офлайн-карти, спільний доступ і синхронізацію через iCloud у Camipack.">
+<meta property="og:description" content="Відповіді на часті запитання про планування подорожей, офлайн-карти, спільний доступ, синхронізацію через iCloud і ШІ-асистентів у Camipack.">
 <meta property="og:image" content="https://camipack.com/img/shot-trip.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Підтримка — Camipack">
-<meta name="twitter:description" content="Відповіді на часті запитання про планування подорожей, офлайн-карти, спільний доступ і синхронізацію через iCloud у Camipack.">
+<meta name="twitter:description" content="Відповіді на часті запитання про планування подорожей, офлайн-карти, спільний доступ, синхронізацію через iCloud і ШІ-асистентів у Camipack.">
 <meta name="twitter:image" content="https://camipack.com/img/shot-trip.png">
 <script type="application/ld+json">
 {
@@ -87,7 +87,7 @@
       "name": "Чи є Camipack моєю мовою?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Camipack є українською, англійською, німецькою, іспанською, французькою, польською, португальською та російською. iOS дозволяє задати мову для одного застосунку, не змінюючи мову телефона: «Налаштування» iOS → Camipack → «Мова». Застосунок і сам веде туди зі своїх налаштувань."
+        "text": "Camipack доступний англійською, німецькою, французькою, італійською, нідерландською, польською, іспанською, португальською, російською та українською. iOS дозволяє задати мову для одного застосунку, не змінюючи мову телефона: «Налаштування» iOS → Camipack → «Мова». Застосунок і сам веде туди зі своїх налаштувань."
       }
     },
     {
@@ -95,7 +95,71 @@
       "name": "Де зберігаються мої дані? Чи маєте ви до них доступ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "На вашому iPhone і у вашому власному iCloud. У нас немає ані серверів, ані доступу — дивіться політику приватності."
+        "text": "На вашому iPhone і у вашому власному iCloud. Акаунта немає, і доступу до вашого iCloud ми не маємо. Єдиний виняток — за бажанням: якщо ви підключите до подорожі ШІ-асистента, короткий підсумок цієї подорожі зберігається на сервері Camipack, щоб асистент міг його читати, — див. розділ про ШІ-асистентів у політиці приватності."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Claude: код прострочений або неправильний",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Код працює один раз і лише 10 хвилин. У Camipack натисніть «Новий код» і введіть новий код у Claude. Код складається з 8 символів; перевірте, чи не переплутали ви схожі літери й цифри."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Claude не показує Camipack",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Спершу додайте Camipack у Claude як власний конектор (на claude.ai або в Claude Desktop) — див. інструкцію Use Camipack with Claude (англійською). Потім у чаті відкрийте + → Connectors і переконайтеся, що Camipack увімкнено."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Claude каже, що не бачить подорож",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "У Camipack відкрийте подорож → «Поділитися» → Claude і переконайтеся, що доступ для Claude увімкнено. Потім відкрийте Camipack, коли будете онлайн, щоб застосунок завантажив останню версію подорожі."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Зміни від Claude не зʼявляються",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Відкрийте Camipack. Зміни підхоплюються, коли застосунок відкритий і є інтернет; тоді вони одразу зʼявляються з можливістю скасувати. Плани днів, запропоновані Claude, залишаються чернетками, доки ви їх не приймете."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Не надходить сповіщення, коли Claude змінює подорож",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Відкрийте «Налаштування» iOS → Сповіщення → Camipack і переконайтеся, що сповіщення дозволено. Сповіщення надходять лише щодо подорожей, якими ви поділилися з асистентом."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Як відʼєднати асистента або видалити мої дані?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "У Camipack: Налаштування → ШІ-асистенти → Відключити. Щоб одразу видалити все, що Camipack зберігає на своєму сервері, натисніть «Видалити все на сервері Camipack» на тому самому екрані. Видалення лише застосунку не видаляє копію на сервері — спершу натисніть цю кнопку або напишіть на privacy@camipack.com. Також можна видалити Camipack у налаштуваннях конекторів самого асистента."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Що бачить Claude?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Лише подорожі, якими ви з ним поділилися, і лише їхній короткий підсумок: дати, місця, час, райони, години роботи, відомості про переїзди та проживання, назви документів і нотатки, з яких видалено імена, номери телефонів, адреси пошти, посилання та коди. Імена мандрівників, адреси, нотатки до днів, бюджет і список речей передаються, лише якщо ви це ввімкнете. Координати на карті, коди бронювання, файли та номери телефонів не передаються ніколи. Повний перелік — у політиці приватності."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Чи можна замість нього використовувати ChatGPT?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "На компʼютері — так: ChatGPT можна підключити як плагін на chatgpt.com, залежно від вашого варіанта ChatGPT. У мобільному застосунку ChatGPT це не працює. Див. інструкцію Use Camipack with ChatGPT (computer) (англійською)."
       }
     }
   ]
@@ -113,10 +177,9 @@
     <nav><div class="menu-panel"><a href="how-it-works.html">Як це працює</a><a href="updates.html">Що нового</a><a href="index.html#pricing">Ціни</a><a href="privacy-policy.html">Приватність</a></div><details class="langs" name="camipack-hdr"><summary aria-label="Змінити мову"><span class="fl" aria-hidden="true">🇺🇦</span><span class="cur">Українська</span></summary><ul><li><a href="../support.html" hreflang="en" lang="en"><span class="fl" aria-hidden="true">🌐</span>English</a></li><li><a href="../ru/support.html" hreflang="ru" lang="ru"><span class="fl" aria-hidden="true">🇷🇺</span>Русский</a></li><li><a href="../de/support.html" hreflang="de" lang="de"><span class="fl" aria-hidden="true">🇩🇪</span>Deutsch</a></li><li><a href="../es/support.html" hreflang="es" lang="es"><span class="fl" aria-hidden="true">🇪🇸</span>Español</a></li><li><a href="../fr/support.html" hreflang="fr" lang="fr"><span class="fl" aria-hidden="true">🇫🇷</span>Français</a></li><li><a href="../pl/support.html" hreflang="pl" lang="pl"><span class="fl" aria-hidden="true">🇵🇱</span>Polski</a></li><li><a href="../pt/support.html" hreflang="pt-PT" lang="pt-PT"><span class="fl" aria-hidden="true">🇵🇹</span>Português</a></li><li><span class="on" aria-current="true" lang="uk"><span class="fl" aria-hidden="true">🇺🇦</span>Українська</span></li></ul></details><details class="menu" name="camipack-hdr"><summary aria-label="Меню"><span class="bars" aria-hidden="true"></span></summary></details></nav>
   </header>
 
-  <p lang="en"><strong>This translation is out of date; the English version applies:</strong> <a href="../support.html">https://camipack.com/support.html</a></p>
   <p class="eyebrow">Підтримка</p>
   <h1>Чим допомогти?</h1>
-  <p class="lede">Швидкі відповіді — нижче. З усім іншим напишіть на <a href="mailto:muzyukins@gmail.com">muzyukins@gmail.com</a> або <a href="https://github.com/muzaparoff/camipack-site/issues">створіть issue на GitHub</a> — ми читаємо і те, і те.</p>
+  <p class="lede">Швидкі відповіді — нижче. З усім іншим напишіть на <a href="mailto:support@camipack.com">support@camipack.com</a> або <a href="https://github.com/muzaparoff/camipack-site/issues">створіть issue на GitHub</a> — ми читаємо і те, і те. Питання щодо приватності та запити щодо даних: <a href="mailto:privacy@camipack.com">privacy@camipack.com</a>.</p>
 
   <h2>Часті запитання</h2>
 
@@ -139,13 +202,39 @@
   <p>Так — відкрийте подорож → <strong>⋯</strong> → <strong>«Експортувати подорож»</strong>. Вийде один файл <code>.camipack</code> з усім планом і документами. Якщо торкнутися такого файлу на будь-якому iPhone з Camipack, він запропонує його імпортувати. Зверніть увагу: експортований файл — самостійна копія. Щоб планувати разом у реальному часі, використовуйте «Поділитися подорожжю».</p>
 
   <h3>Чи є Camipack моєю мовою?</h3>
-  <p>Camipack є українською, англійською, німецькою, іспанською, французькою, польською, португальською та російською. iOS дозволяє задати мову для одного застосунку, не змінюючи мову телефона: <em>«Налаштування» iOS → Camipack → «Мова»</em>. Застосунок і сам веде туди зі своїх налаштувань.</p>
+  <p>Camipack доступний англійською, німецькою, французькою, італійською, нідерландською, польською, іспанською, португальською, російською та українською. iOS дозволяє задати мову для одного застосунку, не змінюючи мову телефона: <em>«Налаштування» iOS → Camipack → «Мова»</em>. Застосунок і сам веде туди зі своїх налаштувань.</p>
 
   <h3>Де зберігаються мої дані? Чи маєте ви до них доступ?</h3>
-  <p>На вашому iPhone і у вашому власному iCloud. У нас немає ані серверів, ані доступу — дивіться <a href="privacy-policy.html">політику приватності</a>.</p>
+  <p>На вашому iPhone і у вашому власному iCloud. Акаунта немає, і доступу до вашого iCloud ми не маємо. Єдиний виняток — за бажанням: якщо ви підключите до подорожі ШІ-асистента, короткий підсумок цієї подорожі зберігається на сервері Camipack, щоб асистент міг його читати, — див. <a href="privacy-policy.html#ai">розділ про ШІ-асистентів у політиці приватності</a>.</p>
+
+  <h2 id="ai">ШІ-асистенти</h2>
+
+  <h3>Claude: код прострочений або неправильний</h3>
+  <p>Код працює один раз і лише 10 хвилин. У Camipack натисніть <strong>«Новий код»</strong> і введіть новий код у Claude. Код складається з 8 символів; перевірте, чи не переплутали ви схожі літери й цифри.</p>
+
+  <h3>Claude не показує Camipack</h3>
+  <p>Спершу додайте Camipack у Claude як власний конектор (на claude.ai або в Claude Desktop) — див. інструкцію <a href="../guides/ai-claude.html">Use Camipack with Claude</a> (англійською). Потім у чаті відкрийте <strong>+</strong> → <strong>Connectors</strong> і переконайтеся, що Camipack увімкнено.</p>
+
+  <h3>Claude каже, що не бачить подорож</h3>
+  <p>У Camipack відкрийте подорож → <strong>«Поділитися»</strong> → <strong>Claude</strong> і переконайтеся, що доступ для Claude увімкнено. Потім відкрийте Camipack, коли будете онлайн, щоб застосунок завантажив останню версію подорожі.</p>
+
+  <h3>Зміни від Claude не зʼявляються</h3>
+  <p>Відкрийте Camipack. Зміни підхоплюються, коли застосунок відкритий і є інтернет; тоді вони одразу зʼявляються з можливістю <strong>скасувати</strong>. Плани днів, запропоновані Claude, залишаються чернетками, доки ви їх не приймете.</p>
+
+  <h3>Не надходить сповіщення, коли Claude змінює подорож</h3>
+  <p>Відкрийте <em>«Налаштування» iOS → Сповіщення → Camipack</em> і переконайтеся, що сповіщення дозволено. Сповіщення надходять лише щодо подорожей, якими ви поділилися з асистентом.</p>
+
+  <h3>Як відʼєднати асистента або видалити мої дані?</h3>
+  <p>У Camipack: <strong>Налаштування → ШІ-асистенти → Відключити</strong>. Щоб одразу видалити все, що Camipack зберігає на своєму сервері, натисніть <strong>«Видалити все на сервері Camipack»</strong> на тому самому екрані. Видалення лише застосунку не видаляє копію на сервері — спершу натисніть цю кнопку або напишіть на <a href="mailto:privacy@camipack.com">privacy@camipack.com</a>. Також можна видалити Camipack у налаштуваннях конекторів самого асистента.</p>
+
+  <h3>Що бачить Claude?</h3>
+  <p>Лише подорожі, якими ви з ним поділилися, і лише їхній короткий підсумок: дати, місця, час, райони, години роботи, відомості про переїзди та проживання, назви документів і нотатки, з яких видалено імена, номери телефонів, адреси пошти, посилання та коди. Імена мандрівників, адреси, нотатки до днів, бюджет і список речей передаються, лише якщо ви це ввімкнете. Координати на карті, коди бронювання, файли та номери телефонів не передаються ніколи. Повний перелік — у <a href="privacy-policy.html#ai">політиці приватності</a>.</p>
+
+  <h3>Чи можна замість нього використовувати ChatGPT?</h3>
+  <p>На компʼютері — так: ChatGPT можна підключити як плагін на chatgpt.com, залежно від вашого варіанта ChatGPT. У мобільному застосунку ChatGPT це не працює. Див. інструкцію <a href="../guides/ai-chatgpt.html">Use Camipack with ChatGPT (computer)</a> (англійською).</p>
 
   <h2>Повідомити про проблему</h2>
-  <p>Напишіть на <a href="mailto:muzyukins@gmail.com">muzyukins@gmail.com</a>: що ви зробабо, чого очікували і що сталося натомість. Знімок екрана допомагає неймовірно.</p>
+  <p>Напишіть на <a href="mailto:support@camipack.com">support@camipack.com</a>: що ви зробили, чого очікували і що сталося натомість. Знімок екрана допомагає неймовірно. З питань приватності або щоб видалити ваші дані, пишіть на <a href="mailto:privacy@camipack.com">privacy@camipack.com</a>.</p>
 
   <footer class="site">
     <nav class="social" aria-label="Camipack у соцмережах">

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Soporte — Camipack</title>
-<meta name="description" content="Respuestas a las dudas más comunes sobre planificar viajes, mapas sin conexión, compartir y la sincronización con iCloud en Camipack.">
+<meta name="description" content="Respuestas a las preguntas frecuentes sobre planificar viajes, mapas sin conexión, compartir, la sincronización con iCloud y los asistentes de IA en Camipack.">
 <link rel="icon" href="../img/app-icon.png">
 <link rel="stylesheet" href="../style.css">
 <link rel="canonical" href="https://camipack.com/es/support.html">
@@ -23,11 +23,11 @@
 <meta property="og:locale" content="es_ES">
 <meta property="og:url" content="https://camipack.com/es/support.html">
 <meta property="og:title" content="Soporte — Camipack">
-<meta property="og:description" content="Respuestas a las dudas más comunes sobre planificar viajes, mapas sin conexión, compartir y la sincronización con iCloud en Camipack.">
+<meta property="og:description" content="Respuestas a las preguntas frecuentes sobre planificar viajes, mapas sin conexión, compartir, la sincronización con iCloud y los asistentes de IA en Camipack.">
 <meta property="og:image" content="https://camipack.com/img/shot-trip.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Soporte — Camipack">
-<meta name="twitter:description" content="Respuestas a las dudas más comunes sobre planificar viajes, mapas sin conexión, compartir y la sincronización con iCloud en Camipack.">
+<meta name="twitter:description" content="Respuestas a las preguntas frecuentes sobre planificar viajes, mapas sin conexión, compartir, la sincronización con iCloud y los asistentes de IA en Camipack.">
 <meta name="twitter:image" content="https://camipack.com/img/shot-trip.png">
 <script type="application/ld+json">
 {
@@ -87,7 +87,7 @@
       "name": "¿Puedo usar Camipack en mi idioma?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Camipack está en español, inglés, portugués y ruso. iOS permite fijar el idioma de una sola app sin cambiar el del teléfono: Ajustes de iOS → Camipack → Idioma. La app también te lleva ahí desde sus propios ajustes."
+        "text": "Camipack está en inglés, alemán, francés, italiano, neerlandés, polaco, español, portugués, ruso y ucraniano. iOS permite fijar el idioma de una sola app sin cambiar el del teléfono: Ajustes de iOS → Camipack → Idioma. La app también te lleva ahí desde sus propios ajustes."
       }
     },
     {
@@ -95,7 +95,71 @@
       "name": "¿Dónde se guardan mis datos? ¿Tenéis acceso a ellos?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "En tu iPhone y en tu propio iCloud. No tenemos servidores ni acceso — consulta la política de privacidad."
+        "text": "En tu iPhone y en tu propio iCloud. No hay cuenta, y no tenemos acceso a tu iCloud. La única excepción es opcional: si conectas un asistente de IA a un viaje, un resumen de ese viaje se guarda en el servidor de Camipack para que el asistente pueda leerlo — consulta Asistentes de IA en la política de privacidad."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Claude: el código ha caducado o es incorrecto",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Un código funciona una sola vez y solo durante 10 minutos. En Camipack, toca Nuevo código y escribe el nuevo en Claude. Los códigos tienen 8 caracteres; comprueba que no has confundido letras y números parecidos."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Claude no muestra Camipack",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Primero añade Camipack como conector personalizado en Claude (en claude.ai o en Claude Desktop) — consulta Use Camipack with Claude (en inglés). Después, en un chat, abre + → Connectors y comprueba que Camipack está activado."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Claude dice que no puede ver el viaje",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "En Camipack, abre el viaje → Compartir → Claude y comprueba que compartir con Claude está activado. Después abre Camipack una vez con conexión a internet, para que pueda subir la última versión del viaje."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Los cambios de Claude no aparecen",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Abre Camipack. Los cambios se recogen cuando la app está abierta y con conexión; entonces aparecen al momento, con Deshacer. Los planes de día que propone Claude quedan como borradores hasta que los aceptas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "No recibo una notificación cuando Claude cambia mi viaje",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ve a Ajustes de iOS → Notificaciones → Camipack y comprueba que las notificaciones están permitidas. Las notificaciones solo llegan para los viajes compartidos con un asistente."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo desconecto un asistente o borro mis datos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "En Camipack: Ajustes → Asistentes de IA → Desconectar. Para borrar de una vez todo lo que Camipack guarda en su servidor, toca Eliminar todo del servidor de Camipack en la misma pantalla. Eliminar solo la app no borra la copia del servidor — usa antes ese botón o escribe a privacy@camipack.com. También puedes quitar Camipack en los ajustes de conectores del propio asistente."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué puede ver Claude?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Solo los viajes que compartes con él, y solo un resumen: fechas, lugares, horas, zonas, horarios de apertura, datos de trayectos y alojamientos, títulos de documentos y notas de las que se han eliminado nombres, números de teléfono, correos, enlaces y códigos. Los nombres de los viajeros, las direcciones postales, las notas de los días, el presupuesto y el equipaje solo se envían si los activas. Las coordenadas del mapa, los códigos de reserva, los archivos y los números de teléfono no se envían nunca. La lista completa está en la política de privacidad."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Puedo usar ChatGPT en su lugar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "En un ordenador, sí: ChatGPT puede conectarse como plugin en chatgpt.com, según tu modalidad de ChatGPT. No funciona en la app de ChatGPT para el móvil. Consulta Use Camipack with ChatGPT (computer) (en inglés)."
       }
     }
   ]
@@ -113,10 +177,9 @@
     <nav><div class="menu-panel"><a href="how-it-works.html">Cómo funciona</a><a href="updates.html">Novedades</a><a href="index.html#pricing">Precios</a><a href="privacy-policy.html">Privacidad</a></div><details class="langs" name="camipack-hdr"><summary aria-label="Cambiar idioma"><span class="fl" aria-hidden="true">🇪🇸</span><span class="cur">Español</span></summary><ul><li><a href="../support.html" hreflang="en" lang="en"><span class="fl" aria-hidden="true">🌐</span>English</a></li><li><a href="../ru/support.html" hreflang="ru" lang="ru"><span class="fl" aria-hidden="true">🇷🇺</span>Русский</a></li><li><a href="../de/support.html" hreflang="de" lang="de"><span class="fl" aria-hidden="true">🇩🇪</span>Deutsch</a></li><li><span class="on" aria-current="true" lang="es"><span class="fl" aria-hidden="true">🇪🇸</span>Español</span></li><li><a href="../fr/support.html" hreflang="fr" lang="fr"><span class="fl" aria-hidden="true">🇫🇷</span>Français</a></li><li><a href="../pl/support.html" hreflang="pl" lang="pl"><span class="fl" aria-hidden="true">🇵🇱</span>Polski</a></li><li><a href="../pt/support.html" hreflang="pt-PT" lang="pt-PT"><span class="fl" aria-hidden="true">🇵🇹</span>Português</a></li><li><a href="../uk/support.html" hreflang="uk" lang="uk"><span class="fl" aria-hidden="true">🇺🇦</span>Українська</a></li></ul></details><details class="menu" name="camipack-hdr"><summary aria-label="Menú"><span class="bars" aria-hidden="true"></span></summary></details></nav>
   </header>
 
-  <p lang="en"><strong>This translation is out of date; the English version applies:</strong> <a href="../support.html">https://camipack.com/support.html</a></p>
   <p class="eyebrow">Soporte</p>
   <h1>¿Cómo podemos ayudar?</h1>
-  <p class="lede">Las respuestas rápidas están abajo. Para cualquier otra cosa, escribe a <a href="mailto:muzyukins@gmail.com">muzyukins@gmail.com</a> o <a href="https://github.com/muzaparoff/camipack-site/issues">abre una incidencia en GitHub</a> — leemos las dos.</p>
+  <p class="lede">Las respuestas rápidas están abajo. Para cualquier otra cosa, escribe a <a href="mailto:support@camipack.com">support@camipack.com</a> o <a href="https://github.com/muzaparoff/camipack-site/issues">abre una incidencia en GitHub</a> — leemos las dos. Preguntas sobre privacidad y solicitudes sobre tus datos: <a href="mailto:privacy@camipack.com">privacy@camipack.com</a>.</p>
 
   <h2>Preguntas frecuentes</h2>
 
@@ -139,13 +202,39 @@
   <p>Sí — abre el viaje → <strong>⋯</strong> → <strong>Exportar el viaje</strong>. Eso crea un único archivo <code>.camipack</code> con todo el plan y sus documentos. Al tocar ese archivo en cualquier iPhone con Camipack, se ofrece a importarlo. Ten en cuenta que el archivo exportado es una copia independiente — para planificar juntos en directo, usa Compartir el viaje.</p>
 
   <h3>¿Puedo usar Camipack en mi idioma?</h3>
-  <p>Camipack está en español, inglés, portugués y ruso. iOS permite fijar el idioma de una sola app sin cambiar el del teléfono: <em>Ajustes de iOS → Camipack → Idioma</em>. La app también te lleva ahí desde sus propios ajustes.</p>
+  <p>Camipack está en inglés, alemán, francés, italiano, neerlandés, polaco, español, portugués, ruso y ucraniano. iOS permite fijar el idioma de una sola app sin cambiar el del teléfono: <em>Ajustes de iOS → Camipack → Idioma</em>. La app también te lleva ahí desde sus propios ajustes.</p>
 
   <h3>¿Dónde se guardan mis datos? ¿Tenéis acceso a ellos?</h3>
-  <p>En tu iPhone y en tu propio iCloud. No tenemos servidores ni acceso — consulta la <a href="privacy-policy.html">política de privacidad</a>.</p>
+  <p>En tu iPhone y en tu propio iCloud. No hay cuenta, y no tenemos acceso a tu iCloud. La única excepción es opcional: si conectas un asistente de IA a un viaje, un resumen de ese viaje se guarda en el servidor de Camipack para que el asistente pueda leerlo — consulta <a href="privacy-policy.html#ai">Asistentes de IA en la política de privacidad</a>.</p>
+
+  <h2 id="ai">Asistentes de IA</h2>
+
+  <h3>Claude: el código ha caducado o es incorrecto</h3>
+  <p>Un código funciona una sola vez y solo durante 10 minutos. En Camipack, toca <strong>Nuevo código</strong> y escribe el nuevo en Claude. Los códigos tienen 8 caracteres; comprueba que no has confundido letras y números parecidos.</p>
+
+  <h3>Claude no muestra Camipack</h3>
+  <p>Primero añade Camipack como conector personalizado en Claude (en claude.ai o en Claude Desktop) — consulta <a href="../guides/ai-claude.html">Use Camipack with Claude</a> (en inglés). Después, en un chat, abre <strong>+</strong> → <strong>Connectors</strong> y comprueba que Camipack está activado.</p>
+
+  <h3>Claude dice que no puede ver el viaje</h3>
+  <p>En Camipack, abre el viaje → <strong>Compartir</strong> → <strong>Claude</strong> y comprueba que compartir con Claude está activado. Después abre Camipack una vez con conexión a internet, para que pueda subir la última versión del viaje.</p>
+
+  <h3>Los cambios de Claude no aparecen</h3>
+  <p>Abre Camipack. Los cambios se recogen cuando la app está abierta y con conexión; entonces aparecen al momento, con <strong>Deshacer</strong>. Los planes de día que propone Claude quedan como borradores hasta que los aceptas.</p>
+
+  <h3>No recibo una notificación cuando Claude cambia mi viaje</h3>
+  <p>Ve a <em>Ajustes de iOS → Notificaciones → Camipack</em> y comprueba que las notificaciones están permitidas. Las notificaciones solo llegan para los viajes compartidos con un asistente.</p>
+
+  <h3>¿Cómo desconecto un asistente o borro mis datos?</h3>
+  <p>En Camipack: <strong>Ajustes → Asistentes de IA → Desconectar</strong>. Para borrar de una vez todo lo que Camipack guarda en su servidor, toca <strong>Eliminar todo del servidor de Camipack</strong> en la misma pantalla. Eliminar solo la app no borra la copia del servidor — usa antes ese botón o escribe a <a href="mailto:privacy@camipack.com">privacy@camipack.com</a>. También puedes quitar Camipack en los ajustes de conectores del propio asistente.</p>
+
+  <h3>¿Qué puede ver Claude?</h3>
+  <p>Solo los viajes que compartes con él, y solo un resumen: fechas, lugares, horas, zonas, horarios de apertura, datos de trayectos y alojamientos, títulos de documentos y notas de las que se han eliminado nombres, números de teléfono, correos, enlaces y códigos. Los nombres de los viajeros, las direcciones postales, las notas de los días, el presupuesto y el equipaje solo se envían si los activas. Las coordenadas del mapa, los códigos de reserva, los archivos y los números de teléfono no se envían nunca. La lista completa está en la <a href="privacy-policy.html#ai">política de privacidad</a>.</p>
+
+  <h3>¿Puedo usar ChatGPT en su lugar?</h3>
+  <p>En un ordenador, sí: ChatGPT puede conectarse como plugin en chatgpt.com, según tu modalidad de ChatGPT. No funciona en la app de ChatGPT para el móvil. Consulta <a href="../guides/ai-chatgpt.html">Use Camipack with ChatGPT (computer)</a> (en inglés).</p>
 
   <h2>Informar de un problema</h2>
-  <p>Escribe a <a href="mailto:muzyukins@gmail.com">muzyukins@gmail.com</a> contando qué hiciste, qué esperabas y qué pasó en su lugar — una captura de pantalla ayuda muchísimo.</p>
+  <p>Escribe a <a href="mailto:support@camipack.com">support@camipack.com</a> contando qué hiciste, qué esperabas y qué pasó en su lugar — una captura de pantalla ayuda muchísimo. Para preguntas sobre privacidad o para que borremos tus datos, escribe a <a href="mailto:privacy@camipack.com">privacy@camipack.com</a>.</p>
 
   <footer class="site">
     <nav class="social" aria-label="Camipack en redes sociales">
