@@ -1,5 +1,27 @@
 [
  {
+  "version": "1.162.0",
+  "date": "2026-11-08",
+  "notes": [
+   {
+    "type": "feat",
+    "text": "Cleaner stop card and day list"
+   },
+   {
+    "type": "fix",
+    "text": "Day header no longer names the trip"
+   }
+  ],
+  "summary": "Plan your trip with Claude: switch it on for a trip in Share, then ask in chat to plan your days, add places or move stops. Changes land on your map with Undo, and whole-day plans wait as drafts until you accept them.\n\nSiri and Shortcuts can open today's plan, and add, move or remove stops.\n\nPlus smaller fixes.",
+  "summary_es": "Planifica tu viaje con Claude: act\u00edvalo para un viaje en Compartir y pide en el chat que planifique tus d\u00edas, a\u00f1ada lugares o mueva paradas. Los cambios llegan a tu mapa con Deshacer, y los planes de d\u00edas completos esperan como borrador hasta que los aceptes.\n\nSiri y Atajos abren el plan de hoy y a\u00f1aden, mueven o quitan paradas.\n\nAdem\u00e1s, peque\u00f1as correcciones.",
+  "summary_pt": "Planeia a tua viagem com o Claude: ativa-o para uma viagem em Partilhar e pede no chat que planeie os teus dias, adicione lugares ou mude paragens. As altera\u00e7\u00f5es chegam ao mapa com Anular, e os planos de dias inteiros ficam como rascunho at\u00e9 os aceitares.\n\nA Siri e os Atalhos abrem o plano de hoje e adicionam, movem ou removem paragens.\n\nE pequenas corre\u00e7\u00f5es.",
+  "summary_ru": "\u041f\u043b\u0430\u043d\u0438\u0440\u0443\u0439\u0442\u0435 \u043f\u043e\u0435\u0437\u0434\u043a\u0443 \u0441 Claude: \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u0435\u0433\u043e \u0434\u043b\u044f \u043f\u043e\u0435\u0437\u0434\u043a\u0438 \u0432 \u0440\u0430\u0437\u0434\u0435\u043b\u0435 \u00ab\u041f\u043e\u0434\u0435\u043b\u0438\u0442\u044c\u0441\u044f\u00bb \u0438 \u043f\u043e\u043f\u0440\u043e\u0441\u0438\u0442\u0435 \u0432 \u0447\u0430\u0442\u0435 \u0441\u043f\u043b\u0430\u043d\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0434\u043d\u0438, \u0434\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u043c\u0435\u0441\u0442\u0430 \u0438\u043b\u0438 \u043f\u0435\u0440\u0435\u0434\u0432\u0438\u043d\u0443\u0442\u044c \u043e\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438. \u0418\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f \u043f\u043e\u044f\u0432\u043b\u044f\u044e\u0442\u0441\u044f \u043d\u0430 \u043a\u0430\u0440\u0442\u0435 \u0441 \u043a\u043d\u043e\u043f\u043a\u043e\u0439 \u00ab\u041e\u0442\u043c\u0435\u043d\u0438\u0442\u044c\u00bb, \u0430 \u043f\u043b\u0430\u043d\u044b \u043d\u0430 \u0446\u0435\u043b\u044b\u0439 \u0434\u0435\u043d\u044c \u0436\u0434\u0443\u0442 \u0447\u0435\u0440\u043d\u043e\u0432\u0438\u043a\u043e\u043c, \u043f\u043e\u043a\u0430 \u0432\u044b \u0438\u0445 \u043d\u0435 \u043f\u0440\u0438\u043c\u0435\u0442\u0435.\n\nSiri \u0438 \u00ab\u0411\u044b\u0441\u0442\u0440\u044b\u0435 \u043a\u043e\u043c\u0430\u043d\u0434\u044b\u00bb \u043e\u0442\u043a\u0440\u044b\u0432\u0430\u044e\u0442 \u043f\u043b\u0430\u043d \u043d\u0430 \u0441\u0435\u0433\u043e\u0434\u043d\u044f, \u0434\u043e\u0431\u0430\u0432\u043b\u044f\u044e\u0442, \u043f\u0435\u0440\u0435\u043c\u0435\u0449\u0430\u044e\u0442 \u0438 \u0443\u0434\u0430\u043b\u044f\u044e\u0442 \u043e\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0438.\n\n\u0418 \u043c\u0435\u043b\u043a\u0438\u0435 \u0438\u0441\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f.",
+  "summary_fr": "Planifiez votre voyage avec Claude : activez-le pour un voyage dans \u00ab Partager \u00bb, puis demandez dans la conversation de planifier vos journ\u00e9es, d'ajouter des lieux ou de d\u00e9placer des \u00e9tapes. Les modifications arrivent sur votre carte avec Annuler, et les plans de journ\u00e9es enti\u00e8res attendent en brouillon jusqu'\u00e0 ce que vous les acceptiez.\n\nSiri et Raccourcis ouvrent le plan du jour et ajoutent, d\u00e9placent ou retirent des \u00e9tapes.\n\nEt de petites corrections.",
+  "summary_de": "Plane deine Reise mit Claude: Schalte es unter \u201eTeilen\u201c f\u00fcr eine Reise ein und bitte im Chat darum, Tage zu planen, Orte hinzuzuf\u00fcgen oder Stopps zu verschieben. \u00c4nderungen landen auf deiner Karte und lassen sich widerrufen, und Pl\u00e4ne f\u00fcr ganze Tage warten als Entwurf, bis du sie annimmst.\n\nSiri und Kurzbefehle \u00f6ffnen den heutigen Plan und f\u00fcgen Stopps hinzu, verschieben oder entfernen sie.\n\nDazu kleinere Verbesserungen.",
+  "summary_it": "Pianifica il viaggio con Claude: attivalo per un viaggio in Condividi, poi chiedi in chat di pianificare le giornate, aggiungere luoghi o spostare tappe. Le modifiche arrivano sulla mappa con Annulla e i piani di giornate intere restano in bozza finch\u00e9 non li accetti.\n\nSiri e Comandi Rapidi aprono il piano di oggi e aggiungono, spostano o tolgono tappe.\n\nE altre piccole correzioni.",
+  "summary_nl": "Plan je reis met Claude: zet het voor een reis aan bij Deel en vraag in de chat je dagen te plannen, plekken toe te voegen of stops te verplaatsen. Wijzigingen landen op je kaart met Herstel, en plannen voor hele dagen wachten als concept tot je ze accepteert.\n\nSiri en Opdrachten openen het plan van vandaag en voegen stops toe, verplaatsen of verwijderen ze.\n\nPlus kleinere verbeteringen."
+ },
+ {
   "version": "1.161.0",
   "date": "2026-11-07",
   "notes": [
