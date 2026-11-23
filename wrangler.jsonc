@@ -6,7 +6,6 @@
   "workers_dev": false,
   "assets": { "directory": "./docs", "not_found_handling": "404-page" },
   "routes": [
-    { "pattern": "test.camipack.com", "custom_domain": true },
     { "pattern": "camipack.com/*", "zone_name": "camipack.com" },
     { "pattern": "www.camipack.com/*", "zone_name": "camipack.com" }
   ]
