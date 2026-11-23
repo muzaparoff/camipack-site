@@ -1,0 +1,13 @@
+{
+  // camipack.com: the Camipack website, static files in docs/ (where the release pipeline writes releases.json),
+  // served by a Cloudflare Worker. Deploy: npx wrangler@4.166.0 deploy
+  "name": "camipack-site",
+  "compatibility_date": "2026-11-19",
+  "workers_dev": false,
+  "assets": { "directory": "./docs", "not_found_handling": "404-page" },
+  "routes": [
+    { "pattern": "test.camipack.com", "custom_domain": true },
+    { "pattern": "camipack.com/*", "zone_name": "camipack.com" },
+    { "pattern": "www.camipack.com/*", "zone_name": "camipack.com" }
+  ]
+}
